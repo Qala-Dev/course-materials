@@ -10,13 +10,13 @@ We would like you to download some source code and attempt to compile it by foll
 
 Please download the following repositories and try to follow and complete their build process:
 
-| Software       | Respository                                   |
-| -------------- | --------------------------------------------- |
-| Bitcoin Core   | https://github.com/bitcoin/bitcoin​           |
-| LND            | https://github.com/lightningnetwork/lnd​      |
-| TABconf wallet | https://github.com/KayBeSee/tabconf-workshop​ |
-| Polar          | https://lightningpolar.com/​                  |
-| NodeJS         | https://nodejs.org/en/download/​              |
+| Software       | Respository                                                                                            |
+| -------------- | ------------------------------------------------------------------------------------------------------ |
+| Bitcoin Core   | [https://github.com/bitcoin/bitcoin​](https://github.com/bitcoin/bitcoin%E2%80%8B)                     |
+| LND            | [https://github.com/lightningnetwork/lnd​](https://github.com/lightningnetwork/lnd%E2%80%8B)           |
+| TABconf wallet | [https://github.com/KayBeSee/tabconf-workshop​](https://github.com/KayBeSee/tabconf-workshop%E2%80%8B) |
+| Polar          | [https://lightningpolar.com/​](https://lightningpolar.com/%E2%80%8B)                                   |
+| NodeJS         | [https://nodejs.org/en/download/​](https://nodejs.org/en/download/%E2%80%8B)                           |
 
 ### Goals
 
