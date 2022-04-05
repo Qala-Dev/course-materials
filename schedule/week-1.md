@@ -39,29 +39,35 @@ Please download the following repositories and try to follow and complete their 
   * Coin selection
 * Gain experience with developing and using a Bitcoin wallet UI
 
+## Monday & Tuesday
+
+1. Introduction to Qala
+1. Programme structure
+1. Icebreakers
+1. Bitcoin Philosophy
+1. Why we bitcoin
+
 ## Wednesday
 
 ### Resources
 
-| Name                                                               | Link                                                                                             |
-| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| TABConf 2021 Building Your own bitcoin wallet with BitcoinJS       | https://youtu.be/Bwz2P2hPVpk                                                                     |
-| Lightning Book - Bitcoin Fundamentals review                       | https://lnbook.256k1.dev/#bitcoin\_fundamentals\_review                                          |
-| BIP0032                                                            | https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki                                   |
-| Bitstein - Setting up a bitcoin lightning network test environment | https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a|
+| Name                                                               | Link                                                                                               |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------   |
+| TABConf 2021 Building Your own bitcoin wallet with BitcoinJS       | <https://youtu.be/Bwz2P2hPVpk>                                                                     |
+| Lightning Book - Bitcoin Fundamentals review                       | <https://lnbook.256k1.dev/#bitcoin_fundamentals_review>                                            |
+| BIP0032                                                            | <https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki>                                   |
+| Bitstein - Setting up a bitcoin lightning network test environment | <https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a>|
 
 ### Exercises
 
 1. Read the Mastering Lightning book appendix on bitcoin transactions.
-    * The username and password to access the book is:
-        username: qala
-        password: lightning
+    * The username:password to access the book is: `qala:lightning`
 2. Read about Hierarchical Deterministic Wallets in BIP0032.
-   1. You do not need to read/understand the child key derivation functions.
-   2. You should conclude with a strong understanding of how parent and child keys are derived from each other, and from a master seed .
+    * You do not need to read/understand the child key derivation functions.
+    * You should conclude with a strong understanding of how parent and child keys are derived from each other, and from a master seed .
 3. Run through the TABconf wallet demo video found in the link above, following along with the demonstration.
 4. Set up a manual bitcoin and lightning developer environment on regtest by following the guide from Bitstein: [Setting up a Bitcoin/Lightning test environment](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a)
-   1. Note, this environment should be using Bitcoin Core and LND which have been build from source by yourself.
+    * Note, this environment should be using Bitcoin Core and LND which have been build from source by yourself.
 5. If you finish all of the above, you can continue your progression by following the "TABConf wallet expansion" on [Thursday](week-1.md#thursday)
 
 ## Thursday
