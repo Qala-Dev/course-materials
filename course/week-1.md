@@ -10,10 +10,10 @@ We would like you to download some source code and attempt to compile it by foll
 
 Please download the following repositories and try to follow and complete their build process:
 
-1. \[Bitcoin Core]\(https://github.com/bitcoin/bitcoin)
-2. ​\[LND]\(https://github.com/lightningnetwork/lnd)
-3. \[Polar]\(https://lightningpolar.com/)
-4. ​\[TABconf Wallet]\(https://github.com/KayBeSee/tabconf-workshop)
+1. [Bitcoin Core](https://github.com/bitcoin/bitcoin)
+2. ​[LND](https://github.com/lightningnetwork/lnd)
+3. [Polar](https://lightningpolar.com)
+4. ​[TABconf Wallet](https://github.com/KayBeSee/tabconf-workshop)
 
 ### Goals
 
