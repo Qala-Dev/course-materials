@@ -4,6 +4,6 @@ description: Welcome to the course materials  for Qala bitcoin and lightning dev
 
 # Course
 
-The course starts off by being organised at a daily granularity, moving into a weekly schedule after bitcoin and lightning study sessions have been concluded.
+The course starts off organised at a daily granularity, moving into a weekly schedule after the bitcoin and lightning study sessions have been concluded.
 
-Progression through the first two weeks begins in a roughly linear fashion, devolving into self-led study and building as the focus moves on to the project-led section of the course.
+Progression through the first two weeks begins in a more linear fashion, devolving into a structure focussing on self-led study and project-building.
