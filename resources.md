@@ -7,7 +7,8 @@ Resources have not been verified as accurate; don't trust, verify!
 
 ## Developer Tools
 
-TBD
+* [Onboarding to Bitcoin Core](https://obc.256k1.dev/)
+    * GitHub repository: <https://github.com/chaincodelabs/onboarding-to-bitcoin-core>
 
 ## Miscellaneous articles
 
