@@ -8,6 +8,7 @@ description: Building on lightning
 
 * LND should be installed and ready
 * Developer environment from week 1 should be available
+* You should read chapters 1 & 2 of Mastering Lightning in your own time before the sessions begin.
 
 ## Goals
 
@@ -32,8 +33,6 @@ Monday morning presentation: "Introduction to Lightning".
 The mornings will be split between reading 3 chapters of the [Mastering Lightning](https://github.com/lnbook/lnbook) book, and answering discussion questions in small groups.
 
 A web-reader-friendly hosted version of Mastering Lightning can be found at [lnbook.256k1.dev](https://lnbook.256k1.dev/), which can be accessed for educational purposes using username and password `qala:lightning`.
-
-You should read chapters 1 & 2 of Mastering Lightning in your own time before the sessions begin.
 
 The book should be read in the following order:
 
