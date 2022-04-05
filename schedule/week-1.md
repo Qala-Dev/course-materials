@@ -12,11 +12,11 @@ Please download the following repositories and try to follow and complete their 
 
 | Software       | Repository                                                                                   |
 | -------------- | ---------------------------------------------------------------------------------------------|
+| NodeJS         | [https://nodejs.org/en/download/](https://nodejs.org/en/download/)                           |
+| TABconf wallet | [https://github.com/KayBeSee/tabconf-workshop](https://github.com/KayBeSee/tabconf-workshop) |
 | Bitcoin Core   | [https://github.com/bitcoin/bitcoin](https://github.com/bitcoin/bitcoin)                     |
 | LND            | [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd)           |
-| TABconf wallet | [https://github.com/KayBeSee/tabconf-workshop](https://github.com/KayBeSee/tabconf-workshop) |
 | Polar          | [https://lightningpolar.com/](https://lightningpolar.com/)                                   |
-| NodeJS         | [https://nodejs.org/en/download/](https://nodejs.org/en/download/)                           |
 
 ## Goals
 
