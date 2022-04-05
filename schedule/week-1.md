@@ -1,12 +1,12 @@
 ---
-description: Beginning to build on bitcoin
+description: Building on bitcoin and setting up a dev environment
 ---
 
 # Week 1
 
-## Preparation
+## Prerequisites
 
-We would like you to download some source code and attempt to compile it by following its build instructions before the course begins. This is to prevent and delays when starting on the day.
+We would like you to download some source code and attempt to compile it by following its build instructions before the course begins. This is to prevent any delays when starting on the day.
 
 Please download the following repositories and try to follow and complete their build processes:
 
@@ -27,10 +27,9 @@ Please download the following repositories and try to follow and complete their 
   * Connect Bitcoin Core and LND programmatically
   * Interface with Bitcoin Core and LND using the CLI tools
   * Programmatic control of bitcoind and LND
-  * Comfortable with running the full test suite(s) of Bitcoin Core and LND
+  * Comfortable with running the full test suite(s) of Bitcoin Core
 * Build a toy bitcoin wallet using a library
   * Add additional functionality of your choosing
-  *
 * Develop a robust understanding of bitcoin topics both in theory and in practice:
   * Random number generation
   * Keys and key material
@@ -53,9 +52,9 @@ Please download the following repositories and try to follow and complete their 
 
 | Name                                                               | Link                                                                                               |
 | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------   |
-| TABConf 2021 Building Your own bitcoin wallet with BitcoinJS       | <https://youtu.be/Bwz2P2hPVpk>                                                                     |
 | Lightning Book - Bitcoin Fundamentals review                       | <https://lnbook.256k1.dev/#bitcoin_fundamentals_review>                                            |
 | BIP0032                                                            | <https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki>                                   |
+| TABConf 2021 Building Your own bitcoin wallet with BitcoinJS       | <https://youtu.be/Bwz2P2hPVpk>                                                                     |
 | Bitstein - Setting up a bitcoin lightning network test environment | <https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a>|
 
 ### Exercises
