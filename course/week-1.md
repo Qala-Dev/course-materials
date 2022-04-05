@@ -6,17 +6,17 @@ description: Beginning to build on bitcoin
 
 ### Preparation
 
-We would like you to download some source code and attempt to compile it by following it's build instructions before the course begins. This is to prevent and delays when starting on the day.
+We would like you to download some source code and attempt to compile it by following its build instructions before the course begins. This is to prevent and delays when starting on the day.
 
-Please download the following repositories and try to follow and complete their build process:
+Please download the following repositories and try to follow and complete their build processes:
 
-| Software       | Respository                                                                                            |
-| -------------- | ------------------------------------------------------------------------------------------------------ |
-| Bitcoin Core   | [https://github.com/bitcoin/bitcoin​](https://github.com/bitcoin/bitcoin%E2%80%8B)                     |
-| LND            | [https://github.com/lightningnetwork/lnd​](https://github.com/lightningnetwork/lnd%E2%80%8B)           |
-| TABconf wallet | [https://github.com/KayBeSee/tabconf-workshop​](https://github.com/KayBeSee/tabconf-workshop%E2%80%8B) |
-| Polar          | [https://lightningpolar.com/​](https://lightningpolar.com/%E2%80%8B)                                   |
-| NodeJS         | [https://nodejs.org/en/download/​](https://nodejs.org/en/download/%E2%80%8B)                           |
+| Software       | Repository                                                                                   |
+| -------------- | ---------------------------------------------------------------------------------------------|
+| Bitcoin Core   | [https://github.com/bitcoin/bitcoin](https://github.com/bitcoin/bitcoin)                     |
+| LND            | [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd)           |
+| TABconf wallet | [https://github.com/KayBeSee/tabconf-workshop](https://github.com/KayBeSee/tabconf-workshop) |
+| Polar          | [https://lightningpolar.com/](https://lightningpolar.com/)                                   |
+| NodeJS         | [https://nodejs.org/en/download/](https://nodejs.org/en/download/)                           |
 
 ### Goals
 
@@ -43,14 +43,12 @@ Please download the following repositories and try to follow and complete their 
 
 #### Resources
 
-
-
-| Name                                                               | Link                                                                                              |
-| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
-| TABConf 2021 Building Your own bitcoin wallet with BitcoinJS       | https://youtu.be/Bwz2P2hPVpk​                                                                     |
-| Lightning Book - Bitcoin Fundamentals review                       | https://lnbook.256k1.dev/#bitcoin\_fundamentals\_review​                                          |
-| BIP0032                                                            | https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki​                                   |
-| Bitstein - Setting up a bitcoin lightning network test environment | https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a |
+| Name                                                               | Link                                                                                             |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| TABConf 2021 Building Your own bitcoin wallet with BitcoinJS       | https://youtu.be/Bwz2P2hPVpk                                                                     |
+| Lightning Book - Bitcoin Fundamentals review                       | https://lnbook.256k1.dev/#bitcoin\_fundamentals\_review                                          |
+| BIP0032                                                            | https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki                                   |
+| Bitstein - Setting up a bitcoin lightning network test environment | https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a|
 
 #### Exercises
 
@@ -60,7 +58,7 @@ Please download the following repositories and try to follow and complete their 
    2. You should conclude with a strong understanding of how parent and child keys are derived from each other, and from a master seed .
 3. Set up a manual bitcoin and lightning developer environment on regtest by following the guide from Bitstein: [Setting up a Bitcoin/Lightning test environment](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a)
    1. Note, this environment should be using Bitcoin Core and LND which have been build from source by yourself.
-4. If you finish all of the above, you can continue on with the "TABConf wallet expansion" on [Thursday](week-1.md#thursday)
+4. If you finish all of the above, you can continue your progression by following the "TABConf wallet expansion" on [Thursday](week-1.md#thursday)
 
 ### Thursday
 
