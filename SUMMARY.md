@@ -7,3 +7,4 @@
   * [Week 4](schedule/week-4.md)
 * [Meetings](meetings.md)
 * [Resources](resources.md)
+* [Projects](projects.md)
