@@ -65,24 +65,30 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 
 1. Read the Mastering Lightning book appendix on bitcoin transactions.
    * The username:password to access the book is: `qala:lightning`
-2. Read about Hierarchical Deterministic Wallets in BIP0032.
+1. Read about Hierarchical Deterministic Wallets in BIP0032.
    * You do not need to read/understand the child key derivation functions.
    * You should conclude with a strong understanding of how parent and child keys are derived from each other, and from a master seed .
-3. Run through the TABconf wallet demo video found in the link above, following along with the demonstration.
-4. Set up a manual bitcoin and lightning developer environment on regtest by following the guide from Bitstein: [Setting up a Bitcoin/Lightning test environment](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a)
-   * Note, this environment should be using Bitcoin Core and LND which have been build from source by yourself.
-5. If you finish all of the above, you can continue your progression by following the "TABConf wallet expansion" on [Thursday](week-1.md#thursday)
+1. Run through the TABconf wallet demo video found in the link above, following along with the demonstration.
+1. Set up a manual bitcoin and lightning developer environment on regtest by following the guide from Bitstein: [Setting up a Bitcoin/Lightning test environment](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a)
+    * Note, this environment should ideally be built using Bitcoin Core and LND which have been build from source by yourself.
+1. (Optional): If you finish all of the above, you can continue your progression by following the "TABConf wallet expansion" on [Thursday](week-1.md#thursday)
+
+### Deliverables
+
+1. TABConf: please send us file: `src/util/bitcoinjs-lib.ts`.
+1. Screenshot of your lightning developer environment resulting from the guide from Bitstein.
+1. (Optional): Any extensions you made to the TABConf wallet.
 
 ## Thursday
 
 ### Exercises
 
 1. TABConf wallet expansion. Add some or all of the following functionality to the wallet:
-   1. one or more different receive address types, e.g. P2PK, P2PKH, P2SH, P2WPKH, P2WSH, for the user to choose from
-   2. Add a "watch-only wallet" mode
-   3. Add full backup and restore functionality
-   4. Improve UI/UX for a user who has many different sub-wallets derived from their seed
-   5. Add ability to perform coin selection when sending payments
+    1. one or more different receive address types, e.g. P2PK, P2PKH, P2SH, P2WPKH, P2WSH, P2TR, for the user to choose from
+    2. Add a "watch-only wallet" mode
+    3. Add full backup and restore functionality
+    4. Improve UI/UX for a user who has many different sub-wallets derived from their seed
+    5. Add ability to perform coin selection when sending payments
 2. Bonus: Setup Bitcoin Core to use signet. Manually construct a transaction that could represent a 'uni-directional payment channel opening transaction' with an instructor, and produce (off-chain) update transactions for 3 purchases in hex format and send them to us.
 
 ## Friday

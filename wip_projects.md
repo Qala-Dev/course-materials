@@ -6,7 +6,7 @@ description: project ideas for Qala development course
 
 ## General
 
-* Projects can be built as a front-end application, back end application or a command line tool.
+* Projects can be built as a front-end application, back end application, API or a command line tool.
 * _If_ you choose a project from the list, you can choose either a bitcoin or a lightning project.
 * You may also have your own project or idea that you'd like to build out -- great! Please run your own projects past the instructors first so we can check it is suitable and determine which skills it will exercise.
 * Your first project will probably leverage a bitcoin or lightning library or development kit, in order to facilitate fast iteration on end results.
@@ -18,7 +18,6 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 
 ### Tier 1
 
-1. TABConf wallet overhaul
 1. [Satoshi dice/game](#Satoshi-dice)
 1. [Fork monitor](#Fork-monitor)
 1. [Block explorer](#Block-explorer)
@@ -28,6 +27,7 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 1. [Build your own signet](#Build-your-own-signet)
 1. [Bitcoin paywall](#Bitcoin paywall)
 1. [Bitkinship](#Bitkinship)
+1. [TABConf wallet overhaul](#TABConf-wallet-overhaul)
 
 ### Tier 2
 
@@ -95,6 +95,11 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 **Format:** Client application, short lived.
 **BTC/LN topics:** creating transaction, advanced scripting, timelocks
 **Bonus:** multisig instead of single sig; use taproot
+
+### TABConf wallet overhaul
+**Outline:** Overhaul the TABConf wallet. This might mean translating into a language you're familiar with and using a different bitcoin wallet library, or 
+**Format:** Casino server back-end (required); Client application (optional, GUI or CLI)
+**BTC/LN topics:** creating and parsing Bitcoin transactions, 0-conf protocols, provable fairness
 
 ## Lightning projects
 
