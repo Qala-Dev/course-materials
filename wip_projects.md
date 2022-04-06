@@ -7,26 +7,26 @@ description: project ideas for Qala development course
 ## General
 
 * Projects can be built as a front-end application, back end application or a command line tool.
-* If you choose a project from the list you can choose a bitcoin or a lightning project.
+* _If_ you choose a project from the list, you can choose either a bitcoin or a lightning project.
 * You may also have your own project or idea that you'd like to build out -- great! Please run your own projects past the instructors first so we can check it is suitable and determine which skills it will exercise.
-* Your first project will probably leverage a bitcoin or lightning library in order to facilitate fast iteration on end results.
-* In your second/third project you should be considering not using a library to do as much of the heavy lifting, so that you can become more comfortable with how bitcoin and lightning are working under the hood.
+* Your first project will probably leverage a bitcoin or lightning library or development kit, in order to facilitate fast iteration on end results.
+* In your second/third project you should be considering not using a library to do as much of the heavy lifting, so that you can become more comfortable with how bitcoin and lightning work under the hood.
 
-## Bitcoin projects 
+## Bitcoin projects
 
 Topics to cover: transactions, scripting, reorgs, HD wallets
 
 ### Tier 1
 
-1. Re-skin Kevin's wallet-building workshop
+1. TABConf wallet overhaul
 1. [Satoshi dice/game](#Satoshi-dice)
 1. [Fork monitor](#Fork-monitor)
 1. [Block explorer](#Block-explorer)
 1. [Mempool/fee analysis](#Mempool-fee-analysis)
-1. P2P network analysis
-1. Transaction propagation
-1. Build your own signet
-1. Bitcoin paywall
+1. [P2P network analysis](#P2P-netowork-analysis)
+1. [Transaction propagation](#Transaction-propagation)
+1. [Build your own signet](#Build-your-own-signet)
+1. [Bitcoin paywall](#Bitcoin paywall)
 1. [Bitkinship](#Bitkinship)
 
 ### Tier 2
@@ -64,10 +64,31 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 **Format:** Backend with APIs or front end with GUI
 **BTC/LN topics:** transactions, fees, mempool, p2p
 
+### P2P network analysis
+**Outline:** Create a service which monitors messages over the P2P network. The service might be able to monitor node information such as user agent, version, services. Connection metrics such as uptime, churn could also be monitored. P2P traffic can also be inspected in order to determine message contents, e.g. transactions, blocks, as well as estimating bandwidth usage per message type. Provide APIs or a GUI which users (and optionally services) can connect to in order to retrieve relevant information.
+**Format:** Backend with APIs or front end with GUI
+**BTC/LN topics:** P2P, networking, mempool
+
+### Transaction propagation
+**Outline:** Create a service which monitors messages over the P2P network from multiple endpoints in order to estimate transaction (and block) propagation times over the network. Consider that many bitcoin nodes may be running only connected to Tor or I2P networks.
+**Format:** Backend with APIs or front end with GUI/graphs
+**BTC/LN topics:** P2P, networking, mempool
+
+### Build your own signet
+**Outline:** Create your own signet network with yourself as the primary "miner". In order to allow other miners to join in the future, use a signet challenge that related to a multisig address. Configure your signet to perform semi-regular re-orgs which can be used to test software in re-org situations. Have someone else connect to your signet either as a miner or a regular node, and start making transactions.
+**Format:** Backend/CLI
+**BTC/LN topics:** transactions, scripting, re-orgs
+
+### Bitcoin paywall
+**Outline:** Implement a paywall which requires a micro-donation of bitcoin to remove. Whilst this style of paywall is largely not practicable on bitcoin mainnet today the implementation could be upgraded in a future project extension to use lightning.
+**Format:** Library
+**BTC/LN topics:** transactions
+
 ### Bitkinship
 **Outline:** Given two UTXOs, calculate how related they are
 **Format:** Library and CLI
-**Bonus:** Given an xpub, calculate relatedness between all UTXOs belonging to xpub.
+**BTC/LN topics:** transactions
+**Bonus:** Given an xPub, calculate relatedness between all UTXOs belonging to xPub.
 
 ### Timelock refresher
 **Outline:** To ensure your heirs can access your bitcoin after you pass away, all of your P2WSH addresses contain a second spending clause that after 1 year, a second key (held by your heir) can spend all of your outputs. With this program/script, you want to be able to quickly "refresh" all outputs that are coming close to being unlocked, e.g. within 3 months of the second spending path becoming viable. See https://bitcointalk.org/index.php?topic=5185907.0 for an example of the original setup.
