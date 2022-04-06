@@ -25,7 +25,7 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 1. [P2P network analysis](#P2P-netowork-analysis)
 1. [Transaction propagation](#Transaction-propagation)
 1. [Build your own signet](#Build-your-own-signet)
-1. [Bitcoin paywall](#Bitcoin paywall)
+1. [Bitcoin paywall](#Bitcoin-paywall)
 1. [Bitkinship](#Bitkinship)
 1. [TABConf wallet overhaul](#TABConf-wallet-overhaul)
 
@@ -39,66 +39,87 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 1. Chain analysis tool/UI/library
 1. [Timelock refresher](#Timelock-refresher)
 1. Multi-sig collaborative custody provider
-
-### To be sorted
-
-* Joinmarket UI
+1. Joinmarket UI
 
 ### Satoshi dice
 **Outline:** A provably fair gambling application, where payments to and from the casino are made on-chain or in Lightning. See [bitcoin.it/wiki/Satoshi_Dice](https://en.bitcoin.it/wiki/Satoshi_Dice) for more background information, and [this Stack Exchange question](https://bitcoin.stackexchange.com/questions/7369/how-to-implement-a-game-like-satoshidice) for a high-level on-chain implementation.
+
 **Format:** Casino server back-end (required); Client application (optional, GUI or CLI)
+
 **BTC/LN topics:** creating and parsing Bitcoin transactions, 0-conf protocols, provable fairness
 
 ### Fork monitor
 **Outline:** Monitor blockchain and send an alert when a fork (exceeding n blocks) occurs, and another one when it is "resolved" (m blocks ahead)
+
 **Format:** Server back-end; simple front-end or API to subscribe (email, pub/sub, webhooks, ...)
+
 **BTC/LN topics:** chain reorgs, block propagation
 
 ### Block explorer
 **Outline:** given a block hash, visualize block header and transaction information. Given a transaction hash, visualize input and output information. See e.g. https://blockstream.info/
+
 **Format:** Client application (GUI or CLI)
+
 **BTC/LN topics:** parsing blocks, parsing transactions
 
 ### Mempool fee analysis
 **Outline:** Create a service which monitors the current state of the mempool with respect to fees. Provide APIs or a GUI which users (and optionally services) can connect to in order to retrieve relevant information. Include facility for users to _upload_ their own transactions via the service.
+
 **Format:** Backend with APIs or front end with GUI
+
 **BTC/LN topics:** transactions, fees, mempool, p2p
 
 ### P2P network analysis
 **Outline:** Create a service which monitors messages over the P2P network. The service might be able to monitor node information such as user agent, version, services. Connection metrics such as uptime, churn could also be monitored. P2P traffic can also be inspected in order to determine message contents, e.g. transactions, blocks, as well as estimating bandwidth usage per message type. Provide APIs or a GUI which users (and optionally services) can connect to in order to retrieve relevant information.
+
 **Format:** Backend with APIs or front end with GUI
+
 **BTC/LN topics:** P2P, networking, mempool
 
 ### Transaction propagation
 **Outline:** Create a service which monitors messages over the P2P network from multiple endpoints in order to estimate transaction (and block) propagation times over the network. Consider that many bitcoin nodes may be running only connected to Tor or I2P networks.
+
 **Format:** Backend with APIs or front end with GUI/graphs
+
 **BTC/LN topics:** P2P, networking, mempool
 
 ### Build your own signet
 **Outline:** Create your own signet network with yourself as the primary "miner". In order to allow other miners to join in the future, use a signet challenge that related to a multisig address. Configure your signet to perform semi-regular re-orgs which can be used to test software in re-org situations. Have someone else connect to your signet either as a miner or a regular node, and start making transactions.
+
 **Format:** Backend/CLI
+
 **BTC/LN topics:** transactions, scripting, re-orgs
 
 ### Bitcoin paywall
 **Outline:** Implement a paywall which requires a micro-donation of bitcoin to remove. Whilst this style of paywall is largely not practicable on bitcoin mainnet today the implementation could be upgraded in a future project extension to use lightning.
+
 **Format:** Library
+
 **BTC/LN topics:** transactions
 
 ### Bitkinship
 **Outline:** Given two UTXOs, calculate how related they are
+
 **Format:** Library and CLI
+
 **BTC/LN topics:** transactions
+
 **Bonus:** Given an xPub, calculate relatedness between all UTXOs belonging to xPub.
 
 ### Timelock refresher
-**Outline:** To ensure your heirs can access your bitcoin after you pass away, all of your P2WSH addresses contain a second spending clause that after 1 year, a second key (held by your heir) can spend all of your outputs. With this program/script, you want to be able to quickly "refresh" all outputs that are coming close to being unlocked, e.g. within 3 months of the second spending path becoming viable. See https://bitcointalk.org/index.php?topic=5185907.0 for an example of the original setup.
+**Outline:** To ensure your heirs can access your bitcoin after you pass away, all of your P2WSH addresses contain a second spending clause that after 1 year, a second key (held by your heir) can spend all of your outputs. With this program/script, you want to be able to quickly "refresh" all outputs that are coming close to being unlocked, e.g. within 3 months of the second spending path becoming viable. See <https://bitcointalk.org/index.php?topic=5185907.0> for an example of the original setup.
+
 **Format:** Client application, short lived.
+
 **BTC/LN topics:** creating transaction, advanced scripting, timelocks
+
 **Bonus:** multisig instead of single sig; use taproot
 
 ### TABConf wallet overhaul
 **Outline:** Overhaul the TABConf wallet. This might mean translating into a language you're familiar with and using a different bitcoin wallet library, or 
+
 **Format:** Casino server back-end (required); Client application (optional, GUI or CLI)
+
 **BTC/LN topics:** creating and parsing Bitcoin transactions, 0-conf protocols, provable fairness
 
 ## Lightning projects
@@ -118,10 +139,12 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 
 ### Lightning web store
 **Outline:** Create a web store like [starblocks.acinq.co](https://starblocks.acinq.co/) that accepts signet lightning payments. You can sell any virtual products you want!
+
 **Format:** Web front-end and a backend that communicates with LND
 
 ### Build your own lightning node
 **Outline:** Build your own lightning node with the Lightning Development Kit (LDK) following the outline [here](https://lightningdevkit.org/tutorials/build_a_node_in_rust/). Use your `bitcoind` node (on signet) as a block source and wallet. Additionally, create a CLI tool that can interact with the node via RPCs, like `lncli` does for `lnd`. Your CLI should have commands to:
+
 * Generate an address to fund your on-chain wallet
 * Connect to a peer
 * List all peers
