@@ -151,6 +151,7 @@ The ecosystem of libraries for each language is quite diverse. Here are some of 
 ### Go
 
 * Many in [btcsuite](https://github.com/btcsuite) - Super popular and complete set of packages and tools for working with Bitcoin in Go.
+* [lndclient](https://github.com/lightninglabs/lndclient) - A Go native wrapper for `lnd`'s gRPC interface. Useful for interacting with an LND node.
 
 ### JavaScript
 
