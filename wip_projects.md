@@ -126,4 +126,42 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 * Pay an invoice
 
 **Format:** Lightning node with CLI
+
+## Bitcoin/LN libraries you may find useful
+
+The ecosystem of libraries for each language is quite diverse. Here are some of the most popular ones, but it's up to you to search for more. And remember, _don't trust, verify_!
+
+### Rust
+
+* [bitcoin](https://github.com/rust-bitcoin/rust-bitcoin) - Library with support for de/serialization, parsing and executing on data-structures and network messages related to Bitcoin. You can use this library to create private keys and addresses, for PSBT operations and other nifty things.
+
+* [bdk](https://github.com/bitcoindevkit/bdk) - Bitcoin Development Kit is a modern, lightweight, descriptor-based wallet library written in Rust! If you're looking for a great library with high-level APIs for building a Bitcoin wallet then check this out.
+
+* [bitcoincore-rpc](https://github.com/rust-bitcoin/rust-bitcoincore-rpc) - Contains an implementation of an rpc client that exposes the Bitcoin Core JSON-RPC APIs as rust functions.
+
+* Some crates from [LDK](https://github.com/lightningdevkit/rust-lightning) (check README):
+    * **lightning** - The Core of the LDK library, implements the lightning protocol, channel state machine, and on-chain logic. Supports no-std and exposes on relatively low-level interfaces.
+
+    * **lightning-background-processor** - Utilities to perform required background tasks for Rust Lightning.
+
+    * **lightning-block-sync** - Utilities to fetch the chain data from a block source and feed them into Rust Lightning.
+
+    * **lightning-invoice Data** - Structures to parse and serialize BOLT11 lightning invoices.
+
+### Go
+
+* Many in [btcsuite](https://github.com/btcsuite) - Super popular and complete set of packages and tools for working with Bitcoin in Go.
+
+### JavaScript
+
+* [bitcoinjs-lib](https://github.com/btcsuite) - A JavaScript Bitcoin library for Node.JS and browsers.
+
+### Python
+
+* [bitcoin-lib](https://github.com/petertodd/python-bitcoinlib) - "The Swiss Army Knife of the Bitcoin protocol." - Wladimir J. van der Laan
+
+### Java
+
+* [bitcoinj](https://github.com/bitcoinj/bitcoinj) - A library for working with Bitcoin in Java.
+
     
