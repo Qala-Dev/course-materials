@@ -42,7 +42,6 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 
 ### To be sorted
 
-* Build a node from LDK
 * Joinmarket UI
 
 ### Satoshi dice
@@ -78,16 +77,32 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 
 ## Lightning projects
 
-1. Web store e.g. starblocks.acinq.co
+1. [Lightning web store](#Lightning-web-store) e.g. [starblocks.acinq.co](https://starblocks.acinq.co/)
 1. Satoshi dice/game
 1. Satoshi's place
 1. getAlby hacking
 1. Messaging app
 1. Something related to social networking
-1. paywall
+1. Paywall
 1. LND -> Core Lightning (CLN) database migration tool
 1. Exchange / remittance service
     Look around Galoy for more ideas
     Ask Galoy
-1. Build your own lightning node with LDK and accompanying crates (Rust)
+1. [Build your own lightning node](#Build-your-own-lightning-node) with LDK and accompanying crates (Rust)
+
+### Lightning web store
+**Outline:** Create a web store like [starblocks.acinq.co](https://starblocks.acinq.co/) that accepts signet lightning payments. You can sell any virtual products you want!
+**Format:** Web front-end and a backend that communicates with LND
+
+### Build your own lightning node
+**Outline:** Build your own lightning node with the Lightning Development Kit (LDK) following the outline [here](https://lightningdevkit.org/tutorials/build_a_node_in_rust/). Use your `bitcoind` node (on signet) as a block source and wallet. Additionally, create a CLI tool that can interact with the node via RPCs, like `lncli` does for `lnd`. Your CLI should have commands to:
+* Generate an address to fund your on-chain wallet
+* Connect to a peer
+* List all peers
+* Open a channel with any other lightning node
+* List all channels
+* Create an invoice
+* Pay an invoice
+
+**Format:** Lightning node with CLI
     
