@@ -101,8 +101,8 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 * Follow through the Bitcoin Core v23.0 [Release Candidate Testing Guide](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/23.0-Release-Candidate-Testing-Guide), report any bugs or issue that you find to the Bitcoin Core GitHub issue tracker.
   * You might find answers to questions you have in the meeting logs for a bitcoin-core-pre-review (club) meeting held on the guide: [meeting log](https://bitcoincore.reviews/v23-rc-testing).
 * Send a regular P2WPKH tx to an instructor on signet.
-* Run the [Miner simulation](https://chaincode.gitbook.io/seminars/bitcoin-protocol-development/mining-network-prop#optional-practical-exercise) optional exercise.
+* Run the [Miner simulation](https://chaincode.gitbook.io/seminars/bitcoin-protocol-development/mining-network-prop#optional-practical-exercise) exercise.
 * Connect to the Bitcoin Network using [tinybitcoinpeer](https://github.com/willcl-ark/tinybitcoinpeer).
   * Extend the functionality of tinybitcoinpeer to do something interesting!
 * BONUS: Modify bitcoind User Agent string in the source code and recompile
-* OPTION: Interact with a Signet instance of [LightningK0ala/satoshis.place](https://github.com/LightningK0ala/satoshis.place)
+* OPTION: Interact with a testnet instance of [LightningK0ala/satoshis.place](https://github.com/LightningK0ala/satoshis.place)
