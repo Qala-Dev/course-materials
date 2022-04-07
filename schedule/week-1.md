@@ -98,6 +98,7 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 * Run Bitcoin Core, which has been built from source, in Signet mode
 * Run all Bitcoin Core unit tests
 * Choose area of the codebase you're interested in, pick a functional test that covers it, and then run that test
+    * hint: see documentation in `test/README.md` for clues on how to run individual tests)
 * Follow through the Bitcoin Core v23.0 [Release Candidate Testing Guide](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/23.0-Release-Candidate-Testing-Guide), report any bugs or issue that you find to the Bitcoin Core GitHub issue tracker.
   * You might find answers to questions you have in the meeting logs for a bitcoin-core-pre-review (club) meeting held on the guide: [meeting log](https://bitcoincore.reviews/v23-rc-testing).
 * Send a regular P2WPKH tx to an instructor on signet.
@@ -106,3 +107,12 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
   * Extend the functionality of tinybitcoinpeer to do something interesting!
 * BONUS: Modify bitcoind User Agent string in the source code and recompile
 * OPTION: Interact with a testnet instance of [LightningK0ala/satoshis.place](https://github.com/LightningK0ala/satoshis.place)
+
+### Deliverables
+
+1. Screenshot of Bitcoin Core running in signet mode (output of `bitcoin-cli -signet -getinfo`)
+1. Screenshot of Bitcoin Core unit tests completing (they should all pass, let us know if they don't!)
+1. Screenshot of you running a single functional test that you chose
+1. Some brief feedback/notes on the Release Testing Guide
+1. A P2WPKH transaction in hex format
+1. A brief explanation on what the miner simulation is able to simulate
