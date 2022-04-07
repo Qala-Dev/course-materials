@@ -57,7 +57,7 @@ The afternoons will be spent continuing your project-building from week 1, with 
 Some of the goals for the week, in addition to the project work include:
 
 * Run LND from source
-* Run the LND test suite
+* Run the LND test suite (if a few tests fail this is OK, they fail on GitHub too -- don't worry!)
 * Open a lightning channel on signet
 * Request an invoice and make a payment
 * BONUS: Repeat previous exercise programmatically (RPC)
