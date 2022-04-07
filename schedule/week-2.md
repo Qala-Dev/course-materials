@@ -38,13 +38,17 @@ The book should be read in the following order:
 
 | Day | Chapters |
 | --- | --- |
-| Monday | 3, 4, 5 |
-| Tuesday | 6, 7, 8 |
-| Wednesday | 9, 10, 11 |
-| Thursday | 12, 13, 14 |
-| Friday | 15, 16, 17 |
+| Monday | 1, 2 |
+| Tuesday | 3, 4 |
+| Wednesday | 6, 7 |
+| Thursday | 8, 9 |
+| Friday | 12, 15 |
 
 If you finish your chapters for the day early, feel free to move on to the next day's chapters, as repetition is key when it comes to absorbing so much knowledge.
+
+If you finish all the chapters, you should read the remaining chapters in the following order:
+
+11 -> 17 -> 5 -> 10 -> 13 -> 14 -> 16
 
 ### Afternoons
 
