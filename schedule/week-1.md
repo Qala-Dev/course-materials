@@ -19,7 +19,7 @@ Please download the following repositories and try to follow and complete their 
 | Polar          | [https://lightningpolar.com/](https://lightningpolar.com)                                    |
 
 {% hint style="warning" %}
-Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network in the configuration file (`bitcoin.conf`) or as a command line argument (see `bitcoind --help`). At this point, you don't even need to run it just yet.
+Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network in the configuration file (`bitcoin.conf`) or as a command line argument (see `bitcoind --help`). Otherwise you will start synchronising blocks for mainnet which is over 400 GB! At this point, you don't even need to run bitcoind just yet.
 {% endhint %}
 
 ## Goals
@@ -65,30 +65,30 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 
 1. Read the Mastering Lightning book appendix on bitcoin transactions.
    * The username:password to access the book is: `qala:lightning`
-1. Read about Hierarchical Deterministic Wallets in BIP0032.
+2. Read about Hierarchical Deterministic Wallets in BIP0032.
    * You do not need to read/understand the child key derivation functions.
    * You should conclude with a strong understanding of how parent and child keys are derived from each other, and from a master seed .
-1. Run through the TABconf wallet demo video found in the link above, following along with the demonstration.
-1. Set up a manual bitcoin and lightning developer environment on regtest by following the guide from Bitstein: [Setting up a Bitcoin/Lightning test environment](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a)
-    * Note, this environment should ideally be built using Bitcoin Core and LND which have been build from source by yourself.
-1. (Optional): If you finish all of the above, you can continue your progression by following the "TABConf wallet expansion" on [Thursday](week-1.md#thursday)
+3. Run through the TABconf wallet demo video found in the link above, following along with the demonstration.
+4. Set up a manual bitcoin and lightning developer environment on regtest by following the guide from Bitstein: [Setting up a Bitcoin/Lightning test environment](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a)
+   * Note, this environment should ideally be built using Bitcoin Core and LND which have been build from source by yourself.
+5. (Optional): If you finish all of the above, you can continue your progression by following the "TABConf wallet expansion" on [Thursday](week-1.md#thursday)
 
 ### Deliverables
 
 1. TABConf: please send us file: `src/util/bitcoinjs-lib.ts`.
-1. Screenshot of your lightning developer environment resulting from the guide from Bitstein.
-1. (Optional): Any extensions you made to the TABConf wallet.
+2. Screenshot of your lightning developer environment resulting from the guide from Bitstein.
+3. (Optional): Any extensions you made to the TABConf wallet.
 
 ## Thursday
 
 ### Exercises
 
 1. TABConf wallet expansion. Add some or all of the following functionality to the wallet:
-    1. one or more different receive address types, e.g. P2PK, P2PKH, P2SH, P2WPKH, P2WSH, P2TR, for the user to choose from
-    2. Add a "watch-only wallet" mode
-    3. Add full backup and restore functionality
-    4. Improve UI/UX for a user who has many different sub-wallets derived from their seed
-    5. Add ability to perform coin selection when sending payments
+   1. one or more different receive address types, e.g. P2PK, P2PKH, P2SH, P2WPKH, P2WSH, P2TR, for the user to choose from
+   2. Add a "watch-only wallet" mode
+   3. Add full backup and restore functionality
+   4. Improve UI/UX for a user who has many different sub-wallets derived from their seed
+   5. Add ability to perform coin selection when sending payments
 2. Bonus: Setup Bitcoin Core to use signet. Manually construct a transaction that could represent a 'uni-directional payment channel opening transaction' with an instructor, and produce (off-chain) update transactions for 3 purchases in hex format and send them to us.
 
 ## Friday
@@ -98,7 +98,7 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 * Run Bitcoin Core, which has been built from source, in Signet mode
 * Run all Bitcoin Core unit tests
 * Choose area of the codebase you're interested in, pick a functional test that covers it, and then run that test
-    * hint: see documentation in `test/README.md` for clues on how to run individual tests)
+  * hint: see documentation in `test/README.md` for clues on how to run individual tests)
 * Follow through the Bitcoin Core v23.0 [Release Candidate Testing Guide](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/23.0-Release-Candidate-Testing-Guide), report any bugs or issue that you find to the Bitcoin Core GitHub issue tracker.
   * You might find answers to questions you have in the meeting logs for a bitcoin-core-pre-review (club) meeting held on the guide: [meeting log](https://bitcoincore.reviews/v23-rc-testing).
 * Send a regular P2WPKH tx to an instructor on signet.
@@ -111,8 +111,8 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 ### Deliverables
 
 1. Screenshot of Bitcoin Core running in signet mode (output of `bitcoin-cli -signet -getinfo`)
-1. Screenshot of Bitcoin Core unit tests completing (they should all pass, let us know if they don't!)
-1. Screenshot of you running a single functional test that you chose
-1. Some brief feedback/notes on the Release Testing Guide
-1. A P2WPKH transaction in hex format
-1. A brief explanation on what the miner simulation is able to simulate
+2. Screenshot of Bitcoin Core unit tests completing (they should all pass, let us know if they don't!)
+3. Screenshot of you running a single functional test that you chose
+4. Some brief feedback/notes on the Release Testing Guide
+5. A P2WPKH transaction in hex format
+6. A brief explanation on what the miner simulation is able to simulate
