@@ -62,4 +62,4 @@ Some of the goals for the week, in addition to the project work include:
 * BONUS: Repeat previous exercise programmatically (RPC)
 * Have a go at [making a lightning app](https://medium.com/@wbobeirne/making-a-lightning-web-app-part-1-4a13c82f3f78) using LND on signet
 
-Choose a project from the [projects](projects.md) page and get started on it.
+Choose a project from the [projects](../projects.md) page and get started on it.
