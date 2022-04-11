@@ -6,11 +6,27 @@ description: project ideas for Qala development course
 
 ## General
 
+* We are going to be building multiple projects over the duration of the course, so don't worry about being locked in to a project which you might change your mind about later.
 * Projects can be built as a front-end application, back end application, API or a command line tool.
 * _If_ you choose a project from the list, you can choose either a bitcoin or a lightning project.
 * You may also have your own project or idea that you'd like to build out -- great! Please run your own projects past the instructors first so we can check it is suitable and determine which skills it will exercise.
 * Your first project will probably leverage a bitcoin or lightning library or development kit, in order to facilitate fast iteration on end results.
 * In your second/third project you should be considering not using a library to do as much of the heavy lifting, so that you can become more comfortable with how bitcoin and lightning work under the hood.
+
+## Mini design document
+
+When you've chosen your next project, we'll ask for a mini design document from you.
+This document only wants to be about a page or less, and should contain your thoughts on the following:
+
+1. A basic outline of the project
+1. Chosen language/framework & any libraries you intend to use
+1. Your high-level general approach 
+    * what you will build first
+    * what you will add later
+1. What milestone you need to reach to consider the project have achieved minimum viable product (MVP) state
+
+Please create and share the design document using a collaborative document editor, so that we can add any comments or feedback that we have.
+Examples of editors <https://hackmd.io> and <https://docs.google.com>, but you can choose any you're familiar with so long as we can easily log in to comment.
 
 ## Bitcoin projects
 
