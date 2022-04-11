@@ -8,7 +8,6 @@ description: Building on lightning
 
 * LND should be installed and ready
 * Developer environment from week 1 should be available. Having [Polar](https://lightningpolar.com) installed and functional is essential! It requires [Docker](https://www.docker.com/products/docker-desktop/) to be installed.
-* You should read chapters 1 & 2 of Mastering Lightning in your own time before the sessions begin.
 
 ## Goals
 
