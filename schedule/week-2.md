@@ -53,6 +53,8 @@ If you finish all the chapters, you should read the remaining chapters in the fo
 
 The afternoons will be spent continuing your project-building from week 1, with focus shifting towards lightning-based programs and applications.
 
+Choose a project from the [projects](../projects.md) page and get started on it, following the instructions on the project page.
+
 Some of the goals for the week, in addition to the project work include:
 
 * Run LND from source
@@ -62,4 +64,3 @@ Some of the goals for the week, in addition to the project work include:
 * BONUS: Repeat previous exercise programmatically (RPC)
 * Have a go at [making a lightning app](https://medium.com/@wbobeirne/making-a-lightning-web-app-part-1-4a13c82f3f78) using LND on signet
 
-Choose a project from the [projects](../projects.md) page and get started on it.
