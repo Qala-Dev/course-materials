@@ -25,6 +25,7 @@ description: Building on lightning
 
 ## Exercises
 
+
 ### Mornings
 
 Monday morning presentation: "Introduction to Lightning".
@@ -38,22 +39,23 @@ Assigned groups and discussion questions are [here](https://docs.google.com/spre
 | Day       | Chapters |
 | --------- | -------- |
 | Monday    | 1, 2     |
-| Tuesday   | 3, 4     |
-| Wednesday | 6, 7     |
-| Thursday  | 8, 9     |
-| Friday    | 12, 15   |
+| Tuesday   | 3        |
+| Wednesday | 4, 6     |
+| Thursday  | 7        |
+| Friday    | 8        |
 
-If you finish your chapters for the day early, feel free to move on to the next day's chapters, as repetition is key when it comes to absorbing so much knowledge.
+If you finish your chapter(s) for the day early, feel free to move on to the next day's chapter(s), as repetition is key when it comes to absorbing so much knowledge.
 
-If you finish all the chapters, you should read the remaining chapters in the following order:
-
-11 -> 17 -> 5 -> 10 -> 13 -> 14 -> 16
+If you finish all the chapters from this week, you can get a head start on the chapters in [week 3](/week-3.md).
 
 ### Afternoons
 
-The afternoons will be spent continuing your project-building from week 1, with focus shifting towards lightning-based programs and applications.
+The afternoons will be spent continuing your project-building, with focus shifting towards lightning-based programs and applications.
 
 Choose a project from the [projects](../projects.md) page and get started on it, following the instructions on the project page.
+
+We are looking for you to push your code to GitHub every day, even if it is only a work in progress, not working at all, or just a skeleton of libraries and project layout.
+Getting in the habit of regular updates is going to be really useful when we come to show off our proof of work later.
 
 Some of the goals for the week, in addition to the project work include:
 
