@@ -33,7 +33,7 @@ The mornings will be split between reading 2 chapters of the [Mastering Lightnin
 
 A web-reader-friendly hosted version of Mastering Lightning can be found at [lnbook.256k1.dev](https://lnbook.256k1.dev), which can be accessed for educational purposes using username and password `qala:lightning`.
 
-Assigned groups and discussion questions are [here](https://docs.google.com/spreadsheets/d/1Pz66t3-W9jHHCQ63Y\_J3mEwpaRn-bf6fulp2ra\_lt84/edit#gid=1712072691) and the book should be read in the following order:
+Assigned groups and discussion questions are [here](https://docs.google.com/spreadsheets/d/1xE9ZHMB-pd6LSWcBCRj2sfx5lDnvvnfzasarF) and the book should be read in the following order:
 
 | Day       | Chapters |
 | --------- | -------- |
@@ -63,4 +63,3 @@ Some of the goals for the week, in addition to the project work include:
 * Request an invoice and make a payment
 * BONUS: Repeat previous exercise programmatically (RPC)
 * Have a go at [making a lightning app](https://medium.com/@wbobeirne/making-a-lightning-web-app-part-1-4a13c82f3f78) using LND on signet
-
