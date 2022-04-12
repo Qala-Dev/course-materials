@@ -10,7 +10,11 @@ Resources have not been verified as accurate; don't trust, verify!
 * [Onboarding to Bitcoin Core](https://obc.256k1.dev/)
     * GitHub repository: <https://github.com/chaincodelabs/onboarding-to-bitcoin-core>
 
-## Miscellaneous articles
+## Articles
+
+[bitcoin-resources.com](https://bitcoin-resources.com/articles/) has collected a great list of articles covering a broad range of subject areas in and around bitcoin.
+
+In addition to this (and possibly with some overlap) some additional articles and resources are provided below.
 
 ### Technical
 
