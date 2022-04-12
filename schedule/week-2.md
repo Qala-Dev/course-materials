@@ -33,7 +33,7 @@ The mornings will be split between reading 2 chapters of the [Mastering Lightnin
 
 A web-reader-friendly hosted version of Mastering Lightning can be found at [lnbook.256k1.dev](https://lnbook.256k1.dev), which can be accessed for educational purposes using username and password `qala:lightning`.
 
-Assigned groups and discussion questions are [here](https://docs.google.com/spreadsheets/d/1xE9ZHMB-pd6LSWcBCRj2sfx5lDnvvnfzasarF) and the book should be read in the following order:
+Assigned groups and discussion questions are [here](https://docs.google.com/spreadsheets/d/1xE9ZHMB-pd6LSWcBCRj2sfx5lDnvvnfzasarFHy2ugo) and the book should be read in the following order:
 
 | Day       | Chapters |
 | --------- | -------- |
