@@ -35,6 +35,15 @@ This will include selecting additional projects from the [project](../projects.m
 We will also be looking for developers to remove strong dependency on underlying bitcoin/lightning libraries in projects worked on in this week.This is in order to demonstrate strong understanding of the bitcoin/lightning heavy lifting that these libraries do for us.
 Alternatively developers could demonstrate strong understanding by contributing changes upstream to the underlying libraries themselves.
 
+## Building Lightning Apps Workshop
+
+Please follow along with Brian Mancini's "Building a Lightning Graph" workshop which can be found [here](https://github.com/bmancini55/building-lightning-graph).
+
+There is documentation for the workshop [here](https://github.com/bmancini55/building-lightning).
+You will need [Polar](https://lightningpolar.com/) installed and working for the workshop.
+
+This can be done whenever you choose in this week.
+
 ## Seminar chaperones
 
 You will chaperone the _next_ group of developers through the Chaincode study groups, and then the seminars themselves.
