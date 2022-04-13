@@ -34,16 +34,16 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 
 ### Tier 1
 
-1. [Satoshi dice/game](projects.md#Satoshi-dice)
-2. [Fork monitor](projects.md#Fork-monitor)
-3. [Block explorer](projects.md#Block-explorer)
-4. [Mempool/fee analysis](projects.md#Mempool-fee-analysis)
-5. [P2P network analysis](projects.md#P2P-netowork-analysis)
-6. [Transaction propagation](projects.md#Transaction-propagation)
-7. [Build your own signet](projects.md#Build-your-own-signet)
-8. [Bitcoin paywall](projects.md#Bitcoin-paywall)
-9. [Bitkinship](projects.md#Bitkinship)
-10. [TABConf wallet overhaul](projects.md#TABConf-wallet-overhaul)
+1. [Satoshi dice/game](projects.md#satoshi-dice)
+2. [Fork monitor](projects.md#fork-monitor)
+3. [Block explorer](projects.md#block-explorer)
+4. [Mempool/fee analysis](projects.md#mempool-fee-analysis)
+5. [P2P network analysis](projects.md#p2p-network-analysis)
+6. [Transaction propagation](projects.md#transaction-propagation)
+7. [Build your own signet](projects.md#build-your-own-signet)
+8. [Bitcoin paywall](projects.md#bitcoin-paywall)
+9. [Bitkinship](projects.md#bitkinship)
+10. [TABConf wallet overhaul](projects.md#tabconf-wallet-overhaul)
 
 ### Tier 2
 
@@ -53,7 +53,7 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 4. Exchange / remittance service
 5. Bitcoin “bank” (hot, warm, cold wallet backend)
 6. Chain analysis tool/UI/library
-7. [Timelock refresher](projects.md#Timelock-refresher)
+7. [Timelock refresher](projects.md#timelock-refresher)
 8. Multi-sig collaborative custody provider
 9. Joinmarket UI
 
@@ -151,7 +151,7 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 
 ## Lightning projects
 
-1. [Lightning web store](projects.md#Lightning-web-store) e.g. [starblocks.acinq.co](https://starblocks.acinq.co)
+1. [Lightning web store](projects.md#lightning-web-store) e.g. [starblocks.acinq.co](https://starblocks.acinq.co)
 2. Satoshi dice/game
 3. Satoshi's place
 4. [Network graph visualiser](projects.md#undefined)
@@ -161,7 +161,7 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 8. [Paywall](projects.md#undefined)
 9. LND -> Core Lightning (CLN) database migration tool
 10. Exchange / remittance service Look around Galoy for more ideas Ask Galoy
-11. [Build your own lightning node](projects.md#Build-your-own-lightning-node) with LDK and accompanying crates (Rust)
+11. [Build your own lightning node](projects.md#build-your-own-lightning-node) with LDK and accompanying crates (Rust)
 
 {% hint style="info" %}
 Where possible, try and use signet. It might be helpful to start off a project with regtest for easy iteration, but ideally it would be great to be able to interact with your projects from our end!
