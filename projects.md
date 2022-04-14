@@ -218,6 +218,7 @@ The ecosystem of libraries for each language is quite diverse. Here are some of 
 
 * [bitcoinjs-lib](https://github.com/btcsuite) - A JavaScript Bitcoin library for Node.JS and browsers.
 * [boltwall](https://github.com/Tierion/boltwall) - Bitcoin Lightning paywall and authentication using LSATs. Built with LND, Nodejs, and TypeScript.
+* [bcrpc](https://github.com/dgarage/bcrpc) - Tiny Bitcoin RPC wrapper for Node.js.
 
 ### Python
 
