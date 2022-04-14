@@ -14,10 +14,10 @@ Assigned groups and discussion questions are [here](https://docs.google.com/spre
 
 | Day       | Chapters |
 | --------- | -------- |
-| Monday    | 9        |
-| Tuesday   | 12       |
-| Wednesday | 15       |
-| Thursday  | -        |
+| Monday    | -        |
+| Tuesday   | 9        |
+| Wednesday | 12       |
+| Thursday  | 15       |
 | Friday    | -        |
 
 If you finish your chapter(s) for the day early, feel free to move on to the next day's chapter(s), as repetition is key when it comes to absorbing so much knowledge.
