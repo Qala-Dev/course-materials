@@ -15,8 +15,8 @@ All demos follow the [Lightning talk](https://en.wikipedia.org/wiki/Lightning_ta
 - come prepared, seriously. It's your time to shine. Practice beforehand.
 
 For (entertaining) examples, see:
-- https://www.youtube.com/watch?v=zeKNXaM2fsA
-- https://www.destroyallsoftware.com/talks/wat
+- [Simon Swain: Minimum Viable Warfare](https://www.youtube.com/watch?v=zeKNXaM2fsA)
+- [Gary Bernhardt - Wat](https://www.destroyallsoftware.com/talks/wat)
 
 
 ### Sign up
