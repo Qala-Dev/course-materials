@@ -37,21 +37,15 @@ Alternatively developers could demonstrate strong understanding by contributing 
 
 ## Building Lightning Apps Workshop
 
-Please follow along with Brian Mancini's "Building a Lightning Graph" workshop which can be found [here](https://github.com/bmancini55/building-lightning-graph).
-
-There is documentation for the workshop [here](https://github.com/bmancini55/building-lightning).
+Please try to complete this on Tuesday or Wednesday of this week.
 You will need [Polar](https://lightningpolar.com/) installed and working for the workshop.
 
-This can be done whenever you choose in this week.
+Follow along with Brian Mancini's "Building a Lightning Graph" workshop which can be found [here](https://github.com/bmancini55/building-lightning-graph).
+There is documentation for the workshop [here](https://github.com/bmancini55/building-lightning).
 
-## Seminar chaperones
+## Project demos
 
-You will chaperone the _next_ group of developers through the Chaincode study groups, and then the seminars themselves.
+We are reserving 30 minutes on Thursday (and every Tuesday and Thursday in the following weeks) right after the daily standup for demo time!
 
-These will be run as follows:
-
-    * run at half speed
-    * half a topic per day
-    * you will be assigned a question, discuss with 1 other and present to the group
-
-Qala will try to arrange for some guest stars to come and join us all for the question time!
+Read all about them on https://course.qala.dev/meetings and reserve your slot once you've got something to share.
+Demos don't need to be perfect or beautiful, just let us all share in your excitement and experience!
