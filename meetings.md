@@ -1,6 +1,6 @@
 # Meetings
 
-## Demo Lightning Talk
+## Show And Tell
 
 To learn from each other's achievements and learnings, we will reserve 30 minutes on every Tuesday and Thursday for demo time. Anyone who has finished some presentable piece of work (a finished project, but also an MVP or some intermediary stage) is encouraged to take the stage and share.
 
@@ -21,4 +21,4 @@ For (entertaining) examples, see:
 
 ### Sign up
 
-To sign up for a Demo Lightning Talk, please fill in the [registration sheet](https://docs.google.com/spreadsheets/d/16BshS5tb3vlhcZCvvjtPllSxLRndpy3QcEdqHpMxkek/edit?usp=sharing) and ping the cohort channel on Discord.
+To sign up for a Show And Tell demo, please fill in the [registration sheet](https://docs.google.com/spreadsheets/d/16BshS5tb3vlhcZCvvjtPllSxLRndpy3QcEdqHpMxkek/edit?usp=sharing) and ping the cohort channel on Discord.
