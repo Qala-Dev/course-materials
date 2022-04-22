@@ -12,6 +12,7 @@ Resources have not been verified as accurate; don't trust, verify!
 
 * [LND developer resources](https://github.com/Qala-Dev/course-materials.git)
 * [C-Lightning documentation](https://lightning.readthedocs.io/) (including information on how to write and use custom plugins in any language)
+* [Bitcoin Programming with BitcoinJS, Bitcoin Core and LND](https://bitcoinjs-guide.bitcoin-studio.com/bitcoinjs-guide/v5/)
 
 ## Articles
 
