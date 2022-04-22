@@ -76,3 +76,11 @@ In addition to this (and possibly with some overlap) some additional articles an
 * [Books recommended by Bitcoiners (all genres)](https://www.bitcoinerbooks.com/)
 * [Search Bitcoin Stack Exchange](https://bitcoin.stackexchange.com/search?q=%s)
 * [Freelancing platforms which pay in Bitcoin](https://cointastical.medium.com/freelancing-platforms-which-pay-in-bitcoin-e38be56166df)
+
+## Cryptography
+
+[Practical Cryptography for Developers](https://cryptobook.nakov.com/) contains introductory material on a range of cryptographic topics.
+
+In a Bitcoin context the chapters on [Digital Signatures](https://cryptobook.nakov.com/digital-signatures) and specifically [ECDSA Signatures](https://cryptobook.nakov.com/digital-signatures/ecdsa-sign-verify-messages) are well-worth reading, as is the chapter on [Hash Functions](https://cryptobook.nakov.com/cryptographic-hash-functions).
+
+In a lightning context, and in addition to the above, its worth also reading the [MAC and Key Derivation](https://cryptobook.nakov.com/mac-and-key-derivation) and [ECDH Key Exchange](https://cryptobook.nakov.com/asymmetric-key-ciphers/ecdh-key-exchange) chapters, both of which are used as [part](https://github.com/lightning/bolts/blob/master/08-transport.md#cryptographic-messaging-overview) of the encrypted transport layer.
