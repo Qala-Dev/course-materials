@@ -34,28 +34,28 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 
 ### Tier 1
 
-1. [Satoshi dice/game](projects.md#satoshi-dice)
-2. [Fork monitor](projects.md#fork-monitor)
-3. [Block explorer](projects.md#block-explorer)
-4. [Mempool/fee analysis](projects.md#mempool-fee-analysis)
-5. [P2P network analysis](projects.md#p2p-network-analysis)
-6. [Transaction propagation](projects.md#transaction-propagation)
-7. [Build your own signet](projects.md#build-your-own-signet)
-8. [Bitcoin paywall](projects.md#bitcoin-paywall)
-9. [Bitkinship](projects.md#bitkinship)
-10. [TABConf wallet overhaul](projects.md#tabconf-wallet-overhaul)
+1. [Satoshi dice/game](#satoshi-dice)
+1. [Fork monitor](#fork-monitor)
+1. [Block explorer](#block-explorer)
+1. [Mempool/fee analysis](#mempool-fee-analysis)
+1. [P2P network analysis](#p2p-network-analysis)
+1. [Transaction propagation](#transaction-propagation)
+1. [Build your own signet](#build-your-own-signet)
+1. [Bitcoin paywall](#bitcoin-paywall)
+1. [Bitkinship](#bitkinship)
+1. [TABConf wallet overhaul](#tabconf-wallet-overhaul)
 
 ### Tier 2
 
-1. Simulate "push payments" using Bitcoin
-2. Improve bitcoin wallet "contact" lists
-3. Graph your bitcoin wallet's UTXOs (+ chain analysis)
-4. Exchange / remittance service
-5. Bitcoin “bank” (hot, warm, cold wallet backend)
-6. Chain analysis tool/UI/library
-7. [Timelock refresher](projects.md#timelock-refresher)
-8. Multi-sig collaborative custody provider
-9. Joinmarket UI
+1. [Bitcoin push payments](#bitcoin-push-payments)
+1. [Bitcoin wallet contact lists](#bitcoin-wallet-contact-lists)
+1. [Graph wallet UTXOs](#graph-wallet-utxos)
+1. [Exchange or remittance service](#exchange-or-remittance-service)
+1. [Bitcoin bank](#bitcoin-bank)
+1. [Chain analysis](#chain-analysis)
+1. [Timelock refresher](#timelock-refresher)
+1. [Multi-sig collaborative custody provider](#multi-sig-collaborative-custody-provider)
+1. [Joinmarket UI](#joinmarket-ui)
 
 ### Satoshi dice
 
@@ -131,6 +131,44 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 
 **Bonus:** Given an xPub, calculate relatedness between all UTXOs belonging to xPub.
 
+### TABConf wallet overhaul
+
+**Outline:** Overhaul the TABConf wallet. This might mean translating into a language you're familiar with and using a different bitcoin wallet library, or
+
+**Format:** Casino server back-end (required); Client application (optional, GUI or CLI)
+
+**BTC/LN topics:** creating and parsing Bitcoin transactions, 0-conf protocols, provable fairness
+
+### Bitcoin push payments
+
+* **Outline:** Simulate "push payments" using Bitcoin
+* **Format:** 
+
+### Bitcoin wallet contact lists
+
+* **Outline:** Improve bitcoin wallet "contact" lists
+* **Format:** 
+
+### Graph wallet UTXOs
+
+* **Outline:** Graph your bitcoin wallet's UTXOs (+ chain analysis)
+* **Format:** 
+
+### Exchange or remittance service
+
+* **Outline:** 
+* **Format:** 
+
+### Bitcoin bank
+
+* **Outline:** Bitcoin “bank” (hot, warm, cold wallet backend)
+* **Format:** 
+
+### Chain analysis
+
+* **Outline:** Tool or library to be used by other wallets/projects
+* **Format:** 
+
 ### Timelock refresher
 
 **Outline:** To ensure your heirs can access your bitcoin after you pass away, all of your P2WSH addresses contain a second spending clause that after 1 year, a second key (held by your heir) can spend all of your outputs. With this program/script, you want to be able to quickly "refresh" all outputs that are coming close to being unlocked, e.g. within 3 months of the second spending path becoming viable. See [https://bitcointalk.org/index.php?topic=5185907.0](https://bitcointalk.org/index.php?topic=5185907.0) for an example of the original setup.
@@ -141,27 +179,29 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 
 **Bonus:** multisig instead of single sig; use taproot
 
-### TABConf wallet overhaul
+### Multi-sig collaborative custody provider
 
-**Outline:** Overhaul the TABConf wallet. This might mean translating into a language you're familiar with and using a different bitcoin wallet library, or
+* **Outline:** 
+* **Format:** 
 
-**Format:** Casino server back-end (required); Client application (optional, GUI or CLI)
+### Joinmarket UI
 
-**BTC/LN topics:** creating and parsing Bitcoin transactions, 0-conf protocols, provable fairness
+* **Outline:** 
+* **Format:** 
 
 ## Lightning projects
 
 1. [Lightning web store](projects.md#lightning-web-store) e.g. [starblocks.acinq.co](https://starblocks.acinq.co)
-2. Satoshi dice/game
-3. Satoshi's place
-4. [Network graph visualiser](projects.md#undefined)
-5. getAlby hacking
-6. Messaging app
-7. Something related to social networking
-8. [Paywall](projects.md#undefined)
-9. LND -> Core Lightning (CLN) database migration tool
-10. Exchange / remittance service Look around Galoy for more ideas Ask Galoy
-11. [Build your own lightning node](projects.md#build-your-own-lightning-node) with LDK and accompanying crates (Rust)
+1. Satoshi dice/game
+1. Satoshi's place
+1. [Network graph visualiser](projects.md#undefined)
+1. getAlby hacking
+1. Messaging app
+1. Something related to social networking
+1. [Paywall](projects.md#undefined)
+1. LND -> Core Lightning (CLN) database migration tool
+1. Exchange / remittance service Look around Galoy for more ideas Ask Galoy
+1. [Build your own lightning node](projects.md#build-your-own-lightning-node) with LDK and accompanying crates (Rust)
 
 {% hint style="info" %}
 Where possible, try and use signet. It might be helpful to start off a project with regtest for easy iteration, but ideally it would be great to be able to interact with your projects from our end!
