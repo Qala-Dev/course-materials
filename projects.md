@@ -47,7 +47,6 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 
 ### Tier 2
 
-1. [Bitcoin push payments](#bitcoin-push-payments)
 1. [Bitcoin wallet contact lists](#bitcoin-wallet-contact-lists)
 1. [Graph wallet UTXOs](#graph-wallet-utxos)
 1. [Exchange or remittance service](#exchange-or-remittance-service)
@@ -133,41 +132,58 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 
 ### TABConf wallet overhaul
 
-**Outline:** Overhaul the TABConf wallet. This might mean translating into a language you're familiar with and using a different bitcoin wallet library, or
+**Outline:** Overhaul the TABConf wallet. This might mean translating into a language you're familiar with and using a different bitcoin wallet library, or upgrading the UX.
 
 **Format:** Casino server back-end (required); Client application (optional, GUI or CLI)
 
 **BTC/LN topics:** creating and parsing Bitcoin transactions, 0-conf protocols, provable fairness
 
-### Bitcoin push payments
-
-* **Outline:** Simulate "push payments" using Bitcoin
-* **Format:** 
-
 ### Bitcoin wallet contact lists
 
-* **Outline:** Improve bitcoin wallet "contact" lists
-* **Format:** 
+**Outline:** Improve bitcoin wallet "contact" lists by checking for bitcoin privacy best practices which could include coinselection based on the other contacts you’ve interacted with “coins known by…”, “coins known by other contacts” … etc.
+
+When querying a contact, coin or transaction a (JSON?) response could be given which included warnings of address re-use etc.
+A pretty comprehensive overview of the commonly-used privacy heuristics can be found [here](https://en.bitcoin.it/wiki/Privacy).
+
+**Format:** 
 
 ### Graph wallet UTXOs
 
-* **Outline:** Graph your bitcoin wallet's UTXOs (+ chain analysis)
-* **Format:** 
+**Outline:** 
+
+**Format:** 
 
 ### Exchange or remittance service
 
-* **Outline:** 
-* **Format:** 
+**Outline:** 
+
+**Format:** 
 
 ### Bitcoin bank
 
-* **Outline:** Bitcoin “bank” (hot, warm, cold wallet backend)
-* **Format:** 
+**Outline:** Bitcoin “bank” (hot, warm, cold wallet backend)
+A bitcoin bank provides security guarantees for its users by not storing all bitcoins online in a hot wallet.
+Instead a scheme should be devised whereby an attacker, even with total remote access to the bank's computers, cannot steal all the bitcoins.
+You may want to incorporate threshold multisignature schemes, timeouts, and other scripting capabilities.
+You should also decide how partially signed transactions can be communicated between different stages in the bank "vault", creating any required facilities to import/export, verify and sign for them.
+The bank will need some nominal amount of its total reserve in a hot wallet to perform everyday operations. Decide on an amount and also consider how hot and cold wallets will be balanced.
+Finally, consideration should be given to the privacy of your users and the privacy of your own bank when thinking about implementing any internal UTXO consolidation and transaction batching for user withdrawals.
+
+**Format:** Software to manage the bank wallet. Optional frontend website for users to log in, see their balance and make deposits and withdrawals. If frontend website not provided, backend software should expose API to request transactions and user balances.
 
 ### Chain analysis
 
-* **Outline:** Tool or library to be used by other wallets/projects
-* **Format:** 
+**Outline:** Perform chain analysis on a set of provided UTXOs (or descriptors).
+
+The collection of UTXOs that form a "wallet" can leak information with use over time. Providing information to users and wallets can help them (or their wallets) to make better decisions about which UTXOs to select in future transactions.
+
+You can read more about "chainalysis" here: [bitcoin privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923) (and the following 3 parts of the blog).
+You can see some other implementations of wallet clustering/graphing [here](https://bitquery.io/blog/best-blockchain-analysis-tools-and-software).
+A comprehensive overview of the commonly-used heuristics can be found [here](https://en.bitcoin.it/wiki/Privacy).
+
+Decide on what information you want to reveal to the user. Decide which heuristics you'll need and how you will parse the blockchain.
+
+**Format:** Can be an "all-in-one" (with frontend UI), backend only with endpoints, or as a library which other wallets could re-use.
 
 ### Timelock refresher
 
@@ -181,13 +197,15 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 
 ### Multi-sig collaborative custody provider
 
-* **Outline:** 
-* **Format:** 
+**Outline:** Create your own service such as [Casa](https://keys.casa/) that provides secure and collaborative custody of bitcoin. You need to create a 2-of-3 multi-sig wallet where the user holds two of the keys and the service holds one. In this setup, it's impossible for the service to move any user funds as they only posses a single key. In normal operation, the user makes use of both of their own keys and the service just coordinates the signing process. You must also allow the user to ask the service to sign with its key in the event the user does not have access to one of theirs. Allowing a hardware wallet as one of the user keys would be a bonus, where the client can interact with the hardware wallet to sign. 
 
-### Joinmarket UI
+**Format:** Backend service and client (Web/Mobile)
 
-* **Outline:** 
-* **Format:** 
+### JoinMarket UI
+
+**Outline:** [JoinMarket](https://github.com/JoinMarket-Org/joinmarket-clientserver) is an implementation of CoinJoin transactions that creates a market of makers who are available to take part in a CoinJoin at any time, and takers who can create a CoinJoin at any time. Your goal is to create a frontend UI for the JoinMarket client server that allows you to interact with JoinMarket in a more user-friendly manner. There is an effort such as [JAM](https://github.com/joinmarket-webui/joinmarket-webui) to do just this!
+
+**Format:** Frontend UI (Web/Mobile)
 
 ## Lightning projects
 
@@ -209,21 +227,23 @@ Where possible, try and use signet. It might be helpful to start off a project w
 
 ### Lightning web store
 
-* **Outline:** Create a web store like [starblocks.acinq.co](https://starblocks.acinq.co) that accepts signet lightning payments. You can sell any virtual products you want!
-* **Format:** Web front-end and a backend that communicates with LND
+**Outline:** Create a web store like [starblocks.acinq.co](https://starblocks.acinq.co) that accepts signet lightning payments. You can sell any virtual products you want!
+
+**Format:** Web front-end and a backend that communicates with LND
 
 ### Network graph visualiser
 
-* **Outline**: Create a web application that shows a visualisation of the lightning network graph on signet. You will need a backend that communicates with LND (or another implementation if you wish) via a REST or equivalent API to get the channels and nodes in the graph. Your web application should update the graph in realtime as nodes and channels are added or removed. You may use [this tutorial](https://bmancini55.github.io/building-lightning/) as a starting point.
-* **Format**: Web front-end and a backend that communicates with LND.
+**Outline**: Create a web application that shows a visualisation of the lightning network graph on signet. You will need a backend that communicates with LND (or another implementation if you wish) via a REST or equivalent API to get the channels and nodes in the graph. Your web application should update the graph in real time as nodes and channels are added or removed. You may use [this tutorial](https://bmancini55.github.io/building-lightning/) as a starting point.
+
+**Format**: Web front-end and a backend that communicates with LND.
 
 ### Paywall
 
-* **Outline**: Create a simple paywalled website such as a blog or news site that requires you to pay some small fee in satoshis to be able to access content. One example is a site like [yalls.org](https://yalls.org). It's important that the user does not need to pay more than once (for example, when refreshing their browser) so ensure that there is some way anonymously identify that a user has already paid by having some credential stored in a browser cookie. You can look into using something such as LSATs for this. There are libraries and proxies such as [boltwall](projects.md#javascript) and [aperture](projects.md#go) that can help.
+**Outline**: Create a simple paywalled website such as a blog or news site that requires you to pay some small fee in satoshis to be able to access content. One example is a site like [yalls.org](https://yalls.org). It's important that the user does not need to pay more than once (for example, when refreshing their browser) so ensure that there is some way anonymously identify that a user has already paid by having some credential stored in a browser cookie. You can look into using something such as LSATs for this. There are libraries and proxies such as [boltwall](projects.md#javascript) and [aperture](projects.md#go) that can help.
 
 ### Build your own lightning node
 
-* **Outline:** Build your own lightning node with the Lightning Development Kit (LDK) following the outline [here](https://lightningdevkit.org/tutorials/build\_a\_node\_in\_rust/). Use your `bitcoind` node (on signet) as a block source and wallet. Additionally, create a CLI tool that can interact with the node via RPCs, like `lncli` does for `lnd`. Your CLI should have commands to:
+**Outline:** Build your own lightning node with the Lightning Development Kit (LDK) following the outline [here](https://lightningdevkit.org/tutorials/build\_a\_node\_in\_rust/). Use your `bitcoind` node (on signet) as a block source and wallet. Additionally, create a CLI tool that can interact with the node via RPCs, like `lncli` does for `lnd`. Your CLI should have commands to:
   * Generate an address to fund your on-chain wallet
   * Connect to a peer
   * List all peers
@@ -231,7 +251,8 @@ Where possible, try and use signet. It might be helpful to start off a project w
   * List all channels
   * Create an invoice
   * Pay an invoice
-* **Format:** Lightning node with CLI
+
+**Format:** Lightning node with CLI
 
 ## Bitcoin/LN libraries and tools you may find useful
 
