@@ -15,15 +15,23 @@ description: project ideas for Qala development course
 
 ## Mini design document
 
-When you've chosen your next project, we'll ask for a mini design document from you.
-This document only wants to be about a page or less, and should contain your thoughts on the following:
+The first step is to create a design document that describes your project and approach. The goal of this document is to:
+- think critically about what your application needs to do and what you'll need to achieve your goals
+- ensure the scope is neither too broad nor too narrow
+- enable early feedback to prevent spending too much time on an approach that may not be optimal
 
+The design document should contain:
 1. A basic outline of the project
-1. Chosen language/framework & any libraries you intend to use
-1. Your high-level general approach 
-    * what you will build first
-    * what you will add later
-1. What milestone you need to reach to consider the project have achieved minimum viable product (MVP) state
+1. Goals and non-goals. Define both what's in-, as well as out of scope.
+1. Architecture:
+  1. Components: the building blocks of your application, and which technologies you'll use (e.g. Rust backend and Vue.js frontend)
+  1. Interface: which API endpoints, CLI commands or frontend views are required?
+  1. Code structure: high-level organization of folders, files, classes
+  1. Dependencies: (bitcoind/LND) RPC functions, libraries, ...
+1. Introspection: what are the most difficult or risky parts of the project, based on your own assessment of available skills?
+1. What milestone you need to reach to consider the project have achieved Minimum Viable Product (MVP) state
+
+**Ensure to maximize your time being able to work on Bitcoin/LN related tasks. Non-critical general software engineering work should be removed from scope as much as possible.**
 
 Please create and share the design document using a collaborative document editor, so that we can add any comments or feedback that we have.
 Examples of editors <https://hackmd.io> and <https://docs.google.com>, but you can choose any you're familiar with so long as we can easily log in to comment.
@@ -145,19 +153,19 @@ Topics to cover: transactions, scripting, reorgs, HD wallets
 When querying a contact, coin or transaction a (JSON?) response could be given which included warnings of address re-use etc.
 A pretty comprehensive overview of the commonly-used privacy heuristics can be found [here](https://en.bitcoin.it/wiki/Privacy).
 
-**Format:** 
+**Format:**
 
 ### Graph wallet UTXOs
 
-**Outline:** 
+**Outline:**
 
-**Format:** 
+**Format:**
 
 ### Exchange or remittance service
 
-**Outline:** 
+**Outline:**
 
-**Format:** 
+**Format:**
 
 ### Bitcoin bank
 
@@ -197,7 +205,7 @@ Decide on what information you want to reveal to the user. Decide which heuristi
 
 ### Multi-sig collaborative custody provider
 
-**Outline:** Create your own service such as [Casa](https://keys.casa/) that provides secure and collaborative custody of bitcoin. You need to create a 2-of-3 multi-sig wallet where the user holds two of the keys and the service holds one. In this setup, it's impossible for the service to move any user funds as they only posses a single key. In normal operation, the user makes use of both of their own keys and the service just coordinates the signing process. You must also allow the user to ask the service to sign with its key in the event the user does not have access to one of theirs. Allowing a hardware wallet as one of the user keys would be a bonus, where the client can interact with the hardware wallet to sign. 
+**Outline:** Create your own service such as [Casa](https://keys.casa/) that provides secure and collaborative custody of bitcoin. You need to create a 2-of-3 multi-sig wallet where the user holds two of the keys and the service holds one. In this setup, it's impossible for the service to move any user funds as they only posses a single key. In normal operation, the user makes use of both of their own keys and the service just coordinates the signing process. You must also allow the user to ask the service to sign with its key in the event the user does not have access to one of theirs. Allowing a hardware wallet as one of the user keys would be a bonus, where the client can interact with the hardware wallet to sign.
 
 **Format:** Backend service and client (Web/Mobile)
 
