@@ -24,10 +24,10 @@ The design document should contain:
 1. A basic outline of the project
 1. Goals and non-goals. Define both what's in-, as well as out of scope.
 1. Architecture:
-  1. Components: the building blocks of your application, and which technologies you'll use (e.g. Rust backend and Vue.js frontend)
-  1. Interface: which API endpoints, CLI commands or frontend views are required?
-  1. Code structure: high-level organization of folders, files, classes
-  1. Dependencies: (bitcoind/LND) RPC functions, libraries, ...
+    1. Components: the building blocks of your application, and which technologies you'll use (e.g. Rust backend and Vue.js frontend)
+    1. Interface: which API endpoints, CLI commands or frontend views are required?
+    1. Code structure: high-level organization of folders, files, classes
+    1. Dependencies: (bitcoind/LND) RPC functions, libraries, ...
 1. Introspection: what are the most difficult or risky parts of the project, based on your own assessment of available skills?
 1. What milestone you need to reach to consider the project have achieved Minimum Viable Product (MVP) state
 
