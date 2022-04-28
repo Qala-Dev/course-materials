@@ -228,6 +228,7 @@ Decide on what information you want to reveal to the user. Decide which heuristi
 1. LND -> Core Lightning (CLN) database migration tool
 1. Exchange / remittance service Look around Galoy for more ideas Ask Galoy
 1. [Build your own lightning node](projects.md#build-your-own-lightning-node) with LDK and accompanying crates (Rust)
+1. A service involving [submarine swaps](#submarine-swaps)
 
 {% hint style="info" %}
 Where possible, try and use signet. It might be helpful to start off a project with regtest for easy iteration, but ideally it would be great to be able to interact with your projects from our end!
@@ -261,6 +262,15 @@ Where possible, try and use signet. It might be helpful to start off a project w
   * Pay an invoice
 
 **Format:** Lightning node with CLI
+
+### Submarine Swaps
+
+**Outline:** Build a service that utilises Submarine Swaps between the bitcoin and lightning network.
+See the LND submarine swaps [guide](https://docs.lightning.engineering/the-lightning-network/lightning-overview/understanding-submarine-swaps), the ION [technical details](https://wiki.ion.radar.tech/tech/research/submarine-swap), a nice [guide](https://blog.muun.com/a-closer-look-at-submarine-swaps-in-the-lightning-network/) from Muun wallet, the [explanation](https://github.com/submarineswaps/swaps-service/blob/master/docs/chain_swap_script.md#simple-case) from Alex Bosworth's Submarine Swap Swervice and this great [explainer](https://medium.com/boltzhq/submarine-swaps-c509ce0fb1db) from Boltz, a decentralised swap service.
+
+Also be sure to check out the [Boltz Exchange](https://boltz.exchange/) itself.
+
+**Format:** The service will essentially permit trustless swaps between the bitcoin and lightning network. It can be a website, CLI tool or other accessible service.
 
 ## Bitcoin/LN libraries and tools you may find useful
 
