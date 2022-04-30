@@ -5,6 +5,7 @@
   * [Week 2](schedule/week-2.md)
   * [Week 3](schedule/week-3.md)
   * [Week 4](schedule/week-4.md)
+  * [Week 5](schedule/week-5.md)
 * [Meetings](meetings.md)
 * [Presentation topics](presentation-topics.md)
 * [Projects](projects.md)
