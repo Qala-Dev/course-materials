@@ -266,7 +266,7 @@ Where possible, try and use signet. It might be helpful to start off a project w
 ### Submarine Swaps
 
 **Outline:** Build a service that utilises Submarine Swaps between the bitcoin and lightning network.
-See the LND submarine swaps [guide](https://docs.lightning.engineering/the-lightning-network/lightning-overview/understanding-submarine-swaps), the ION [technical details](https://wiki.ion.radar.tech/tech/research/submarine-swap), a nice [guide](https://blog.muun.com/a-closer-look-at-submarine-swaps-in-the-lightning-network/) from Muun wallet, the [explanation](https://github.com/submarineswaps/swaps-service/blob/master/docs/chain_swap_script.md#simple-case) from Alex Bosworth's Submarine Swap Swervice and this great [explainer](https://medium.com/boltzhq/submarine-swaps-c509ce0fb1db) from Boltz, a decentralised swap service.
+See the LND submarine swaps [guide](https://docs.lightning.engineering/the-lightning-network/lightning-overview/understanding-submarine-swaps), the ION [technical details](https://wiki.ion.radar.tech/tech/research/submarine-swap), a nice [guide](https://blog.muun.com/a-closer-look-at-submarine-swaps-in-the-lightning-network/) from Muun wallet, the [explanation](https://github.com/submarineswaps/swaps-service/blob/master/docs/chain_swap_script.md#simple-case) from Alex Bosworth's Submarine Swap Service and this great [explainer](https://medium.com/boltzhq/submarine-swaps-c509ce0fb1db) from Boltz, a decentralised swap service.
 
 Also be sure to check out the [Boltz Exchange](https://boltz.exchange/) itself.
 
