@@ -92,6 +92,14 @@ In addition to this (and possibly with some overlap) some additional articles an
 | [Search Bitcoin Stack Exchange](https://bitcoin.stackexchange.com/search?q=%s) | Various
 | [Freelancing platforms which pay in Bitcoin](https://cointastical.medium.com/freelancing-platforms-which-pay-in-bitcoin-e38be56166df) | Various
 | [True names not required](https://dergigi.com/2020/07/21/true-names-not-required/) | Gigi
+| [I AM HODLING](https://bitcointalk.org/index.php?topic=375643.0) | GameKyuubi
+| [The History of the Mt Gox Hack: Bitcoin’s Biggest Heist](https://blockonomi.com/mt-gox-hack/) | Norry
+| [The Rise and Fall of Mt. Gox](https://darknetdiaries.com/episode/9/) (Podcast, [transcript](https://darknetdiaries.com/transcript/9/)) | Darknet Diaries
+| [The Blocksize War – Chapter 1 – First Strike](https://blog.bitmex.com/the-blocksize-war-chapter-1-first-strike/) | Bier/BitMex
+| [MtGox investigation update and preliminary release](https://blog.wizsec.jp/2015/02/mtgox-investigation-release.html) | Wiz
+| [Dr Bitcoin - The Man Who Wasn't Satoshi Nakamoto](https://anchor.fm/dr-bitcoin) (Podcast) | CONTENT:ED Audio
+| [The Craig Wright May 2016 Signing Sessions Debacle, In Full Context](https://mylegacykit.medium.com/the-craig-wright-may-2016-signing-sessions-debacle-in-full-context-338e2b316310) | MyLegacyKit
+| [Private Presentations Aren't Proof](https://blog.wizsec.jp/2021/07/ppap.html) | Wiz
 
 ## Cryptography
 
