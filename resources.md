@@ -78,6 +78,8 @@ In addition to this (and possibly with some overlap) some additional articles an
 | [Lightning Network - Fundamental Limitations](http://www.truthcoin.info/blog/lightning-limitations/) | Truthcoin (Paul Sztorc)
 | [How Lightning Actually Works](https://www.youtube.com/watch?v=yKdK-7AtAMQ) | Curious Inventor (Video)
 | [Bitcoin and lightning Transactions & Protocol Deep Dive](https://youtu.be/to8XItlplac) | Curious Inventor (Video)
+| [Shortcomings of the Lightning Network](https://stacker.news/items/26339) May-2022 | @nout
+| [Async lightning payment recieving (with LSP)](https://lists.linuxfoundation.org/pipermail/lightning-dev/2021-October/003307.html) | Corallo
 
 ### Culture
 
@@ -105,9 +107,10 @@ In addition to this (and possibly with some overlap) some additional articles an
 
 | **Name** | **Author** |
 |---|---|
+| [ROAST is an async. protocol that makes t-of-n FROST signing robust: t honest signers can produce a Schnorr signature even if other signers disrupt.](https://twitter.com/real_or_random/status/1523964246945636352) | Ruffing
 | [Practical Cryptography for Developers](https://cryptobook.nakov.com/) | Nakov
 
-In a Bitcoin context the chapters on [Digital Signatures](https://cryptobook.nakov.com/digital-signatures) and specifically [ECDSA Signatures](https://cryptobook.nakov.com/digital-signatures/ecdsa-sign-verify-messages) are well-worth reading, as is the chapter on [Hash Functions](https://cryptobook.nakov.com/cryptographic-hash-functions).
+In a Bitcoin context the chapters from Practical Cryptography for Developers (PCfD) on [Digital Signatures](https://cryptobook.nakov.com/digital-signatures) and specifically [ECDSA Signatures](https://cryptobook.nakov.com/digital-signatures/ecdsa-sign-verify-messages) are well-worth reading, as is the chapter on [Hash Functions](https://cryptobook.nakov.com/cryptographic-hash-functions).
 
-In a lightning context, and in addition to the above, its worth also reading the [MAC and Key Derivation](https://cryptobook.nakov.com/mac-and-key-derivation) and [ECDH Key Exchange](https://cryptobook.nakov.com/asymmetric-key-ciphers/ecdh-key-exchange) chapters, both of which are used as [part](https://github.com/lightning/bolts/blob/master/08-transport.md#cryptographic-messaging-overview) of the encrypted transport layer.
+In a lightning context, and in addition to the above, its worth also reading the [MAC and Key Derivation](https://cryptobook.nakov.com/mac-and-key-derivation) and [ECDH Key Exchange](https://cryptobook.nakov.com/asymmetric-key-ciphers/ecdh-key-exchange) chapters from PCfD, both of which are used as [part](https://github.com/lightning/bolts/blob/master/08-transport.md#cryptographic-messaging-overview) of the encrypted transport layer.
 
