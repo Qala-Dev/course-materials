@@ -5,6 +5,14 @@ They may (or may not!) provide additional insight into one or more facets of Bit
 Resources found below are not representative of the views of Qala or its members.
 Resources have not been verified as accurate; don't trust, verify!
 
+## Technical writing
+
+As a SW engineer, you'll have to do quite a bit of technical writing - whether it's documentation, blog posts ... Technical writing is hard and not something most of us get taught, but doing it well makes all the difference to the reader and can really make your material stand out. If your project is kick ass but people struggle to understand or use it, is it really kick ass?
+
+| **Link** | **Notes** |
+|---|---|
+| [Google tech writing](https://developers.google.com/tech-writing/overview) | Technical writing for software engineers
+
 ## Developer Tools
 
 | **Link** | **Notes** |
