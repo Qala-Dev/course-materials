@@ -47,6 +47,7 @@ In addition to this (and possibly with some overlap) some additional articles an
 | [Why is it taking 20 minutes to mine this block?](https://r6.ca/blog/20180225T160548Z.html) | O'Connor
 | [Compact Block Filters Deep Dive](https://bitcoin-dev.blog/blog/bip158-deep-dive/) | Mouton
 | [Schnorr Basics](https://bitcoin-dev.blog/blog/schnorr-basics/) | Rosenbaum
+| [Compact Block Filters (BIP158) deep dive](https://ellemouton.com/posts/bip158/) | Mouton
 
 ### Economics
 
@@ -88,6 +89,11 @@ In addition to this (and possibly with some overlap) some additional articles an
 | [Bitcoin and lightning Transactions & Protocol Deep Dive](https://youtu.be/to8XItlplac) | Curious Inventor (Video)
 | [Shortcomings of the Lightning Network](https://stacker.news/items/26339) May-2022 | @nout
 | [Async lightning payment recieving (with LSP)](https://lists.linuxfoundation.org/pipermail/lightning-dev/2021-October/003307.html) | Corallo
+| [Creating a channel](https://ellemouton.com/posts/creating-a-channel/) | Mouton
+| [Updating state](https://ellemouton.com/posts/updating-state/) | Mouton
+| [Revocation in more detail](https://ellemouton.com/posts/revocation/) | Mouton
+| [HTLC overview](https://ellemouton.com/posts/htlc/) | Mouton
+| [HTLC deep dive](https://ellemouton.com/posts/htlc-deep-dive/) | Mouton
 
 ### Culture
 
