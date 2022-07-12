@@ -125,6 +125,8 @@ A good place to start is the outline. Which topics do you want to cover, and wha
 
 When writing down your thoughts, it helps to be critical throughout, but there's no need to get it perfect right away. You can write down a few sentences, reread them, and see if it makes sense. Is it accurate? Is it complete? Is this the most concise and clear way this could be written? Does it fit in the structure I have laid out? Switching to a different task and revisiting your writing later on can also help bring clarity.
 
+When you've finished the body of your article, don't forget to summarize the most important takeaways by means of a conclusion. Often times, the introduction and the conclusion are the only sections of an article that people read when they quickly want to understand if your article is worth spending time on. Most people struggle to write a high quality conclusion, so make sure to look up some resources on improving your conclusion such as [this one on indeed.com](https://www.indeed.com/career-advice/career-development/how-to-write-a-conclusion).
+
 The most important thing is to not be too content too quickly, and keep iterating until you feel like you're not changing much anymore and that you have achieved the kind of quality that you would like your name to be associated with. 
 
 ## 6. Don't forget
