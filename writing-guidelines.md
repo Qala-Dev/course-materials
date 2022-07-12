@@ -106,7 +106,7 @@ It's important to have a well-defined understanding of who you think will be the
 
 If you define your audience too broadly, you will upset your actual audience as you would be when reading "The Bitcoin Script Expert". Conversely, if you define your audience too narrowly, you may lose some readers that otherwise would have benefited from your writing, but are lacking just a bit too much background knowledge to follow along.
 
-Defining your audience and finding a good balance between assuming not too much and not too little pre-existing knowledge is a delicate exercise, but one that needs to be done anyway.
+Defining your audience and finding a good balance between assuming not too much and not too little pre-existing knowledge is a delicate exercise, but one that needs to be done anyway. It is often a good idea to link to other sources for prior reading to ensure your audience can fill in any gaps in assumed knowledge before diving into your article. 
 
 ### 4.2. The Qala target audience
 
