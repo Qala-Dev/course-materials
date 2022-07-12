@@ -19,6 +19,7 @@
   - [6. Don't forget](#6-dont-forget)
     - [6.1. Grammar](#61-grammar)
     - [6.2. Plagiarism](#62-plagiarism)
+  - [7. In summary](#7-in-summary)
 
 Writing is one of the cornerstones of the Qala program. One benefit is that it can help make your learning process more effective by forcing you to think about the subject in more depth. Another benefit is that it contributes to your online portfolio. A good article is a valuable digital artifact that can help you get better exposure to employers, or to the industry in general. This guide contains information and tips on how to write better articles and get more out of your time spent on writing. This is largely based on observations from previous students, and will hopefully prove to apply to your situation too. 
 
@@ -150,3 +151,22 @@ When presenting an idea that is not yours, you'll have to choose between using y
 Even though plagiarism is often not illegal, it is almost guaranteed to blemish your reputation if and when it is discovered.  Especially in an open-source community such as Bitcoin's, be generous with your references. It ensures the original author receives credit for their work where it is due. Taking credit for someone else's work without creating value can be seen as a sign of laziness. 
 
 On the upside, providing ample references to high-quality sources is a great way to make your own article more useful. Even if your writing is sufficiently original, it's usually a good idea to consistently reference the sources that inspired your thinking.
+
+## 7. In summary
+
+This guide presents you with a basic framework to help you improve the quality of the articles you're writing. It is not exhaustive, and you may want to deviate from it in certain ways, but regardless of your process the below checklist should help you increase the impact your articles can make.
+
+Before you start writing, ensure that:
+- [ ] the goals of your article are clear and articulated in the article if relevant
+- [ ] you have identified and stated your target audience, which ideally is sufficiently technical
+- [ ] the topic is narrow enough in scope to ensure that you're able to be(come) enough of an expert on the entire topic
+
+During and after the writing, ensure that:
+- [ ] your article does the best job possible at achieving the stated goals
+- [ ] your article does not contain too much information that your target audience should already know, and does not omit any crucial information your target audience is not yet supposed to know
+- [ ] the topic is clearly stated, and the provided outline helps the reader understand how the article is structured
+- [ ] you've revisited your article multiple times, and feel confident that you cannot reasonably improve it anymore
+- [ ] you've used at least one grammar checking tool and fixed all issues
+- [ ] all sources used for the article are clearly referenced wherever used
+
+Improving your writing takes time and practice. Enjoy the process, and hopefully you'll soon see your articles attract more readers and attention. Have fun!
