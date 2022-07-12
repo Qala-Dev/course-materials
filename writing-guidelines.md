@@ -37,7 +37,7 @@ The Qala program requires you to publish articles regularly, so naturally one of
 Additional goals could be (but are not limited to):
 
 - Learn something new and synthesize your learnings for your own reference
-- Produce digital artefacts of things you've learned, researched, solved, ...
+- Produce digital artifacts of things you've learned, researched, solved, ...
 - Build an online reputation or following in one or multiple domains
 - Help readers avoid going through the same struggles you did when studying or building something specific
 - Promote a new tool you've built or a new insight you've found
@@ -77,7 +77,7 @@ Good recipes for a solid topic - each described in more detail below - are:
 
 ### 3.2. Describing your own journey
 
-If something was difficult for you, chances are it was for at least a few other people as well. One of the easiest sure-fire ways to find a good topic is to describe your journey of how you achieved something that took a bit of a struggle. This could be trying to understand a concept that was poorly (or not at all) explained in existing documentation or building an application that turned out to be difficult in areas you did not expect. Documenting your struggle will help people come to understanding more quickly.
+If something was difficult for you, chances are it was for at least a few other people as well. One of the easiest sure-fire ways to find a good topic is to describe your journey of how you achieved something that took a bit of a struggle. This could be trying to understand a concept that was poorly (or not at all) explained in existing documentation or building an application that turned out to be difficult in areas you did not expect. Documenting your struggle will help people understand it more quickly.
 
 > Hint: take quick notes/scribbles/links during your struggle to make it easier to write later on, and ensure you don't miss any steps that were vital to your understanding (but may seem obvious in hindsight)
 
@@ -110,7 +110,7 @@ Defining your audience and finding a good balance between assuming not too much 
 
 ### 4.2. The Qala target audience
 
-The Qala program has a very clear technical focus. Most of your writing should reflect that. Even though articles catered for a general audience can be helpful (and are important for the Bitcoin ecosystem in general), these will often not be the best choice for two reasons:
+The Qala program has a very clear technical focus. Most of your writing should reflect that. Even though articles catered to a general audience can be helpful (and are important for the Bitcoin ecosystem in general), these will often not be the best choice for two reasons:
 
 - Writing for a general audience typically requires the subject matter to be significantly summarized and simplified. Perhaps paradoxically, it usually takes an expert to make a sound judgment on how that can be done without losing too much nuance or even being plain wrong. 
 - Your goal should be to make yourself stand out for potential employers (and their technical recruiters) and show your level of technical understanding. This is much easier to do with an article catered toward a technical, educated audience.
