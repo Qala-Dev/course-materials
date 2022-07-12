@@ -121,6 +121,8 @@ Even though it's always a good idea to quickly rehash the fundamentals that unde
 
 Everyone's writing process is different, and this guide does not prescribe how you should organize yours. However, especially for inexperienced writers, it's important to realize that your best writing often doesn't come from the first stroke of the pen. 
 
+A good place to start is the outline. Which topics do you want to cover, and what is the most natural order for them to be in? Being explicit about the outline also helps the reader understand what to expect from your article. As you progress with the writing, you can keep reorganizing the outline based on new insights you've gained.
+
 When writing down your thoughts, it helps to be critical throughout, but there's no need to get it perfect right away. You can write down a few sentences, reread them, and see if it makes sense. Is it accurate? Is it complete? Is this the most concise and clear way this could be written? Does it fit in the structure I have laid out? Switching to a different task and revisiting your writing later on can also help bring clarity.
 
 The most important thing is to not be too content too quickly, and keep iterating until you feel like you're not changing much anymore and that you have achieved the kind of quality that you would like your name to be associated with. 
