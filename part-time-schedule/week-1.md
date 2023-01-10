@@ -70,7 +70,7 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
    * Note, this environment should ideally be built using Bitcoin Core and LND which have been build from source by yourself.
 1. Run all Bitcoin Core unit tests
 1. Choose area of the codebase you're interested in, pick a functional test that covers it, and then run that test
-  * hint: see documentation in `test/README.md` for clues on how to run individual tests)
+   * hint: see documentation in `test/README.md` for clues on how to run individual tests)
 1. OPTIONAL: Set up a simulated Lightning Network with Polar using at least three lightning nodes with two channels connecting them.
    * Try create some invoices and paying them. See how the balances of the channels change.
    * Play around a bit and expand your network. Try adding some more nodes.

@@ -8,7 +8,7 @@
   * [Week 5](schedule/week-5.md)
   * [Week 6](schedule/week-6.md)
   * [Week 7](schedule/week-7.md)
-* [Part-time course schedule]
+* Part-time course schedule
   * [Week 1](part-time-schedule/week-1.md)
 * [Meetings](meetings.md)
 * [Presentation topics](presentation-topics.md)
