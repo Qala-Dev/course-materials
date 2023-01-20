@@ -28,13 +28,13 @@ This week, we'll be starting "Mastering Lightning." This book will give you an u
 
 The book is available for free on the [author's GitHub](https://github.com/lnbook/lnbook). A web-reader-friendly hosted version of Mastering Lightning can be found at [lnbook.256k1.dev](https://lnbook.256k1.dev), which can be accessed for educational purposes using username and password `qala:lightning`.
 
-| Day       | Chapter                                                                                                                                            |
-|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Monday    | [Chapter 1: Introduction](https://github.com/lnbook/lnbook/blob/develop/01_introduction.asciidoc)                                                  |
-| Tuesday   | [Chapter 2: Getting Started](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch05.asciidoc)                                                |
-| Wednesday | [Chapter 3: How the Lightning Network works (up to and including Invoices)](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch07.asciidoc) |
-| Thursday  | [Chapter 3 cont. (rest of the chapter)](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch09.asciidoc)                                     |
-| Friday    | [Chapter 4: Lightning Node Software](https://bitcoinops.org/en/schorr-taproot-workshop/)                                                           |
+| Day       | Chapter                                                                                                                         |
+|-----------|---------------------------------------------------------------------------------------------------------------------------------|
+| Monday    | [Chapter 1: Introduction](https://lnbook.256k1.dev/#intro_what_is_the_lightning_network)                                        |
+| Tuesday   | [Chapter 2: Getting Started](https://lnbook.256k1.dev/#getting-started)                                                         |
+| Wednesday | [Chapter 3: How the Lightning Network works (up to and including Invoices)](https://lnbook.256k1.dev/#ch03_How_Lightning_Works) |
+| Thursday  | [Chapter 3 cont. (rest of the chapter)](https://lnbook.256k1.dev/#_delivering_the_payment)                                      |
+| Friday    | [Chapter 4: Lightning Node Software](https://lnbook.256k1.dev/#set_up_a_lightning_node)                                         |
 
 If you finish your chapter(s) for the day early, feel free to move on to the next day's chapter(s), as repetition is key when it comes to absorbing so much knowledge.
 
