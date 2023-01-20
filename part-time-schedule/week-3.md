@@ -39,7 +39,17 @@ The book is available for free on the [author's GitHub](https://github.com/lnboo
 If you finish your chapter(s) for the day early, feel free to move on to the next day's chapter(s), as repetition is key when it comes to absorbing so much knowledge.
 
 ## Deliverables
+
+Each day, do the required reading and:
+
 - Be prepared for the daily discussion groups:
   - Finish reading the chapter(s) for the day
   - Prepare and research your assigned question(s), make sure you can host the discussion and think about follow-up questions etc
   - Prepare and research the questions hosted by other people in your group
+
+You should have already compiled LND from weeks 1 and 2, so as you do the reading also complete the following hands-on exercises to solidify the concepts:
+
+* Open a lightning channel on signet
+* Request an invoice and make a payment
+* BONUS: Repeat previous exercise programmatically (RPC)
+* Have a go at [making a lightning app](https://medium.com/@wbobeirne/making-a-lightning-web-app-part-1-4a13c82f3f78) using LND on signet
