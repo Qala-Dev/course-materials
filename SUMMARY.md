@@ -11,6 +11,7 @@
 * Part-time course schedule
   * [Week 1](part-time-schedule/week-1.md)
   * [Week 2](part-time-schedule/week-2.md)
+  * [Week 3](part-time-schedule/week-3.md)
 * [Meetings](meetings.md)
 * [Presentation topics](presentation-topics.md)
 * [Projects](projects.md)
