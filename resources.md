@@ -5,9 +5,15 @@ They may (or may not!) provide additional insight into one or more facets of Bit
 Resources found below are not representative of the views of Qala or its members.
 Resources have not been verified as accurate; don't trust, verify!
 
-## Technical writing
+## Writing
 
-As a SW engineer, you'll have to do quite a bit of technical writing - whether it's documentation, blog posts ... Technical writing is hard and not something most of us get taught, but doing it well makes all the difference to the reader and can really make your material stand out. If your project is kick ass but people struggle to understand or use it, is it really kick ass?
+### Articles
+
+Writing is one of the cornerstones of the Qala program. One benefit is that it can help make your learning process more effective by forcing you to think about the subject in more depth. Another benefit is that it contributes to your online portfolio. A good article is a valuable digital artifact that can help you get better exposure to employers, or to the industry in general. [This guide](writing-guidelines.md) contains information and tips on how to write better articles and get more out of your time spent on writing.
+
+### Technical Writing
+
+As a SW engineer, you'll have to do quite a bit of technical writing. Technical writing is hard and not something most of us get taught, but doing it well makes all the difference to the reader and can really make your material stand out. If your project is kick ass but people struggle to understand or use it, is it really kick ass?
 
 | **Link** | **Notes** |
 |---|---|
