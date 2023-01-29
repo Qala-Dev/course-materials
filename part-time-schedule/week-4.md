@@ -3,7 +3,9 @@ description: More Mastering Lightning
 ---
 
 # Week 4
+This week, we'll be building on the previous knowledge of Lightning Network by continuing with the "Mastering Lightning" Book. Discussions will be in small groups as usual as you answer discussion questions. 
 
+A web-reader-friendly hosted version of the book can be found at [lnbook.256k1.dev](https://lnbook.256k1.dev), which can be accessed for educational purposes using username and password `qala:lightning`.
 ## Prerequisites
 
 (TODO - We already mentioned polar for the previous week which would be needed for the workshop below. Do we need anything else?)
