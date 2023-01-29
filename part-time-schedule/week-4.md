@@ -12,7 +12,21 @@ A web-reader-friendly hosted version of the book can be found at [lnbook.256k1.d
 
 ## Goals
 
-TODO
+At the end of the week, we hope that you will:
+
+* Understand the architecture of Lightning Network
+* Understand Payment Channels
+  * Constructing a Payment Channel
+  * Sending Payment accross the Channel
+  * The Commitment Transaction
+  * Advancing the Channel State
+  * Closing the Channel
+* Understand Routing on a network of Payment Channels
+  * Routing a Payment
+  * Routing vs pathfinding
+  * Creating a network of Payment Channels
+  * Fairness Protocol
+  * Hash Time-Locked Contracts (HTLCs)
 
 ## Schedule
 
