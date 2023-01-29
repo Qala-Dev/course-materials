@@ -52,9 +52,9 @@ Each day, do the required reading and:
   * Prepare and research the questions hosted by other people in your group
 * Near the end of the week start thinking about which project you would like to tackle next from the [project list](/projects).
 
-## Building Lightning Apps Workshop (TODO: Do we want to drop this or keep it? Should we give more time for wallet work?)
+## Building Lightning Apps Workshop
 
-Please try to complete this on Tuesday or Wednesday of this week.
+Please try to complete this by the end of the week.
 You will need [Polar](https://lightningpolar.com/) installed and working for the workshop.
 
 Follow along with Brian Mancini's "Building a Lightning Graph" workshop which can be found [here](https://github.com/bmancini55/building-lightning-graph).
