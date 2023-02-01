@@ -51,7 +51,7 @@ Each day, do the required reading and:
   * Finish reading the chapter(s) for the day
   * Prepare and research your assigned question(s), make sure you can host the discussion and think about follow-up questions etc
   * Prepare and research the questions hosted by other people in your group
-* Near the end of the week start thinking about which project you would like to tackle next from the [project list](/projects).
+* Near the end of the week start thinking about which project you would like to tackle next from the [project list](../projects.md).
 
 ## Building Lightning Apps Workshop
 
