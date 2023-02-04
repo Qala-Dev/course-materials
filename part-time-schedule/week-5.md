@@ -19,12 +19,12 @@ As usual, a web-reader-friendly hosted version of Mastering Lightning book can b
 
 At the end of the week, we hope that you will:
 
-* Gain practical knowledge on how to manage a Node
-* Understand Channel Operation and Payment Forwarding
+* Gain practical knowledge on how to manage a node
+* Understand channel operation and payment forwarding
   * Managing HTLCs
-  * Committing HTLCs to Channel state
-  * Channel Balance
-* Understand Path Finding and Payment Delivery
+  * Committing HTLCs to channel state
+  * Channel balance
+* Understand path finding and payment delivery
 
 
 ## Schedule
@@ -33,11 +33,11 @@ Below is the schedule for week:
 
 | Day       | Chapter/Workshop                                                                                                                                                                                                                      |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Monday    | [Chapter 9: Channel Operation and Payment Forwarding](https://lnbook.256k1.dev/#channel_operation) (Up to "Forwarding Payment with HTLCs")                                                                 |
+| Monday    | [Chapter 9: Channel Operation and Payment Forwarding](https://lnbook.256k1.dev/#channel_operation) (up to and _excluding_ "Multiple HTLCs")                                                                 |
 | Tuesday   | Node Management Workshop                                      |
-| Wednesday | [Chapter 9: Channel Operation and Payment Forwarding](https://lnbook.256k1.dev/#channel_operation) (Rest of the Chapter)                                                                                   |
+| Wednesday | [Chapter 9: Channel Operation and Payment Forwarding](https://lnbook.256k1.dev/#channel_operation) (rest of the chapter)                                                                                   |
 | Thursday  | Node Management Workshop  |
-| Friday    | [Chapter 12:  Pathfinding and Payment Delivery](https://lnbook.256k1.dev/#path_finding) (Up to Channel Graph Construction)                                                                                       |
+| Friday    | [Chapter 12: Pathfinding and Payment Delivery](https://lnbook.256k1.dev/#path_finding) (up to and _excluding_ "Finding Candidate Paths")                                                                                       |
 
 If you finish your chapter(s) for the day early, feel free to move on to the next day's chapter(s), as repetition is key when it comes to absorbing so much knowledge.
 
