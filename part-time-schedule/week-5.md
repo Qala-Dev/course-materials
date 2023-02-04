@@ -19,26 +19,25 @@ As usual, a web-reader-friendly hosted version of Mastering Lightning book can b
 
 At the end of the week, we hope that you will:
 
-* Gain practical knowledge of how to manage a Mining Node
+* Gain practical knowledge on how to manage a Node
 * Understand Channel Operation and Payment Forwarding
   * Managing HTLCs
   * Committing HTLCs to Channel state
   * Channel Balance
 * Understand Path Finding and Payment Delivery
-* Understand Lightning Payment Requests
 
 
 ## Schedule
 
-Mastering Lightning reading and node management workshops are scheduled as follows:
+Below is the schedule for week:
 
 | Day       | Chapter/Workshop                                                                                                                                                                                                                      |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Monday    | [Chapter 9: Channel Operation and Payment Forwarding](https://github.com/lnbook/lnbook/blob/develop/09_channel_operation.asciidoc)                                                                  |
+| Monday    | [Chapter 9: Channel Operation and Payment Forwarding](https://lnbook.256k1.dev/#channel_operation) (Up to "Forwarding Payment with HTLCs")                                                                 |
 | Tuesday   | Node Management Workshop                                      |
-| Wednesday | [Chapter 12: Pathfinding and Payment Delivery](https://github.com/lnbook/lnbook/blob/develop/12_path_finding.asciidoc)                                                                            |
+| Wednesday | [Chapter 9: Channel Operation and Payment Forwarding](https://lnbook.256k1.dev/#channel_operation) (Rest of the Chapter)                                                                                   |
 | Thursday  | Node Management Workshop  |
-| Friday    | [Chapter 15: Lightning Payment Requests](https://github.com/lnbook/lnbook/blob/develop/15_payment_requests.asciidoc)                                                                                        |
+| Friday    | [Chapter 12:  Pathfinding and Payment Delivery](https://lnbook.256k1.dev/#path_finding) (Up to Channel Graph Construction)                                                                                       |
 
 If you finish your chapter(s) for the day early, feel free to move on to the next day's chapter(s), as repetition is key when it comes to absorbing so much knowledge.
 
@@ -50,13 +49,3 @@ Each day, do the required reading and:
   * Finish reading the chapter(s) for the day
   * Prepare and research your assigned question(s), make sure you can host the discussion and think about follow-up questions etc
   * Prepare and research the questions hosted by other people in your group
-* Select a project from the [project list](../projects.md) to work on or improve an already existing project by refining or adding more functionality.
-
-
-## Project demos 
-
-We are reserving 30 minutes every Thursday for demo time! We highly encourage participation so you can show off what you built!
-This week we will be hearing all about the wallet project you've all been working on.
-
-Read all about them on https://course.qala.dev/meetings and reserve your slot once you've got something to share.
-Demos don't need to be perfect or beautiful, just let us all share in your excitement and experience!
