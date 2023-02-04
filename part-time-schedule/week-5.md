@@ -4,16 +4,16 @@ description: Mastering Lightning and Node Management Workshop
 
 # Week 5
 
-This week, we'll continue with "Mastering Lightning" book, holding Discussions in small groups as you answer discussion questions. We'll also be having workshops on Node Management.
+This week, we'll continue with the "Mastering Lightning" book, holding discussions in small groups as you answer discussion questions. We'll also be having workshops on node management.
 
 Also, we'll be working on more projects or expanding, refining or improving a project you have already started. 
 
-As usual, a web-reader-friendly hosted version of Mastering Lightning Book can be found at [lnbook.256k1.dev](https://lnbook.256k1.dev), which can be accessed for educational purposes using username and password `qala:lightning`.
+As usual, a web-reader-friendly hosted version of Mastering Lightning book can be found at [lnbook.256k1.dev](https://lnbook.256k1.dev), which can be accessed for educational purposes using username and password `qala:lightning`.
 
 ## Prerequisites
 
 * All the previous weeks' developer environments for both Bitcoin and Lightning Network.
-* All the previous chapters of Mastering Lightning Book.
+* All the previously assigned chapters of Mastering Lightning book.
 
 ## Goals
 
@@ -30,7 +30,7 @@ At the end of the week, we hope that you will:
 
 ## Schedule
 
-Mastering Lightning reading and Node Management workshops are scheduled as follows:
+Mastering Lightning reading and node management workshops are scheduled as follows:
 
 | Day       | Chapter/Workshop                                                                                                                                                                                                                      |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
