@@ -6,35 +6,63 @@ description: project ideas for Qala development course
 
 ## General
 
-* We are going to be building multiple projects over the duration of the course, so don't worry about being locked in to a project which you might change your mind about later.
+* We are going to be building our own projects and contributing code to existing open source projects over the duration of the course.
 * Projects can be built as a front-end application, back end application, API or a command line tool.
-* _If_ you choose a project from the list, you can choose either a bitcoin or a lightning project.
-* You may also have your own project or idea that you'd like to build out -- great! Please run your own projects past the instructors first so we can check it is suitable and determine which skills it will exercise.
-* Your first project will probably leverage a bitcoin or lightning library or development kit, in order to facilitate fast iteration on end results.
+* You can use the suggested project list as inspiration for your third project. We want you to work on something that is useful to the community and can be maintained even after the Qala program.
+* Please run your own projects past the instructors first so we can check it is suitable and determine which skills it will require and exercise.
+* Your first project will involve making use of Lightning Network invoices and payments probably leverage a bitcoin or lightning library or development kit, in order to facilitate fast iteration on end results.
 * In your second/third project you should be considering not using a library to do as much of the heavy lifting, so that you can become more comfortable with how bitcoin and lightning work under the hood.
 
 ## Mini design document
 
-The first step is to create a design document that describes your project and approach. The goal of this document is to:
+The first step for all the projects is to create a design document that describes your project / pull request and approach. The goal of this document is to:
 - think critically about what your application needs to do and what you'll need to achieve your goals
 - ensure the scope is neither too broad nor too narrow
 - enable early feedback to prevent spending too much time on an approach that may not be optimal
 
 The design document should contain:
-1. A basic outline of the project
+1. A basic outline of the project or PR.
 1. Goals and non-goals. Define both what's in-, as well as out of scope.
-1. Architecture:
+1. For your application architecture (some of this may not be relevant to PRs):
     1. Components: the building blocks of your application, and which technologies you'll use (e.g. Rust backend and Vue.js frontend)
     1. Interface: which API endpoints, CLI commands or frontend views are required?
     1. Code structure: high-level organization of folders, files, classes
     1. Dependencies: (bitcoind/LND) RPC functions, libraries, ...
-1. Introspection: what are the most difficult or risky parts of the project, based on your own assessment of available skills?
+1. Introspection: what are the most difficult or risky parts of the project or PR, based on your own assessment of available skills?
 1. What milestone you need to reach to consider the project have achieved Minimum Viable Product (MVP) state
 
 **Ensure to maximize your time being able to work on Bitcoin/LN related tasks. Non-critical general software engineering work should be removed from scope as much as possible.**
 
 Please create and share the design document using a collaborative document editor, so that we can add any comments or feedback that we have.
 Examples of editors <https://hackmd.io> and <https://docs.google.com>, but you can choose any you're familiar with so long as we can easily log in to comment.
+
+
+## Project 1 - "Let's hop on the Lightning route together 🐇"
+
+### Outline
+
+TODO
+
+## Project 2 - "Welcome to the community 🤗"
+
+You're going to be doing some real contributing to existing open source projects in the wider community. We'll specifically be looking
+at project issues labelled as `good first issue`. You'll first have to attend the contributing etiquette workshop as it's very important
+we are respectful of maintainers' and other contributors' time and we know how to act appropriately.
+
+### Open Source Project List with Issues
+
+TBC
+
+## Project 3 - "Spread your wings 🦅"
+
+It's come down to this, your final project. Here you're going to get your creativity flowing and work on something really
+great and beneficial to the wider Bitcoin community. If this project could be summarised in two words they would be "longevity"
+and "impact". We want you to do something meaningful here and make your big debut.
+
+You can use any programming language with which you are familiar. Remember that this project is not meant for learning
+a new language, but to build an impactful Bitcoin/Lightning project - you have freedom to choose but don't let it be a barrier
+to accomplishing your primary goals!
+
 
 ## Bitcoin projects
 
