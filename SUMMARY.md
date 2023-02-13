@@ -6,6 +6,7 @@
   * [Week 3](part-time-schedule/week-3.md)
   * [Week 4](part-time-schedule/week-4.md)
   * [Week 5](part-time-schedule/week-5.md)
+  * [Week 6](part-time-schedule/week-6.md)
 * [Full-time course schedule](README.md)
   * [Week 1](schedule/week-1.md)
   * [Week 2](schedule/week-2.md)
