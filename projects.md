@@ -276,7 +276,41 @@ Also be sure to check out the [Boltz Exchange](https://boltz.exchange/) itself.
 
 The ecosystem of libraries for each language is quite diverse. Here are some of the most popular ones, but it's up to you to search for more. And remember, _don't trust, verify_!
 
-### Rust
+### Primary languages
+
+The languages we _highly_ encourage you to use for your first projects. All of you have indicated you know at least one of these and so it will make
+getting started and peer review much easier. We want to make sure that learning a new language does not get in the way of completing your first project
+in a timely manner. There will be ample opportunity to try out something like Go, Rust, and so on in future projects/exercises!
+
+#### JavaScript/TypeScript
+
+* [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) - A javascript Bitcoin library for node.js and browsers. 
+* [bolt11](https://github.com/bitcoinjs/bolt11) - A library for encoding and decoding lightning network payment requests as defined in BOLT #11.
+* [bip38](https://github.com/bitcoinjs/bip38) - BIP38 is a standard process to encrypt Bitcoin and crypto currency private keys that is less susceptible to brute force attacks thus protecting the user.
+* [bip39](https://github.com/bitcoinjs/bip39) - JavaScript implementation of Bitcoin BIP39: Mnemonic code for generating deterministic keys
+* [coinselect](https://github.com/bitcoinjs/coinselect) - An unspent transaction output (UTXO) selection module for bitcoin.
+* [bitcoinjs Org](https://github.com/bitcoinjs) - All the above and more!
+* [boltwall](https://github.com/Tierion/boltwall) - Bitcoin Lightning paywall and authentication using LSATs. Built with LND, Nodejs, and TypeScript.
+* [bcrpc](https://github.com/dgarage/bcrpc) - Tiny Bitcoin RPC wrapper for Node.js.
+* [bitcoinerlab/secp256k1](https://github.com/bitcoinerlab/secp256k1) - A library for performing elliptic curve operations on the secp256k1 curve. It is designed to integrate into the BitcoinJS & BitcoinerLAB ecosystems and uses the audited noble-secp256k1 library.
+
+#### Python
+
+* [buidl](https://github.com/buidl-bitcoin/buidl-python) - python3 bitcoin library with no dependencies and extensive test coverage
+* [bitcoin-lib](https://github.com/petertodd/python-bitcoinlib) - "The Swiss Army Knife of the Bitcoin protocol." - Wladimir J. van der Laan
+* [CLN plugins](https://github.com/lightningd/plugins) - Community curated plugins for core-lightning
+* [python-mnemonic](https://github.com/trezor/python-mnemonic) - Mnemonic code for generating deterministic keys, BIP39
+* [python-bip380](https://github.com/darosior/python-bip380) - Bitcoin Output Script Descriptors with Miniscript extension - Work in progress, ready for hacking and contributions welcomed.
+
+### Other languages
+
+We only encourage moving onto these languages after your first project, unless you have made an arrangement with one of the teachers.
+
+#### Java
+
+* [bitcoinj](https://github.com/bitcoinj/bitcoinj) - A library for working with Bitcoin in Java.
+
+#### Rust
 
 * [bitcoin](https://github.com/rust-bitcoin/rust-bitcoin) - Library with support for de/serialisation, parsing and executing on data-structures and network messages related to Bitcoin. You can use this library to create private keys and addresses, for PSBT operations and other nifty things.
 * [bdk](https://github.com/bitcoindevkit/bdk) - Bitcoin Development Kit is a modern, lightweight, descriptor-based wallet library written in Rust! If you're looking for a great library with high-level APIs for building a Bitcoin wallet then check this out.
@@ -287,22 +321,8 @@ The ecosystem of libraries for each language is quite diverse. Here are some of 
   * **lightning-block-sync** - Utilities to fetch the chain data from a block source and feed them into Rust Lightning.
   * **lightning-invoice Data** - Structures to parse and serialise BOLT11 lightning invoices.
 
-### Go
+#### Go
 
 * Many in [btcsuite](https://github.com/btcsuite) - Super popular and complete set of packages and tools for working with Bitcoin in Go.
 * [lndclient](https://github.com/lightninglabs/lndclient) - A Go native wrapper for `lnd`'s gRPC interface. Useful for interacting with an LND node.
 * [aperture](https://github.com/lightninglabs/aperture) - HTTP 402 Lightning Service Authentication Token Reverse Proxy
-
-### JavaScript
-
-* [bitcoinjs-lib](https://github.com/btcsuite) - A JavaScript Bitcoin library for Node.JS and browsers.
-* [boltwall](https://github.com/Tierion/boltwall) - Bitcoin Lightning paywall and authentication using LSATs. Built with LND, Nodejs, and TypeScript.
-* [bcrpc](https://github.com/dgarage/bcrpc) - Tiny Bitcoin RPC wrapper for Node.js.
-
-### Python
-
-* [bitcoin-lib](https://github.com/petertodd/python-bitcoinlib) - "The Swiss Army Knife of the Bitcoin protocol." - Wladimir J. van der Laan
-
-### Java
-
-* [bitcoinj](https://github.com/bitcoinj/bitcoinj) - A library for working with Bitcoin in Java.
