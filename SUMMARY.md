@@ -17,5 +17,6 @@
   * [Week 7](schedule/week-7.md)
 * [Meetings](meetings.md)
 * [Presentation topics](presentation-topics.md)
-* [Projects](projects.md)
+* [Projects Overview](projects.md)
+  * [Project 001](project-001.md)
 * [Resources](resources.md)
