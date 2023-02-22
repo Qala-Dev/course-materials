@@ -70,9 +70,23 @@ You're going to be doing some real contributing to existing open source projects
 at project issues labelled as `good first issue`. You'll first have to attend the contributing etiquette workshop as it's very important
 we are respectful of maintainers' and other contributors' time and we know how to act appropriately.
 
-### Open Source Project List with Issues
+### Open Source Project List with Good First Issues
 
-TBC
+These are projects with which we are able to assist you.
+
+* [Bitcoin Core](https://github.com/bitcoin/bitcoin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22++-linked%3Apr+no%3Aassignee) - C++/Python
+* [LDK](https://github.com/lightningdevkit/rust-lightning/issues?q=is%3Aissue+is%3Aopen+is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22++-linked%3Apr+no%3Aassignee+) - Rust
+* [LND](https://github.com/lightningnetwork/lnd/issues?q=is%3Aissue+is%3Aopen+is%3Aopen+is%3Aissue+label%3A%22beginner%22++-linked%3Apr+no%3Aassignee+) - Go
+* [Liana Wallet](https://github.com/wizardsardine/liana/issues?q=is%3Aissue+is%3Aopen+is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22++-linked%3Apr+no%3Aassignee+) - Rust
+* [Rust Bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/issues?q=is%3Aissue+is%3Aopen+is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22++-linked%3Apr+no%3Aassignee+) - Rust
+* TBC [Buidl Library](https://github.com/buidl-bitcoin/buidl-python/issues) - Python
+* [Rust Miniscript](https://github.com/rust-bitcoin/rust-miniscript/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - Rust
+* [BDK](https://github.com/bitcoindevkit/bdk/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - Rust
+* TBC [Stratum V2](https://github.com/stratum-mining/stratum/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - Rust
+* TBC [BitcoinJS](https://github.com/bitcoinjs/bitcoinjs-lib/issues) - TypeScript/JavaScript
+
+TODO: Quite rust-heavy at the moment, but most new projects are in Rust 🦀. I'm sure we could also reach out to the Core Lightning team and Eclair?
+      TBC means I don't have a rapport with any of the maintainers yet so can't say for sure if they should be included. But I think they are a good idea!
 
 ## Project 3 - "Spread your wings 🦅"
 
