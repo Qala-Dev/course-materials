@@ -79,14 +79,18 @@ These are projects with which we are able to assist you.
 * [LND](https://github.com/lightningnetwork/lnd/issues?q=is%3Aissue+is%3Aopen+is%3Aopen+is%3Aissue+label%3A%22beginner%22++-linked%3Apr+no%3Aassignee+) - Go
 * [Liana Wallet](https://github.com/wizardsardine/liana/issues?q=is%3Aissue+is%3Aopen+is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22++-linked%3Apr+no%3Aassignee+) - Rust
 * [Rust Bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/issues?q=is%3Aissue+is%3Aopen+is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22++-linked%3Apr+no%3Aassignee+) - Rust
-* TBC [Buidl Library](https://github.com/buidl-bitcoin/buidl-python/issues) - Python
+* [Buidl Library](https://github.com/buidl-bitcoin/buidl-python/issues) - Python
 * [Rust Miniscript](https://github.com/rust-bitcoin/rust-miniscript/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - Rust
 * [BDK](https://github.com/bitcoindevkit/bdk/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - Rust
-* TBC [Stratum V2](https://github.com/stratum-mining/stratum/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - Rust
-* TBC [BitcoinJS](https://github.com/bitcoinjs/bitcoinjs-lib/issues) - TypeScript/JavaScript
+* [Stratum V2](https://github.com/stratum-mining/stratum/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - Rust
+* [BitcoinJS](https://github.com/bitcoinjs/bitcoinjs-lib/issues) - TypeScript/JavaScript
+* [Polar](https://github.com/jamaljsr/polar/issues) - TypeScript
+* [Nigiri](https://github.com/vulpemventures/nigiri/issues) - Go/Docker
+* [BlueWallet](https://github.com/BlueWallet/BlueWallet/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue+%F0%9F%A5%87%22) - JS/ReactNative
+* [Galoy Repos](https://github.com/GaloyMoney/galoy/) - See [tech stack](https://github.com/GaloyMoney/galoy/#tech-stack)
+* [BTCPayServer](https://github.com/btcpayserver/btcpayserver/issues?q=is%3Aissue+is%3Aopen+label%3A"good+first+issue") - C#
 
-TODO: Quite rust-heavy at the moment, but most new projects are in Rust 🦀. I'm sure we could also reach out to the Core Lightning team and Eclair?
-      TBC means I don't have a rapport with any of the maintainers yet so can't say for sure if they should be included. But I think they are a good idea!
+If there is a project you want to contribute to that is not listed above, please let us know so that we can check them out and figure out if they're a good fit :)
 
 ## Project 3 - "Spread your wings 🦅"
 
