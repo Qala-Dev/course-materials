@@ -342,6 +342,7 @@ in a timely manner. There will be ample opportunity to try out something like Go
 * [boltwall](https://github.com/Tierion/boltwall) - Bitcoin Lightning paywall and authentication using LSATs. Built with LND, Nodejs, and TypeScript.
 * [bcrpc](https://github.com/dgarage/bcrpc) - Tiny Bitcoin RPC wrapper for Node.js.
 * [bitcoinerlab/secp256k1](https://github.com/bitcoinerlab/secp256k1) - A library for performing elliptic curve operations on the secp256k1 curve. It is designed to integrate into the BitcoinJS & BitcoinerLAB ecosystems and uses the audited noble-secp256k1 library.
+* [bitcoinerlab/descriptors](https://github.com/bitcoinerlab/descriptors) - A JavaScript library for parsing and interpreting Bitcoin descriptors, including those based on the Miniscript language. 
 
 #### Python
 
