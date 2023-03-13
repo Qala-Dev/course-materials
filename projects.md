@@ -89,9 +89,23 @@ These are projects with which we are able to assist you.
 * [BlueWallet](https://github.com/BlueWallet/BlueWallet/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue+%F0%9F%A5%87%22) - JS/ReactNative
 * [Galoy Repos](https://github.com/GaloyMoney/galoy/) - See [tech stack](https://github.com/GaloyMoney/galoy/#tech-stack)
 * [BTCPayServer](https://github.com/btcpayserver/btcpayserver/issues?q=is%3Aissue+is%3Aopen+label%3A"good+first+issue") - C#
+* [Core Lightning](https://github.com/ElementsProject/lightning/labels/good%20first%20issue) - C/Python
+* [Fedimint](https://github.com/fedimint/fedimint/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - Rust
+* [Faraday](https://github.com/lightninglabs/faraday/issues) - Go
 
 If there is a project you want to contribute to that is not listed above, please let us know so that we can check them out and figure out if they're a good fit :)
 
+TIP: Start small and don't try to understand the whole codebase. You'll encounter the codebase and architecture as you touch small and isolated issues.
+This will improve your experience and knowledge over time.
+
+### Prerequisites for starting on an issue
+
+* Please see the open source contribution [notes](open-source.md).
+* Some mention on the issue that you are going to be working on it. This is also a good time to ask for tips/pointers on the issue.
+* Design doccuments are still necessary for this project. Be sure to at least include:
+  1. Why this issue is a good fit for you in terms of skills.
+  1. How you will go about implementing the fix/feature.
+ 
 ## Project 3 - "Spread your wings 🦅"
 
 It's come down to this, your final project. Here you're going to get your creativity flowing and work on something really

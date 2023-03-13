@@ -22,4 +22,5 @@
 * [Meetings](meetings.md)
 * [Presentation topics](presentation-topics.md)
 * [Projects](projects.md)
+* [Open source contribution notes](open-source.md)
 * [Resources](resources.md)
