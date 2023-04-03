@@ -18,7 +18,7 @@ your Design Document, submit for review and get feedback before the end of the w
 
 ### Open Source Projects
 
-Also, you are encouraged to continue contributing to the Open Source  projects that you 
+Also, you are encouraged to continue contributing to the Open Source projects that you 
 found exciting to contribute.
 
 ### Personal Updates
