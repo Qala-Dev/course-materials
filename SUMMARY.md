@@ -14,6 +14,7 @@
   * [Week 11](part-time-schedule/week-11.md)
   * [Week 12](part-time-schedule/week-12.md)
   * [Week 13](part-time-schedule/week-13.md)
+  * [Week 14](part-time-schedule/week-14.md)
 * [Full-time course schedule](README.md)
   * [Week 1](schedule/week-1.md)
   * [Week 2](schedule/week-2.md)
