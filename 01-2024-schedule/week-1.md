@@ -90,16 +90,23 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 
 | Name                                                               | Link                                                                                                                                                                                                   |
 | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Learn Bitcoin From The Command Line | [https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line)|
 | Create Keys, wallets, addresses and Build a Bitcoin Transaction | [https://medium.com/@bitcoindeezy/bitcoin-basics-programming-with-bitcoinjs-lib-4a69218c0431](https://medium.com/@bitcoindeezy/bitcoin-basics-programming-with-bitcoinjs-lib-4a69218c0431)|
 
 
 
 
 ### Exercise
-1. Build a Bitcoin wallet and make a bitcoin transaction following this programming guide: [https://medium.com/@bitcoindeezy/bitcoin-basics-programming-with-bitcoinjs-lib-4a69218c0431](https://medium.com/@bitcoindeezy/bitcoin-basics-programming-with-bitcoinjs-lib-4a69218c0431). 
+1. Learn Bitcoin From The Command Line: [Using the bitcoin CLI](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/03_0_Understanding_Your_Bitcoin_Setup.md).
+You are expected to:
+    1. Become comfortable working with the bitcoin-cli command-line interface
+    2. Create an Address to Receive Bitcoin Funds
+    3. Use Basic Wallet Commands
+    4. Create an Address to Receive Bitcoin Funds
+2. Build a Bitcoin wallet and make a bitcoin transaction following this programming guide [here](https://medium.com/@bitcoindeezy/bitcoin-basics-programming-with-bitcoinjs-lib-4a69218c0431). 
     1. Note that the bitcoin library does not neccesarily have to be bitcoinjs-lib, any bitcoin library in the programming language of your choice can achieve the same results
     2. You can add an address functionality that allows you to generate one or more different address types e.g. P2PK, P2PKH, P2SH, P2WPKH, P2WSH, P2TR, for the user to choose from
 
 
 ### Deliverables
-1. Takea screenshot of the address you created, the transaction on the testnet faucet and its balance
+1. Take a screenshot of the address you created, the transaction on the testnet faucet and its balance
