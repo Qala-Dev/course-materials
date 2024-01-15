@@ -35,3 +35,7 @@ At the end of the week, we hope that you will:
 
 
 ## Exercises
+1. Perform the stack evaluation of this Bitcoin script and indicate whether it will result in true or false:  hex: '010101029301038801027693010487'
+2. Given the string 'Btrust Builders', whose bytes encoding is '427472757374204275696c64657273', which is our preimage, generate the redeem script in hex format for the given preimage. Note: redeem_script => OP_SHA256 <lock_hex> OP_EQUAL
+
+
