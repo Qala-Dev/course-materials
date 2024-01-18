@@ -48,8 +48,6 @@ At the end of the week, we hope that you will:
     * Tapscript
 
 
-
-
 ## Schedule: Topics and Resources
 
 | Day | Topic |Resources                                                                                                                                              |
