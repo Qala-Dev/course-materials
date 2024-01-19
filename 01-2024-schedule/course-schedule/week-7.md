@@ -14,6 +14,10 @@ Once you've formulated your idea as a team, you are expected to create a detaile
 
 We look forward to see what you will be building!&#x20;
 
+### Prerequisites
+
+Please thoroughly read the project [guide](../projects.md).&#x20;
+
 ### Personal Updates
 
 Daily updates on your personal progress with projects and blog posts.

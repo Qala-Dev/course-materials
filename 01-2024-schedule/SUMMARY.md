@@ -15,3 +15,6 @@
   * [Week 12](course-schedule/week-12.md)
 * [Meetings](meetings.md)
 * [Presentation topics](presentation-topics.md)
+* [Projects](projects.md)
+* [Open source contribution notes](open-source-contribution-notes.md)
+* [Resource hub](resource-hub.md)
