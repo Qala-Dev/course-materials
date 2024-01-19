@@ -1,8 +1,10 @@
 ---
-description: Building on bitcoin and setting up a bitcoin development environment
+description: Keys and Addresses, Wallet Recovery and Digital Signatures
 ---
 
 # Week 1
+
+We will start off with studying Cryptography. We will look at Keys and Addresses and Digital Signatures. We will also study how they are derived. We will also be studying Wallet Recovery.
 
 ## Prerequisites
 
@@ -20,34 +22,6 @@ Please download/clone the following tools/repositories and try to follow and com
 {% hint style="warning" %}
 Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network in the configuration file (`bitcoin.conf`) or as a command line argument (see `bitcoind --help`). Otherwise you will start synchronising blocks for mainnet which is over 400 GB! At this point, you don't even need to run bitcoind just yet.
 {% endhint %}
-
-## Weekly Reading
-
-* Keys and Addresses
-* Wallet Recovery
-* Digital Signatures
-
-
-## Learning Resources
-
-| Name                                                               | Link                                                                                                                                                                                                   |
-| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Setting Up Bitcoin Core and Lightning On Windows using WSL | [https://tobiojuolape.hashnode.dev/preview/63ca548a415abc00080231c5](https://tobiojuolape.hashnode.dev/preview/63ca548a415abc00080231c5)|
-| Setting Up a Bitcoin and Lightning Daemon on Mac from source | [https://dev.to/timothy_masiko/setting-up-a-bitcoin-and-lightning-network-daemon-on-mac-from-source-17hb](https://dev.to/timothy_masiko/setting-up-a-bitcoin-and-lightning-network-daemon-on-mac-from-source-17hb)|
-| Lightning Book - Bitcoin Fundamentals review                       | [https://lnbook.256k1.dev/#bitcoin\_fundamentals\_review](https://lnbook.256k1.dev/#bitcoin\_fundamentals\_review)                                                                                     |
-| BIP0032                                                            | [https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)                                                                       |
-| Learn Bitcoin From The Command Line | [https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line)|
-| Bitstein - Setting up a bitcoin lightning network test environment | [https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a) |
-| Why Bitcoin Addreess is not like an account number | [https://sadeeqcode.medium.com/why-bitcoin-address-is-not-like-an-account-number-e5a5261a0605](https://sadeeqcode.medium.com/why-bitcoin-address-is-not-like-an-account-number-e5a5261a0605)|
-| Learn me a bitcoin | [https://learnmeabitcoin.com/](https://learnmeabitcoin.com/)|
-| Bitcoin Transaction tutorial | [https://github.com/chaincodelabs/bitcoin-tx-tutorial](https://github.com/chaincodelabs/bitcoin-tx-tutorial)|
-| BIP0039   | [https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)|
-| Wallet Recovery | [https://walletsrecovery.org/](https://walletsrecovery.org/)|
-| BIP0044   | [https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki)|
-| BIP0049   | [https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki)|
-| BIP0084   | [https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki)|
-| BIP0086   | [https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki)|
-
 
 
 ## Goals
@@ -110,11 +84,11 @@ You are expected to:
 
 ## Wednesday
 
-### Setup Bitcoin/Lightning developer environment
+### Setup Bitcoin/Lightning Developer Environment
 
 ### Practice Activities
 
-1. Set up a manual bitcoin and lightning developer environment on regtest by following the guide from Bitstein: [Setting up a Bitcoin/Lightning test environment](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a)
+1. Set up a manual Bitcoin and Lightning developer environment on regtest by following the guide from Bitstein: [Setting up a Bitcoin/Lightning test environment](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a)
    * Note, this environment should ideally be built using Bitcoin Core and LND which have been build from source by yourself.
 2. Run all Bitcoin Core unit tests
 3. Choose area of the codebase you're interested in, pick a functional test that covers it, and then run that test
@@ -176,3 +150,25 @@ You are expected to:
         * Rene Pickhardt Schnorr Series - [https://www.youtube.com/watch?v=n5aompcR9W0&list=PLaRKlIqjjguCILECVRXqVhec6yaNYyeMT](https://www.youtube.com/watch?v=n5aompcR9W0&list=PLaRKlIqjjguCILECVRXqVhec6yaNYyeMT)
 4. Learn about SIGHASH - [https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-flags.ipynb](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-flags.ipynb)
 5. SIGHASH Evolution - [https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-evolution.ipynb](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-evolution.ipynb)
+
+
+
+## Learning Resources
+
+| Name                                                               | Link                                                                                                                                                                                                   |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Setting Up Bitcoin Core and Lightning On Windows using WSL | [https://tobiojuolape.hashnode.dev/preview/63ca548a415abc00080231c5](https://tobiojuolape.hashnode.dev/preview/63ca548a415abc00080231c5)|
+| Setting Up a Bitcoin and Lightning Daemon on Mac from source | [https://dev.to/timothy_masiko/setting-up-a-bitcoin-and-lightning-network-daemon-on-mac-from-source-17hb](https://dev.to/timothy_masiko/setting-up-a-bitcoin-and-lightning-network-daemon-on-mac-from-source-17hb)|
+| Lightning Book - Bitcoin Fundamentals review                       | [https://lnbook.256k1.dev/#bitcoin\_fundamentals\_review](https://lnbook.256k1.dev/#bitcoin\_fundamentals\_review)                                                                                     |
+| BIP0032                                                            | [https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)                                                                       |
+| Learn Bitcoin From The Command Line | [https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line)|
+| Bitstein - Setting up a bitcoin lightning network test environment | [https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a) |
+| Why Bitcoin Addreess is not like an account number | [https://sadeeqcode.medium.com/why-bitcoin-address-is-not-like-an-account-number-e5a5261a0605](https://sadeeqcode.medium.com/why-bitcoin-address-is-not-like-an-account-number-e5a5261a0605)|
+| Learn me a bitcoin | [https://learnmeabitcoin.com/](https://learnmeabitcoin.com/)|
+| Bitcoin Transaction tutorial | [https://github.com/chaincodelabs/bitcoin-tx-tutorial](https://github.com/chaincodelabs/bitcoin-tx-tutorial)|
+| BIP0039   | [https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)|
+| Wallet Recovery | [https://walletsrecovery.org/](https://walletsrecovery.org/)|
+| BIP0044   | [https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki)|
+| BIP0049   | [https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki)|
+| BIP0084   | [https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki)|
+| BIP0086   | [https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki)|
