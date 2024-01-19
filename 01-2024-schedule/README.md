@@ -58,8 +58,6 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 
 ### Practice Activities
 
-
-
 These activities assume that you have been able to setup Bitcoin core and the bitcoin-tx-tutorial environment on your system.
 
 1. Quick revision of Elliptic Curve Key Generation. [Practice here](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/appendix/elliptic-curve-math-review.ipynb)
@@ -94,15 +92,22 @@ Take a screenshot of the address you created using the cli, send testnet funds t
 ### Practice Activities
 
 1. Set up a manual Bitcoin and Lightning developer environment on regtest by following the guide from Bitstein: [Setting up a Bitcoin/Lightning test environment](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a)
-   * Note, this environment should ideally be built using Bitcoin Core and LND which have been build from source by yourself.
+
+{% hint style="info" %}
+This environment should ideally be built using Bitcoin Core and LND installed by you from source
+{% endhint %}
+
 2. Run all Bitcoin Core unit tests
-3. Choose area of the codebase you're interested in, pick a functional test that covers it, and then run that test
-   * hint: see documentation in `test/README.md` for clues on how to run individual tests)
+3. Choose area of the codebase you're interested in, pick a functional test that covers it, and then run that test.
+
+{% hint style="info" %}
+see documentation in `test/README.md` for clues on how to run individual tests
+{% endhint %}
 
 ### Deliverables
 
 {% hint style="success" %}
-Screenshot of your lightning developer environment resulting from the guide from Bitstein.
+A screenshot of your lightning developer environment resulting from the guide from Bitstein
 {% endhint %}
 
 ***
@@ -127,7 +132,7 @@ Screenshot of your lightning developer environment resulting from the guide from
 4. Read about Output/Wallet descriptors (BIP 380 - 386)
    * Understand the purpose of wallet descriptors.
    * Understand how descriptors enhance wallets.
-5. Read about the state of Wallet Recovery - [https://walletsrecovery.org/](https://walletsrecovery.org/)
+5. Read about the state of [Wallet Recovery](https://walletsrecovery.org/)
    * Understand why some wallets might not be able to recover your balance
    * Understand the dangers of not using BIP standards in your wallet.
 
@@ -149,18 +154,18 @@ Take a screenshot of the address you created, the transaction on the testnet fau
 
 ### Digital Signatures
 
-1. Learn how digital signatures work - [https://learnmeabitcoin.com/beginners/digital\_signatures\_signing\_verifying](https://learnmeabitcoin.com/beginners/digital\_signatures\_signing\_verifying)
-   * Learn how to sign a message and verify a signature.
-2. Learn more about Elliptic Curve Digital Signature Algorithm (ECDSA) - [https://learnmeabitcoin.com/technical/ecdsa](https://learnmeabitcoin.com/technical/ecdsa)
+1. Learn [how digital signatures work](https://learnmeabitcoin.com/beginners/digital\_signatures\_signing\_verifying)&#x20;
+   * Learn how to sign a message and verify a signature
+2. Learn more about [Elliptic Curve Digital Signature Algorithm (ECDSA) ](https://learnmeabitcoin.com/technical/ecdsa)
    * Learn how this signature algorithm is implemented using the Elliptic curve
-3. Schnorr Signatures - [https://www.youtube.com/watch?v=wybiVFdknhg\&list=PLPrDsP88ifOVTEJf\_jQGunDUS05M9GdIC](https://www.youtube.com/watch?v=wybiVFdknhg\&list=PLPrDsP88ifOVTEJf\_jQGunDUS05M9GdIC)
-   * Understand why they are better than ECDSA.
-   * Develop an understanding of their linearity property.
+3. [Schnorr Signatures](https://www.youtube.com/watch?v=wybiVFdknhg\&list=PLPrDsP88ifOVTEJf\_jQGunDUS05M9GdIC)
+   * Understand why they are better than ECDSA
+   * Develop an understanding of their linearity property
    * Supplementary Material:
-     * Rene Pickhardt Schnorr Series - [https://www.youtube.com/watch?v=n5aompcR9W0\&list=PLaRKlIqjjguCILECVRXqVhec6yaNYyeMT](https://www.youtube.com/watch?v=n5aompcR9W0\&list=PLaRKlIqjjguCILECVRXqVhec6yaNYyeMT)
-4. Learn about SIGHASH - [https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-flags.ipynb](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-flags.ipynb)
-5. SIGHASH Evolution - [https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-evolution.ipynb](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-evolution.ipynb)
+     * [Rene Pickhardt Schnorr Series](https://www.youtube.com/watch?v=n5aompcR9W0\&list=PLaRKlIqjjguCILECVRXqVhec6yaNYyeMT)&#x20;
+4. Learn about [SIGHASH](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-flags.ipynb)
+5. [SIGHASH Evolution](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-evolution.ipynb)
 
 ## Learning Resources
 
-<table data-column-title-hidden data-view="cards"><thead><tr><th>Name</th><th>Link</th></tr></thead><tbody><tr><td>Setting Up Bitcoin Core and Lightning On Windows using WSL</td><td><a href="https://tobiojuolape.hashnode.dev/preview/63ca548a415abc00080231c5">https://tobiojuolape.hashnode.dev/preview/63ca548a415abc00080231c5</a></td></tr><tr><td>Setting Up a Bitcoin and Lightning Daemon on Mac from source</td><td><a href="https://dev.to/timothy_masiko/setting-up-a-bitcoin-and-lightning-network-daemon-on-mac-from-source-17hb">https://dev.to/timothy_masiko/setting-up-a-bitcoin-and-lightning-network-daemon-on-mac-from-source-17hb</a></td></tr><tr><td>Lightning Book - Bitcoin Fundamentals review</td><td><a href="https://lnbook.256k1.dev/#bitcoin_fundamentals_review">https://lnbook.256k1.dev/#bitcoin_fundamentals_review</a></td></tr><tr><td>BIP0032</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki</a></td></tr><tr><td>Learn Bitcoin From The Command Line</td><td><a href="https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line">https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line</a></td></tr><tr><td>Bitstein - Setting up a bitcoin lightning network test environment</td><td><a href="https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a">https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a</a></td></tr><tr><td>Why Bitcoin Address is not like an account number</td><td><a href="https://sadeeqcode.medium.com/why-bitcoin-address-is-not-like-an-account-number-e5a5261a0605">https://sadeeqcode.medium.com/why-bitcoin-address-is-not-like-an-account-number-e5a5261a0605</a></td></tr><tr><td>Learn me a bitcoin</td><td><a href="https://learnmeabitcoin.com/">https://learnmeabitcoin.com/</a></td></tr><tr><td>Bitcoin Transaction tutorial</td><td><a href="https://github.com/chaincodelabs/bitcoin-tx-tutorial">https://github.com/chaincodelabs/bitcoin-tx-tutorial</a></td></tr><tr><td>BIP0039</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki</a></td></tr><tr><td>Wallet Recovery</td><td><a href="https://walletsrecovery.org/">https://walletsrecovery.org/</a></td></tr><tr><td>BIP0044</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki</a></td></tr><tr><td>BIP0049</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki</a></td></tr><tr><td>BIP0084</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki</a></td></tr><tr><td>BIP0086</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki</a></td></tr><tr><td></td><td></td></tr></tbody></table>
+<table data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th>Name</th><th>Link</th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Setting Up Bitcoin Core and Lightning On Windows using WSL</td><td><a href="https://tobiojuolape.hashnode.dev/preview/63ca548a415abc00080231c5">https://tobiojuolape.hashnode.dev/preview/63ca548a415abc00080231c5</a></td><td></td><td></td></tr><tr><td>Setting Up a Bitcoin and Lightning Daemon on Mac from source</td><td><a href="https://dev.to/timothy_masiko/setting-up-a-bitcoin-and-lightning-network-daemon-on-mac-from-source-17hb">https://dev.to/timothy_masiko/setting-up-a-bitcoin-and-lightning-network-daemon-on-mac-from-source-17hb</a></td><td></td><td></td></tr><tr><td>Lightning Book - Bitcoin Fundamentals review</td><td><a href="https://lnbook.256k1.dev/#bitcoin_fundamentals_review">https://lnbook.256k1.dev/#bitcoin_fundamentals_review</a></td><td></td><td></td></tr><tr><td>BIP0032</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki</a></td><td></td><td></td></tr><tr><td>Learn Bitcoin From The Command Line</td><td><a href="https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line">https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line</a></td><td></td><td></td></tr><tr><td>Bitstein - Setting up a bitcoin lightning network test environment</td><td><a href="https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a">https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a</a></td><td></td><td></td></tr><tr><td>Why Bitcoin Address is not like an account number</td><td><a href="https://sadeeqcode.medium.com/why-bitcoin-address-is-not-like-an-account-number-e5a5261a0605">https://sadeeqcode.medium.com/why-bitcoin-address-is-not-like-an-account-number-e5a5261a0605</a></td><td></td><td></td></tr><tr><td>Learn me a bitcoin</td><td><a href="https://learnmeabitcoin.com/">https://learnmeabitcoin.com/</a></td><td></td><td></td></tr><tr><td>Bitcoin Transaction tutorial</td><td><a href="https://github.com/chaincodelabs/bitcoin-tx-tutorial">https://github.com/chaincodelabs/bitcoin-tx-tutorial</a></td><td></td><td></td></tr><tr><td>BIP0039</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki</a></td><td></td><td></td></tr><tr><td>Wallet Recovery</td><td><a href="https://walletsrecovery.org/">https://walletsrecovery.org/</a></td><td></td><td></td></tr><tr><td>BIP0044</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki</a></td><td></td><td></td></tr><tr><td>BIP0049</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki</a></td><td></td><td></td></tr><tr><td>BIP0084</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki</a></td><td></td><td></td></tr><tr><td>BIP0086</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki</a></td><td></td><td></td></tr></tbody></table>
