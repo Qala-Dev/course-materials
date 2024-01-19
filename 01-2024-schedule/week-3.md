@@ -2,8 +2,7 @@
 description: Deep Dive into Bitcoin Blockchain, Network, and Transaction Fees
 ---
 
-
-## Week 3
+# Week 3
 
 This week, we will be studying the Bitcoin Blockchain and it's P2P Network. We will also be looking at Transaction Fees and how they are calculated.
 
