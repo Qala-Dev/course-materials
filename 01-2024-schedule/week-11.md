@@ -4,6 +4,25 @@ description: Proof of Work Showcase
 
 # Week 11
 
-This week, along with continuing to contribute to Open Source Projects, you will be guided on how to prepare a presentation outlining all the work you have done through out the duration of the program. You will share all the projects you have built together with your open source contributions. 
+This week,
+
+## Primary focus
+
+This week, the primary focus will be on the Proof of Work Showcase.&#x20;
+
+Alongside your Open Source Project contributions, you will prepare a presentation outlining all the work you have done through out the duration of the program. This will include the blog posts you have published, personal & group projects, and open source contributions.&#x20;
+
+### Monday
+
+We will start the week by having a Test Run within the group to prepare us on how to prepare and present our work to the larger community.&#x20;
+
+### Personal Updates
+
+Daily updates on your personal progress with projects and blog posts.
+
+### Blog posts
+
+You will continue to write and publish blog posts and give updates accordingly.
+
 
 

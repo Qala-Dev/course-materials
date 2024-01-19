@@ -1,10 +1,10 @@
 ---
-description: Setting up a dev environment | Mastering Bitcoin refresher
+description: Setting Up a Dev Environment | Mastering Bitcoin Refresher
 ---
 
 # Week 1
 
-This week, we're going to help you get ready to work with Bitcoin by setting up your developer environments. We'll also go over some important aspects of the Mastering Bitcoin book that are most essential to becoming efficient and effective Bitcoin/LN builders.
+We're going to help you get ready to work with Bitcoin by setting up your developer environments. We'll also go over some important aspects of the Mastering Bitcoin book that are most essential to becoming efficient and effective Bitcoin/LN builders.
 
 First, we'll learn about Cryptography, exploring Keys, Addresses, and Digital Signatures. Our focus will include understanding how they are derived. We'll also cover Wallet Recovery.
 
@@ -117,7 +117,7 @@ The Mastering Bitcoin book (3rd edition) can be accessed [here](https://drive.go
 
 ### Practice Activities
 
-_These activities assume that you have been able to setup Bitcoin core and the bitcoin-tx-tutorial environment on your system_
+These activities assume that you have been able to setup Bitcoin core and the bitcoin-tx-tutorial environment on your system
 
 1. Quick revision of Elliptic Curve Key Generation. [Practice here](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/appendix/elliptic-curve-math-review.ipynb)
    * Develop a good practical understanding of how to generate private and public keys.

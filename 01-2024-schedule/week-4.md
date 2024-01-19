@@ -4,8 +4,6 @@ description: Second-Layer Applications
 
 # Week 4
 
-This week's primary focus will be on Second-Layer Applications - Lightning Network, as well as understanding the bitcoin philosophy.
+This week, we'll mainly learn about Second-Layer Applications, specifically the Lightning Network. We'll explore how the network functions, its structure, and payment channels.&#x20;
 
-We will look at how the Network works, it's architecture and payment channels.&#x20;
-
-We will also study path finding and payment delivery amongst other aspects of Lightning Network.
+Additionally, we'll delve into topics like path finding and how payments are delivered in the Lightning Network. Plus, we'll try to grasp the philosophy behind Bitcoin.
