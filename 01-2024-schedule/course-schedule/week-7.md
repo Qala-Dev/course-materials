@@ -6,9 +6,11 @@ description: Group Projects
 
 ## Primary focus
 
-This week, you will be assigned a group to work on a project. In the project, you will showcase your pre-existing skills, and combine them with your new bitcoin and lightning knowledge to build something really innovative as a team.
+This week, you will be assigned a group to work on a project.&#x20;
 
-Once you've formulated your idea as a team, you are expected to create a detailed plan. The plan will contain a break down of tasks into smaller achievable goals which are specific and measurable. You're expected to indicate an MVP end goal where you would consider the project in a workable (alpha) state.&#x20;
+This gives you an opportunity to showcase your pre-existing skills, and combine them with your new bitcoin and lightning knowledge to build something really innovative as a team.
+
+Once you've formulated your idea as a team, you are expected to create a detailed plan. The plan will contain a break down of tasks into smaller achievable goals which are specific and measurable. Ensure to indicate an MVP end goal where you would consider the project in a workable (alpha) state.&#x20;
 
 We look forward to see what you will be building!&#x20;
 
