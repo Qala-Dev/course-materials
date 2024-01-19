@@ -26,21 +26,75 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 
 ## Goals
 
-* Become comfortable and proficient in setting up bitcoin developer environments
-* Be able to run and interface with Bitcoin Core and LND
-  * Understand signet, regtest and testnet.
-  * Connect Bitcoin Core and LND programmatically
-  * Interface with Bitcoin Core and LND using the CLI tools
-  * Programmatic control of bitcoind and LND
-  * Comfortable with running the full test suite(s) of Bitcoin Core
-* Build a toy bitcoin wallet using a library
-  * Add additional functionality of your choosing
-* Develop a robust understanding of bitcoin topics both in theory and in practice:
-  * Random number generation
-  * Keys and key material
-  * Derivation paths
-  * Address types
-  * Differences between keys, address and digital signatures
+<details>
+
+<summary>Become comfortable and proficient in setting up bitcoin developer environments</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>Be able to run and interface with Bitcoin Core and LND</summary>
+
+* Understand signet, regtest and testnet.
+
+<!---->
+
+* Connect Bitcoin Core and LND programmatically
+
+<!---->
+
+* Interface with Bitcoin Core and LND using the CLI tools
+
+<!---->
+
+* Programmatic control of bitcoind and LND
+
+<!---->
+
+* Comfortable with running the full test suite(s) of Bitcoin Core
+
+</details>
+
+<details>
+
+<summary>Build a toy bitcoin wallet using a library</summary>
+
+* Add additional functionality of your choosing
+
+</details>
+
+<details>
+
+<summary>Develop a robust understanding of bitcoin topics both in theory and in practice</summary>
+
+* Random number generation
+
+<!---->
+
+* Keys and key material
+
+<!---->
+
+* Derivation paths
+
+<!---->
+
+* Address types
+
+<!---->
+
+* Differences between keys, address and digital signatures
+
+</details>
+
+## Schedule
+
+The Mastering Bitcoin book (3rd edition) can be accessed [here](https://drive.google.com/file/d/1h6YD9XR8-G2MUwpRVSEjwfERIqgsBqb\_/view?usp=sharing). Discussion questions are available on [Btrust Builders' GitHub](https://github.com/Qala-Dev/discussion-questions/tree/main/mastering-bitcoin). An overview of the questions for which you will be the discussion leader will be shared over the usual channels, and the daily discussions will be scheduled on calendar.&#x20;
+
+***
 
 ## Monday
 
@@ -50,15 +104,20 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 4. Why we bitcoin
 5. Maximizing the builders fellowship
 
-***
-
 ## Tuesday
 
 ### Keys and Addresses
 
+| Action                                                                                                                         | Context                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Finish reading the chapter(s) for the day                                                                                      | Chapter 4: [Keys, Addresses](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc)                                           |
+| Prepare and research your assigned question(s), make sure you can host the discussion and think about follow-up questions etc. | [Discussion questions](https://github.com/Qala-Dev/discussion-questions/tree/main/mastering-bitcoin#chapter-4) for Chapter 4: Keys, Addresses |
+| Attend the study session                                                                                                       | Check your calendar for the meeting information                                                                                               |
+| Try out any of the practice activities below                                                                                   | [Practice activities](./#practice-activities)                                                                                                 |
+
 ### Practice Activities
 
-These activities assume that you have been able to setup Bitcoin core and the bitcoin-tx-tutorial environment on your system.
+_These activities assume that you have been able to setup Bitcoin core and the bitcoin-tx-tutorial environment on your system_
 
 1. Quick revision of Elliptic Curve Key Generation. [Practice here](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/appendix/elliptic-curve-math-review.ipynb)
    * Develop a good practical understanding of how to generate private and public keys.
@@ -83,11 +142,9 @@ These activities assume that you have been able to setup Bitcoin core and the bi
 Take a screenshot of the address you created using the cli, send testnet funds to that address using this [faucet](https://bitcoinfaucet.uo1.net/) and share the screenshot of the transaction on the testnet [explorer](https://mempool.space/testnet) and its balance
 {% endhint %}
 
-***
-
 ## Wednesday
 
-### Setup Bitcoin/Lightning Developer Environment
+### Set-up Bitcoin/Lightning Developer Environment
 
 ### Practice Activities
 
