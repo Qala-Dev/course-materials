@@ -13,3 +13,4 @@
   * [Week 10](course-schedule/week-10.md)
   * [Week 11](course-schedule/week-11.md)
   * [Week 12](course-schedule/week-12.md)
+* [Meetings](meetings.md)
