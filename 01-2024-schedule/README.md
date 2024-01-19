@@ -50,11 +50,15 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 4. Why we bitcoin
 5. Maximizing the builders fellowship
 
+***
+
 ## Tuesday
 
 ### Keys and Addresses
 
 ### Practice Activities
+
+
 
 These activities assume that you have been able to setup Bitcoin core and the bitcoin-tx-tutorial environment on your system.
 
@@ -77,7 +81,11 @@ These activities assume that you have been able to setup Bitcoin core and the bi
 
 ### Deliverables
 
-1. Take a screenshot of the address you created using the cli, send testnet funds to that address using this [faucet](https://bitcoinfaucet.uo1.net/) and share the screenshot of the transaction on the testnet [explorer](https://mempool.space/testnet) and its balance
+{% hint style="success" %}
+Take a screenshot of the address you created using the cli, send testnet funds to that address using this [faucet](https://bitcoinfaucet.uo1.net/) and share the screenshot of the transaction on the testnet [explorer](https://mempool.space/testnet) and its balance
+{% endhint %}
+
+***
 
 ## Wednesday
 
@@ -93,7 +101,11 @@ These activities assume that you have been able to setup Bitcoin core and the bi
 
 ### Deliverables
 
-1. Screenshot of your lightning developer environment resulting from the guide from Bitstein.
+{% hint style="success" %}
+Screenshot of your lightning developer environment resulting from the guide from Bitstein.
+{% endhint %}
+
+***
 
 ## Thursday
 
@@ -127,7 +139,11 @@ These activities assume that you have been able to setup Bitcoin core and the bi
 
 ### Deliverables
 
-1. Take a screenshot of the address you created, the transaction on the testnet faucet and its balance
+{% hint style="success" %}
+Take a screenshot of the address you created, the transaction on the testnet faucet and its balance
+{% endhint %}
+
+***
 
 ### Friday
 
@@ -147,4 +163,4 @@ These activities assume that you have been able to setup Bitcoin core and the bi
 
 ## Learning Resources
 
-<table><thead><tr><th width="357">Name</th><th>Link</th></tr></thead><tbody><tr><td>Setting Up Bitcoin Core and Lightning On Windows using WSL</td><td><a href="https://tobiojuolape.hashnode.dev/preview/63ca548a415abc00080231c5">https://tobiojuolape.hashnode.dev/preview/63ca548a415abc00080231c5</a></td></tr><tr><td>Setting Up a Bitcoin and Lightning Daemon on Mac from source</td><td><a href="https://dev.to/timothy_masiko/setting-up-a-bitcoin-and-lightning-network-daemon-on-mac-from-source-17hb">https://dev.to/timothy_masiko/setting-up-a-bitcoin-and-lightning-network-daemon-on-mac-from-source-17hb</a></td></tr><tr><td>Lightning Book - Bitcoin Fundamentals review</td><td><a href="https://lnbook.256k1.dev/#bitcoin_fundamentals_review">https://lnbook.256k1.dev/#bitcoin_fundamentals_review</a></td></tr><tr><td>BIP0032</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki</a></td></tr><tr><td>Learn Bitcoin From The Command Line</td><td><a href="https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line">https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line</a></td></tr><tr><td>Bitstein - Setting up a bitcoin lightning network test environment</td><td><a href="https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a">https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a</a></td></tr><tr><td>Why Bitcoin Address is not like an account number</td><td><a href="https://sadeeqcode.medium.com/why-bitcoin-address-is-not-like-an-account-number-e5a5261a0605">https://sadeeqcode.medium.com/why-bitcoin-address-is-not-like-an-account-number-e5a5261a0605</a></td></tr><tr><td>Learn me a bitcoin</td><td><a href="https://learnmeabitcoin.com/">https://learnmeabitcoin.com/</a></td></tr><tr><td>Bitcoin Transaction tutorial</td><td><a href="https://github.com/chaincodelabs/bitcoin-tx-tutorial">https://github.com/chaincodelabs/bitcoin-tx-tutorial</a></td></tr><tr><td>BIP0039</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki</a></td></tr><tr><td>Wallet Recovery</td><td><a href="https://walletsrecovery.org/">https://walletsrecovery.org/</a></td></tr><tr><td>BIP0044</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki</a></td></tr><tr><td>BIP0049</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki</a></td></tr><tr><td>BIP0084</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki</a></td></tr><tr><td>BIP0086</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki</a></td></tr></tbody></table>
+<table data-column-title-hidden data-view="cards"><thead><tr><th>Name</th><th>Link</th></tr></thead><tbody><tr><td>Setting Up Bitcoin Core and Lightning On Windows using WSL</td><td><a href="https://tobiojuolape.hashnode.dev/preview/63ca548a415abc00080231c5">https://tobiojuolape.hashnode.dev/preview/63ca548a415abc00080231c5</a></td></tr><tr><td>Setting Up a Bitcoin and Lightning Daemon on Mac from source</td><td><a href="https://dev.to/timothy_masiko/setting-up-a-bitcoin-and-lightning-network-daemon-on-mac-from-source-17hb">https://dev.to/timothy_masiko/setting-up-a-bitcoin-and-lightning-network-daemon-on-mac-from-source-17hb</a></td></tr><tr><td>Lightning Book - Bitcoin Fundamentals review</td><td><a href="https://lnbook.256k1.dev/#bitcoin_fundamentals_review">https://lnbook.256k1.dev/#bitcoin_fundamentals_review</a></td></tr><tr><td>BIP0032</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki</a></td></tr><tr><td>Learn Bitcoin From The Command Line</td><td><a href="https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line">https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line</a></td></tr><tr><td>Bitstein - Setting up a bitcoin lightning network test environment</td><td><a href="https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a">https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a</a></td></tr><tr><td>Why Bitcoin Address is not like an account number</td><td><a href="https://sadeeqcode.medium.com/why-bitcoin-address-is-not-like-an-account-number-e5a5261a0605">https://sadeeqcode.medium.com/why-bitcoin-address-is-not-like-an-account-number-e5a5261a0605</a></td></tr><tr><td>Learn me a bitcoin</td><td><a href="https://learnmeabitcoin.com/">https://learnmeabitcoin.com/</a></td></tr><tr><td>Bitcoin Transaction tutorial</td><td><a href="https://github.com/chaincodelabs/bitcoin-tx-tutorial">https://github.com/chaincodelabs/bitcoin-tx-tutorial</a></td></tr><tr><td>BIP0039</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki</a></td></tr><tr><td>Wallet Recovery</td><td><a href="https://walletsrecovery.org/">https://walletsrecovery.org/</a></td></tr><tr><td>BIP0044</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki</a></td></tr><tr><td>BIP0049</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki</a></td></tr><tr><td>BIP0084</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki</a></td></tr><tr><td>BIP0086</td><td><a href="https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki</a></td></tr><tr><td></td><td></td></tr></tbody></table>
