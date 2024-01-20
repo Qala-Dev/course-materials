@@ -149,10 +149,7 @@ The Mastering Bitcoin book (3rd edition) can be accessed [here](https://drive.go
 
 | Topic     | Goals                   | Resources                                                            |
 |-----------|-------------------------|----------------------------------------------------------------------|
-| Keys and Addresses | Understand: How to Generate Private and Public Keys <br/> Difference between compressed and uncompressed keys |  [Elliptic Curve Key Generation](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/appendix/elliptic-curve-math-review.ipynb) <br/> [Private Keys](https://learnmeabitcoin.com/beginners/private_keys)|
-| Overview of Addresses | Understand: How addresses are created from scripts <br/> Address formats: Base58, bech32 and bech32m and their differences | [Addresses](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/appendix/addresses.ipynb)  <br/> [Keys and Addresses](https://learnmeabitcoin.com/beginners/keys_addresses)|
-| Bitcoin CLI | Using the Bitcoin Cli <br/> Create an Address to Receive Bitcoin Funds <br/> Basic Wallet Commands | [Using the bitcoin CLI](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/03_0_Understanding_Your_Bitcoin_Setup.md) |
-| Wallet Recovery | Understand:  Hierarchical Deterministic Wallets <br/> child key derivation functions <br/> parent and child keys are derived from each other, and from a master seed <br/>  Mnemonics <br/> Derivation Paths  <br/> Output/Wallet descriptors <br/> | [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) <br/> [HD Wallets](https://learnmeabitcoin.com/technical/hd-wallets) <br/> [An Overview of the BIPs that Shape Modern HD Wallets](https://thunderbiscuit.com/posts/modern-wallets/)  <br/> [Learnmeabitcoin: Derivation Paths](https://learnmeabitcoin.com/technical/derivation-paths) <br/> [state of Wallet Recovery](https://walletsrecovery.org/)|
+| Wallet Recovery | Understand:  Hierarchical Deterministic Wallets <br/> Child key derivation functions <br/> How parent and child keys are derived from each other, and from a master seed <br/>  Mnemonics <br/> Derivation Paths  <br/> Output/Wallet descriptors <br/> | [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) <br/> [HD Wallets](https://learnmeabitcoin.com/technical/hd-wallets) <br/> [An Overview of the BIPs that Shape Modern HD Wallets](https://thunderbiscuit.com/posts/modern-wallets/)  <br/> [Learnmeabitcoin: Derivation Paths](https://learnmeabitcoin.com/technical/derivation-paths) <br/> [state of Wallet Recovery](https://walletsrecovery.org/)|
 | Digital Signatures | Understand: How digital signatures work <br/>  how to sign a message and verify a signature <br/> Elliptic Curve Ditigal Signature Algorithm (ECDSA) <br/> Schnorr Signatures <br/> SIGHASH | [Digital Signatures](https://learnmeabitcoin.com/beginners/digital_signatures_signing_verifying) <br/> [Elliptic Curve Ditigal Signature Algorithm (ECDSA)](https://learnmeabitcoin.com/technical/ecdsa) <br/> [Schnorr Signatures ](https://www.youtube.com/watch?v=wybiVFdknhg&list=PLPrDsP88ifOVTEJf_jQGunDUS05M9GdIC) <br/> [Rene Pickhardt Schnorr Series](https://www.youtube.com/watch?v=n5aompcR9W0&list=PLaRKlIqjjguCILECVRXqVhec6yaNYyeMT) <br/> [SIGHASH](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-flags.ipynb) <br/> [SIGHASH Evolution](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-evolution.ipynb) |
 
 
@@ -162,45 +159,46 @@ The Mastering Bitcoin book (3rd edition) can be accessed [here](https://drive.go
 These activities assume that you have been able to setup Bitcoin core and the bitcoin-tx-tutorial environment on your system
 
 1. Mastering Bitcoin Activities:
+These activities assume that you have been able to setup Bitcoin core and the bitcoin-tx-tutorial environment on your system
 
-  1. Quick revision of Elliptic Curve Key Generation. [Practice here](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/appendix/elliptic-curve-math-review.ipynb)
-    * Develop a good practical understanding of how to generate private and public keys.
-    * Develop an understanding of the difference between compressed and uncompressed keys.
-    * Supplementary materials:
-      * [Search the topic on Learnmeabitcoin](https://learnmeabitcoin.com/)
-  2. Overview of Addresses. [Practice here](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/appendix/addresses.ipynb)
-    * Get a good understanding of how addresses are created from scripts
-    * Develop a good understanding of Base58, bech32 and bech32m addresses.
-    * Develop an understanding of what differentiate these different address types.
-    * Supplementary materials:
-      * [Search the topic on Learnmeabitcoin](https://learnmeabitcoin.com/)
-  3. Learn Bitcoin From The Command Line: [Using the bitcoin CLI](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/03\_0\_Understanding\_Your\_Bitcoin\_Setup.md). You are expected to:
-    1. Become comfortable working with the bitcoin-cli command-line interface
-    2. Create an Address to Receive Bitcoin Funds
-    3. Use Basic Wallet Commands
-    4. Create an Address to Receive Bitcoin Funds
+* Quick revision of Elliptic Curve Key Generation. [Practice here](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/appendix/elliptic-curve-math-review.ipynb)
+   * Develop a good practical understanding of how to generate private and public keys.
+   * Develop an understanding of the difference between compressed and uncompressed keys.
+   * Supplementary materials:
+     * [Search the topic on Learnmeabitcoin](https://learnmeabitcoin.com/)
+* Overview of Addresses. [Practice here](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/appendix/addresses.ipynb)
+   * Get a good understanding of how addresses are created from scripts
+   * Develop a good understanding of Base58, bech32 and bech32m addresses.
+   * Develop an understanding of what differentiate these different address types.
+   * Supplementary materials:
+     * [Search the topic on Learnmeabitcoin](https://learnmeabitcoin.com/)
+* Learn Bitcoin From The Command Line: [Using the bitcoin CLI](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/03\_0\_Understanding\_Your\_Bitcoin\_Setup.md). You are expected to:
+   * Become comfortable working with the bitcoin-cli command-line interface
+   * Create an Address to Receive Bitcoin Funds
+   * Use Basic Wallet Commands
+   * Create an Address to Receive Bitcoin Funds
 
 2. Setting up Bitcoin/LN Environment Activities:
 
-  1. Set up a manual Bitcoin and Lightning developer environment on regtest by following the guide from Bitstein: [Setting up a Bitcoin/Lightning test environment](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a)
+  * Set up a manual Bitcoin and Lightning developer environment on regtest by following the guide from Bitstein: [Setting up a Bitcoin/Lightning test environment](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a)
 
   {% hint style="info" %}
   This environment should ideally be built using Bitcoin Core and LND installed by you from source
   {% endhint %}
 
-  2. Run all Bitcoin Core unit tests
-  3. Choose area of the codebase you're interested in, pick a functional test that covers it, and then run that test.
+  * Run all Bitcoin Core unit tests
+  * Choose area of the codebase you're interested in, pick a functional test that covers it, and then run that test.
 
   {% hint style="info" %}
   see documentation in `test/README.md` for clues on how to run individual tests
   {% endhint %}
 
 
-### Exercise
+### Exercises
 
 1. Build a Bitcoin wallet and make a bitcoin transaction following this programming guide [here](https://medium.com/@bitcoindeezy/bitcoin-basics-programming-with-bitcoinjs-lib-4a69218c0431). 
-    1. Note that the bitcoin library does not neccesarily have to be bitcoinjs-lib, any bitcoin library in the programming language of your choice can achieve the same results
-    2. You can add an address functionality that allows you to generate one or more different address types e.g. P2PK, P2PKH, P2SH, P2WPKH, P2WSH, P2TR, for the user to choose from
+    * Note that the bitcoin library does not neccesarily have to be bitcoinjs-lib, any bitcoin library in the programming language of your choice can achieve the same results
+    * You can add an address functionality that allows you to generate one or more different address types e.g. P2PK, P2PKH, P2SH, P2WPKH, P2WSH, P2TR, for the user to choose from
 2. Set up a manual Bitcoin and Lightning developer environment on regtest by following the guide from Bitstein: [Setting up a Bitcoin/Lightning test environment](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a)
    * Note, this environment should ideally be built using Bitcoin Core and LND which have been build from source by yourself.
 3. Run all Bitcoin Core unit tests
