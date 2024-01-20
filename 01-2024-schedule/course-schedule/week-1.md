@@ -140,7 +140,7 @@ The Mastering Bitcoin book (3rd edition) can be accessed [here](https://drive.go
 | Finish reading the chapter(s) for the day                                                                                      | Chapter 4: [Keys, Addresses](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc)                                           |
 | Prepare and research your assigned question(s), make sure you can host the discussion and think about follow-up questions etc. | [Discussion questions](https://github.com/Qala-Dev/discussion-questions/tree/main/mastering-bitcoin#chapter-4) for Chapter 4: Keys, Addresses |
 | Attend the study session                                                                                                       | Check your calendar for the meeting information                                                                                               |
-| Try out any of the practice activities below                                                                                   | [Practice activities](./#practice-activities)                                                                                                 |
+| Try out any of the practice activities below                                                                                   | [Practice activities](#practice-activities)                                                                                                 |
 
 
 
