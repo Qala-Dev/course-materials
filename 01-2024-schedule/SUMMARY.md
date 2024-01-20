@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Course schedule](README.md)
-  * [Week 1](course-schedule/readme.md)
+  * [Week 1](course-schedule/week-1.md)
   * [Week 2](course-schedule/week-2.md)
   * [Week 3](course-schedule/week-3.md)
   * [Week 4](course-schedule/week-4.md)
