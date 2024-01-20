@@ -4,7 +4,7 @@ description: Setting Up a Dev Environment | Mastering Bitcoin Refresher
 
 # Week 1
 
-We're going to help you get ready to work with Bitcoin by setting up your developer environments. We'll also go over some important aspects of the Mastering Bitcoin book that are most essential to becoming efficient and effective Bitcoin/LN builders.
+We're going to help you get ready to work with Bitcoin by setting up your developer environments. We'll also go over some important aspects of the Mastering Bitcoin book that are most essential to becoming efficient and effective Bitcoin/LN builders. 
 
 First, we'll learn about Cryptography, exploring Keys, Addresses, and Digital Signatures. Our focus will include understanding how they are derived. We'll also cover Wallet Recovery.
 
@@ -29,8 +29,6 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 <details>
 
 <summary>Become comfortable and proficient in setting up bitcoin developer environments</summary>
-
-
 
 </details>
 
@@ -114,6 +112,7 @@ The Mastering Bitcoin book (3rd edition) can be accessed [here](https://drive.go
 | Prepare and research your assigned question(s), make sure you can host the discussion and think about follow-up questions etc. | [Discussion questions](https://github.com/Qala-Dev/discussion-questions/tree/main/mastering-bitcoin#chapter-4) for Chapter 4: Keys, Addresses |
 | Attend the study session                                                                                                       | Check your calendar for the meeting information                                                                                               |
 | Try out any of the practice activities below                                                                                   | [Practice activities](./#practice-activities)                                                                                                 |
+
 
 ### Practice Activities
 

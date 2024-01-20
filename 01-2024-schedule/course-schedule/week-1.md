@@ -1,23 +1,22 @@
 ---
-description: Keys and Addresses, Wallet Recovery and Digital Signatures
+description: Setting Up a Dev Environment | Mastering Bitcoin Refresher
 ---
 
 # Week 1
 
-We will start off with studying Cryptography. We will look at Keys and Addresses and Digital Signatures. We will also study how they are derived. We will also be studying Wallet Recovery.
+We're going to help you get ready to work with Bitcoin by setting up your developer environments. We'll also go over some important aspects of the Mastering Bitcoin book that are most essential to becoming efficient and effective Bitcoin/LN builders. Essentially, we will be covering Keys, Addresses, Digital Signatures and Wallet Recovery.
 
 ## Prerequisites
 
-We would like you to download some source code and attempt to compile it by following its build instructions. You will find yourself using these softwares throughout 
-the course.
+We would like you to download some source code and attempt to compile it by following its build instructions. You will find yourself using these software throughout the course.
 
 Please download/clone the following tools/repositories and try to follow and complete their build processes:
 
-| Software       | Repository                                                                                   |
-| -------------- | -------------------------------------------------------------------------------------------- |
-| Bitcoin Core   | [https://github.com/bitcoin/bitcoin](https://github.com/bitcoin/bitcoin)                     |
-| LND            | [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd)           |
-| Polar          | [https://lightningpolar.com/](https://lightningpolar.com)                                    |
+| Software     | Repository                                                                         |
+| ------------ | ---------------------------------------------------------------------------------- |
+| Bitcoin Core | [https://github.com/bitcoin/bitcoin](https://github.com/bitcoin/bitcoin)           |
+| LND          | [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd) |
+| Polar        | [https://lightningpolar.com/](https://lightningpolar.com)                          |
 
 {% hint style="warning" %}
 Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network in the configuration file (`bitcoin.conf`) or as a command line argument (see `bitcoind --help`). Otherwise you will start synchronising blocks for mainnet which is over 400 GB! At this point, you don't even need to run bitcoind just yet.
@@ -26,24 +25,127 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 
 ## Goals
 
-* Become comfortable and proficient in setting up bitcoin developer environments
-* Be able to run and interface with Bitcoin Core and LND
-  * Understand signet, regtest and testnet.
-  * Connect Bitcoin Core and LND programmatically
-  * Interface with Bitcoin Core and LND using the CLI tools
-  * Programmatic control of bitcoind and LND
-  * Comfortable with running the full test suite(s) of Bitcoin Core
-* Build a toy bitcoin wallet using a library
-  * Add additional functionality of your choosing
-* Develop a robust understanding of bitcoin topics both in theory and in practice:
-  * Random number generation
-  * Keys and key material
-  * Derivation paths
-  * Address types
-  * The differences between keys, address and digital signatures
+
+<details>
+ <summary>Become comfortable and proficient in setting up bitcoin developer environments</summary>
+</details>
+
+<details>
+
+<summary>Be able to run and interface with Bitcoin Core and LND</summary>
+
+* Understand signet, regtest and testnet.
+
+<!---->
+
+* Connect Bitcoin Core and LND programmatically
+
+<!---->
+
+* Interface with Bitcoin Core and LND using the CLI tools
+
+<!---->
+
+* Programmatic control of bitcoind and LND
+
+<!---->
+
+* Comfortable with running the full test suite(s) of Bitcoin Core
+
+</details>
+
+<details>
+
+<summary>Build a toy bitcoin wallet using a library</summary>
+
+* Add additional functionality of your choosing
+
+</details>
+
+<details>
+
+<summary>Develop a robust understanding of bitcoin topics both in theory and in practice</summary>
+
+* Random number generation
+
+<!---->
+
+* Keys and key derivation
+
+<!---->
+
+* Derivation paths
+
+<!---->
+
+* Address types
+
+<!---->
+
+* Differences between keys, address and digital signatures
+
+</details>
+
+<details>
+<summary> Wallet Recovery </summary>
+
+* Understand Hierarchical Deterministic Wallets (BIP0032).
+
+<!---->
+
+* Read about Mnemonics (BIP0039), understanding how to move from key to Mnemonics and vice versa.
+
+<!---->
+
+* Understand Key Derivation Paths (BIP 44, BIP 49, BIP 84, BIP 86) and the derivation structures proposed by the different BIPS
+
+<!---->
+* Read about Output/Wallet descriptors (BIP 380 - 386) and understand the purpose of wallet descriptors.
+
+<!---->
+* Read about Wallet Recovery
+
+ </details>
+
+ <details> 
+ 
+ <summary> Digital Signatures </summary>
+
+ * Learn how digital signatures work and how to sign a message and verify a signature
+
+ <!---->
+
+* Learn Elliptic Curve Digital Signature Algorithm (ECDSA) 
+
+ <!---->
+
+* Study Schnorr Signatures and understand why they are better than ECDSA, and their linearity property
+
+  <!---->  
+
+* Learn about SIGHASH and it's Evolution
+
+</details>
+
+
+## Reading and Discussion
+
+The Mastering Bitcoin book (3rd edition) can be accessed [here](https://drive.google.com/file/d/1h6YD9XR8-G2MUwpRVSEjwfERIqgsBqb\_/view?usp=sharing). Discussion questions are available on [Btrust Builders' GitHub](https://github.com/Qala-Dev/discussion-questions/tree/main/mastering-bitcoin). An overview of the questions for which you will be the discussion leader will be shared over the usual channels, and the daily discussions will be scheduled on calendar.&#x20;
+
+***
+
+
+| Action                                                                                                                         | Context                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Finish reading the chapter(s) for the day                                                                                      | Chapter 4: [Keys, Addresses](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc)                                           |
+| Prepare and research your assigned question(s), make sure you can host the discussion and think about follow-up questions etc. | [Discussion questions](https://github.com/Qala-Dev/discussion-questions/tree/main/mastering-bitcoin#chapter-4) for Chapter 4: Keys, Addresses |
+| Attend the study session                                                                                                       | Check your calendar for the meeting information                                                                                               |
+| Try out any of the practice activities below                                                                                   | [Practice activities](./#practice-activities)                                                                                                 |
+
 
 
 ## Schedule: Topics, Goals and Resources
+
 
 | Topic     | Goals                   | Resources                                                            |
 |-----------|-------------------------|----------------------------------------------------------------------|
@@ -53,6 +155,45 @@ Don't run `bitcoind` without specifying `regtest` (or `signet`) as the network i
 | Wallet Recovery | Understand:  Hierarchical Deterministic Wallets <br/> child key derivation functions <br/> parent and child keys are derived from each other, and from a master seed <br/>  Mnemonics <br/> Derivation Paths  <br/> Output/Wallet descriptors <br/> | [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) <br/> [HD Wallets](https://learnmeabitcoin.com/technical/hd-wallets) <br/> [An Overview of the BIPs that Shape Modern HD Wallets](https://thunderbiscuit.com/posts/modern-wallets/)  <br/> [Learnmeabitcoin: Derivation Paths](https://learnmeabitcoin.com/technical/derivation-paths) <br/> [state of Wallet Recovery](https://walletsrecovery.org/)|
 | Digital Signatures | Understand: How digital signatures work <br/>  how to sign a message and verify a signature <br/> Elliptic Curve Ditigal Signature Algorithm (ECDSA) <br/> Schnorr Signatures <br/> SIGHASH | [Digital Signatures](https://learnmeabitcoin.com/beginners/digital_signatures_signing_verifying) <br/> [Elliptic Curve Ditigal Signature Algorithm (ECDSA)](https://learnmeabitcoin.com/technical/ecdsa) <br/> [Schnorr Signatures ](https://www.youtube.com/watch?v=wybiVFdknhg&list=PLPrDsP88ifOVTEJf_jQGunDUS05M9GdIC) <br/> [Rene Pickhardt Schnorr Series](https://www.youtube.com/watch?v=n5aompcR9W0&list=PLaRKlIqjjguCILECVRXqVhec6yaNYyeMT) <br/> [SIGHASH](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-flags.ipynb) <br/> [SIGHASH Evolution](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/chapter4-sighash/sighash-evolution.ipynb) |
 
+
+
+### Practice Activities
+
+These activities assume that you have been able to setup Bitcoin core and the bitcoin-tx-tutorial environment on your system
+
+1. Mastering Bitcoin Activities:
+
+  1. Quick revision of Elliptic Curve Key Generation. [Practice here](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/appendix/elliptic-curve-math-review.ipynb)
+    * Develop a good practical understanding of how to generate private and public keys.
+    * Develop an understanding of the difference between compressed and uncompressed keys.
+    * Supplementary materials:
+      * [Search the topic on Learnmeabitcoin](https://learnmeabitcoin.com/)
+  2. Overview of Addresses. [Practice here](https://github.com/chaincodelabs/bitcoin-tx-tutorial/blob/main/appendix/addresses.ipynb)
+    * Get a good understanding of how addresses are created from scripts
+    * Develop a good understanding of Base58, bech32 and bech32m addresses.
+    * Develop an understanding of what differentiate these different address types.
+    * Supplementary materials:
+      * [Search the topic on Learnmeabitcoin](https://learnmeabitcoin.com/)
+  3. Learn Bitcoin From The Command Line: [Using the bitcoin CLI](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/03\_0\_Understanding\_Your\_Bitcoin\_Setup.md). You are expected to:
+    1. Become comfortable working with the bitcoin-cli command-line interface
+    2. Create an Address to Receive Bitcoin Funds
+    3. Use Basic Wallet Commands
+    4. Create an Address to Receive Bitcoin Funds
+
+2. Setting up Bitcoin/LN Environment Activities:
+
+  1. Set up a manual Bitcoin and Lightning developer environment on regtest by following the guide from Bitstein: [Setting up a Bitcoin/Lightning test environment](https://medium.com/@bitstein/setting-up-a-bitcoin-lightning-network-test-environment-ab967167594a)
+
+  {% hint style="info" %}
+  This environment should ideally be built using Bitcoin Core and LND installed by you from source
+  {% endhint %}
+
+  2. Run all Bitcoin Core unit tests
+  3. Choose area of the codebase you're interested in, pick a functional test that covers it, and then run that test.
+
+  {% hint style="info" %}
+  see documentation in `test/README.md` for clues on how to run individual tests
+  {% endhint %}
 
 
 ### Exercise
