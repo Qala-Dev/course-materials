@@ -4,8 +4,6 @@ description: Proof of Work Showcase
 
 # Week 11
 
-This week,
-
 ## Primary focus
 
 This week, the primary focus will be on the Proof of Work Showcase.&#x20;
