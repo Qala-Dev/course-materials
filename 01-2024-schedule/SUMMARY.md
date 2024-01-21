@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Course schedule](README.md)
+* [Course Schedule](README.md)
   * [Week 1](course-schedule/week-1.md)
   * [Week 2](course-schedule/week-2.md)
   * [Week 3](course-schedule/week-3.md)
@@ -13,8 +13,8 @@
   * [Week 10](course-schedule/week-10.md)
   * [Week 11](course-schedule/week-11.md)
   * [Week 12](course-schedule/week-12.md)
-* [Meetings](meetings.md)
-* [Presentation topics](presentation-topics.md)
+* [Resource Hub](resource-hub.md)
+* [Open Source Contribution Notes](open-source-contribution-notes.md)
+* [Presentation Topics](presentation-topics.md)
 * [Projects](projects.md)
-* [Open source contribution notes](open-source-contribution-notes.md)
-* [Resource hub](resource-hub.md)
+* [Meetings](meetings.md)
