@@ -4,7 +4,7 @@ description: Setting Up a Dev Environment | Mastering Bitcoin Refresher
 
 # Week 1
 
-We're going to help you get ready to work with Bitcoin by setting up your developer environments. We'll also go over some important aspects of the Mastering Bitcoin book that are most essential to becoming efficient and effective Bitcoin/LN builders. Essentially, we will be covering Keys, Addresses, Digital Signatures and Wallet Recovery.
+We're going to help you get ready to work with Bitcoin by setting up your developer environments. We'll also go over some important aspects of the Mastering Bitcoin book that are most essential to becoming efficient and effective Bitcoin/LN builders. Essentially, we will be covering Keys, Addresses, Digital Signatures and Wallet Recovery this week.&#x20;
 
 ## Prerequisites
 
