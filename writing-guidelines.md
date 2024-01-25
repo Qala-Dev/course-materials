@@ -14,14 +14,14 @@
     - [3.4. Tutorial for a small prototype application](#34-tutorial-for-a-small-prototype-application)
   - [4. Know your audience](#4-know-your-audience)
     - [4.1. Why your audience matters](#41-why-your-audience-matters)
-    - [4.2. The Qala target audience](#42-the-qala-target-audience)
+    - [4.2. The Btrust Builders target audience](#42-the-btrust-builders-target-audience)
   - [5. Iterate](#5-iterate)
   - [6. Don't forget](#6-dont-forget)
     - [6.1. Grammar](#61-grammar)
     - [6.2. Plagiarism](#62-plagiarism)
   - [7. In summary](#7-in-summary)
 
-Writing is one of the cornerstones of the Qala program. One benefit is that it can help make your learning process more effective by forcing you to think about the subject in more depth. Another benefit is that it contributes to your online portfolio. A good article is a valuable digital artifact that can help you get better exposure to employers, or to the industry in general. This guide contains information and tips on how to write better articles and get more out of your time spent on writing. This is largely based on observations from previous students, and will hopefully prove to apply to your situation too. 
+Writing is one of the cornerstones of the Btrust Builders program. One benefit is that it can help make your learning process more effective by forcing you to think about the subject in more depth. Another benefit is that it contributes to your online portfolio. A good article is a valuable digital artifact that can help you get better exposure to employers, or to the industry in general. This guide contains information and tips on how to write better articles and get more out of your time spent on writing. This is largely based on observations from previous students, and will hopefully prove to apply to your situation too. 
 
 
 In a nutshell, the process described here goes as follows:
@@ -33,7 +33,7 @@ In a nutshell, the process described here goes as follows:
 
 ###  2.1. Why you write
 
-The Qala program requires you to publish articles regularly, so naturally one of your goals will be to satisfy that requirement. If that is your *only* goal, however, your writing will usually come across as uninspired, and often unoriginal and uninteresting. This should not come as a surprise, since you explicitly weren't optimizing for anything but finishing an article.
+The Btrust Builders program requires you to publish articles regularly, so naturally one of your goals will be to satisfy that requirement. If that is your *only* goal, however, your writing will usually come across as uninspired, and often unoriginal and uninteresting. This should not come as a surprise, since you explicitly weren't optimizing for anything but finishing an article.
 
 Additional goals could be (but are not limited to):
 
@@ -109,9 +109,9 @@ If you define your audience too broadly, you will upset your actual audience as 
 
 Defining your audience and finding a good balance between assuming not too much and not too little pre-existing knowledge is a delicate exercise, but one that needs to be done anyway. It is often a good idea to link to other sources for prior reading to ensure your audience can fill in any gaps in assumed knowledge before diving into your article. 
 
-### 4.2. The Qala target audience
+### 4.2. The Btrust Builders target audience
 
-The Qala program has a very clear technical focus. Most of your writing should reflect that. Even though articles catered to a general audience can be helpful (and are important for the Bitcoin ecosystem in general), these will often not be the best choice for two reasons:
+The Btrust Builders program has a very clear technical focus. Most of your writing should reflect that. Even though articles catered to a general audience can be helpful (and are important for the Bitcoin ecosystem in general), these will often not be the best choice for two reasons:
 
 - Writing for a general audience typically requires the subject matter to be significantly summarized and simplified. Perhaps paradoxically, it usually takes an expert to make a sound judgment on how that can be done without losing too much nuance or even being plain wrong. 
 - Your goal should be to make yourself stand out for potential employers (and their technical recruiters) and show your level of technical understanding. This is much easier to do with an article catered toward a technical, educated audience.
