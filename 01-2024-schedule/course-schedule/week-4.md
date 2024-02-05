@@ -20,8 +20,8 @@ Additionally, we'll delve into topics like path finding and how payments are del
   * Where the trust in the system lies
   * What security assumptions it makes
   * How the various "layers" of the network fit together
-* Lightning Nodes and Wallets
 * Understand the architecture of Lightning Network
+* Lightning Nodes and Wallets
 * Be familiar with sending and receiving lightning payments
 * Understand Payment Channels
   * Constructing a Payment Channel
@@ -54,8 +54,8 @@ Additionally, we'll delve into topics like path finding and how payments are del
 | Topic        | Goals               | Resources                                                         |
 | ------------ | --------------------|------------------------------------------------------------------ |
 | Lightning Network Basics     | Understand: <br/> Why Lightning is called Layer 2 <br/> Trust in Decentralised Network <br/> Security Assumptions <br/> The Lightning Network components |[Chapter 1: Introduction](https://lnbook.256k1.dev/#intro_what_is_the_lightning_network) <br/> [How Network Layers Fit Together](https://youtu.be/krux2v0jt4E?list=PLpLH33TRghT17_U3as2P3vHfAGL8pSOOY) |
-| Lightning Nodes and Wallets   | Understand:  Lightning Nodes <br/> Wallets |[Lightning Nodes](https://lnbook.256k1.dev/#_lightning_nodes) <br/> [Lightning Wallets](https://lnbook.256k1.dev/#_lightning_wallets)                                                   |
 | Lightning Network Architecture    | Understand the various components of the Lightning Network |[Chapter 6: Lightning Network Architecture](https://github.com/lnbook/lnbook/blob/develop/06_lightning_architecture.asciidoc#lightning-network-architecture)                                                                  |
+| Lightning Nodes and Wallets   | Understand:  Lightning Nodes <br/> Wallets |[Lightning Nodes](https://lnbook.256k1.dev/#_lightning_nodes) <br/> [Lightning Wallets](https://lnbook.256k1.dev/#_lightning_wallets)                                                   |
 | Payment Channels | Understand: Payment Channel <br/>  Sending Payment accross the Channel <br/> The Commitment Transaction <br/> Advancing the Channel State <br/> Closing the Channel | [Chapter 7: Payment Channels](https://github.com/lnbook/lnbook/blob/develop/07_payment_channels.asciidoc#payment-channels)      |
 | Routing on a Network of Payment Channels  | Understand: Routing a Payment <br/> Routing vs pathfinding <br/> Creating a network of Payment Channels <br/>  Fairness Protocol <br/>  Hash Time-Locked Contracts (HTLCs) |[Chapter 8: Routing on a Network of Payment Channels)](https://github.com/lnbook/lnbook/blob/develop/08_routing_htlcs.asciidoc#routing-on-a-network-of-payment-channels)  |
 |Channel Operation and Payment Forwarding| Understand:  Managing HTLCs <br/> Committing HTLCs to channel state <br/>  Channel balance| [Channel Operation and Payment Forwarding](https://lnbook.256k1.dev/#channel_operation) |
