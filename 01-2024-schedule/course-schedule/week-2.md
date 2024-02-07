@@ -4,14 +4,13 @@ description: Transactions, Authorization and Authentication
 
 # Week 2
 
-This week, we'll learn about Bitcoin Transactions. We will cover the structure of a Bitcoin Transaction and explore locking and unlocking scripts in a Bitcoin Transaction.
+This week, we'll be studying Bitcoin Transactions. We will cover the structure of a Bitcoin Transaction and explore locking and unlocking scripts in a Bitcoin Transaction.
 
 ## Prerequisites
 
-Make sure you've completed the content on Keys and Addresses, along with Digital Signatures. We also hope you've covered Schnorr Signatures and TapTweaks.
+- You are expected to have completed Keys and Addresses as well as Digital Signatures. Additionally, we hoped that you've learned Schnorr Signatures and TapTweaks.
 
 ## Goals
-
 <details>
 
 <summary>Understand the structure of a Bitcoin Transaction</summary>
@@ -103,8 +102,20 @@ Other Transaction Forms:
 
 ## Exercises
 
-1. Given this raw transaction [hex](https://mempool.space/api/tx/6d9da35544e87a88279c5bfc66e08a873f3d456b4d6112620e2c41555863f920/hex), identify the version, inputs, outputs and the locktime.
-2. Perform the stack evaluation of this Bitcoin script and indicate whether it will result in true or false: hex: '010101029301038801027693010487'
-3. Given the string 'Btrust Builders', whose bytes encoding is '427472757374204275696c64657273', which is our preimage, generate the redeem script in hex format for the given preimage. Note: redeem\_script => OP\_SHA256 \<lock\_hex> OP\_EQUAL
-4. Derive an address with from the above (2) redeemscript and construct a transaction that send Bitcoins to the address
-5. Construct another transaction that spends from the above (3) transaction given that you have both locking and unlock scripts.
+1. Given the following transaction hexs:
+
+   - [Legacy](https://mempool.space/api/tx/27f1d66f8a1ee5280f4e92508dcb647e954d53004905d08a75574daee4988360/hex)
+   - [Segwit with RBF](https://mempool.space/tx/1e300f8666ab9a3970a628196196f5b4707604bf7e7b03d37f902e7817623bfd)
+   - [Taproot](https://mempool.space/api/tx/6d9da35544e87a88279c5bfc66e08a873f3d456b4d6112620e2c41555863f920/hex)
+   <p>build a transaction parser to identify the transaction type, extracting the version, inputs, outputs and the locktime.</p>
+
+2. Perform the stack evaluation of this Bitcoin script and indicate whether it will result in true or false: hex: '010101029301038801027693010487'. Your solution should output the op_codes and/or values.
+3. Given the string 'Btrust Builders', whose bytes encoding is '427472757374204275696c64657273', which is our preimage, generate the redeem script in hex format for the given preimage. Note: redeem_script => OP_SHA256 <lock_hex> OP_EQUAL
+
+   - Derive an address with from the above (2) redeemscript and construct a transaction that send Bitcoins to the address
+
+   - Construct another transaction that spends from the above (3) transaction given that you have both locking and unlock scripts. Ideally, this would mean you write a transaction builder that constructs the transaction and outputs the transaction ID. Broadcast the transaction on you local bitcoin network via the CLI.
+
+4. [BONUS]: Write tests to validate the methods in your transaction parser. Hint: Your parser should have methods to decode the version, inputs, outputs, and locktime of any given transaction.
+
+5. [BONUS]: Write tests to validate the methods in your transaction builder.
