@@ -1,12 +1,22 @@
 ---
-description: Completing Group Projects
+description: Group Projects
 ---
 
 # Week 8
 
 ## Primary focus
 
-This week, the primary focus will be on completing your group projects.
+This week, you will be assigned a group to work on a project.&#x20;
+
+This gives you an opportunity to showcase your pre-existing skills, and combine them with your new bitcoin and lightning knowledge to build something really innovative as a team.
+
+Once you've formulated your idea as a team, you are expected to create a detailed plan. The plan will contain a break down of tasks into smaller achievable goals which are specific and measurable. Ensure to indicate an MVP end goal where you would consider the project in a workable (alpha) state.&#x20;
+
+We look forward to see what you will be building!&#x20;
+
+### Prerequisites
+
+Please thoroughly read the project [guide](../projects.md).&#x20;
 
 ### Personal Updates
 
@@ -15,14 +25,3 @@ Daily updates on your personal progress with projects and blog posts.
 ### Blog posts
 
 You will continue to write and publish blog posts and give updates accordingly.
-
-### Office Hours
-
-On Wednesday, we will have an hour-long Office Hour from 2-3pm.
-
-### Show & Tell
-
-On Friday, you will have the opportunity to demo your group projects to everyone. Show off what you've built, tell us how it works and what you learned. [Here ](../meetings.md)is how we expect the sessions to go.&#x20;
-
-Contact your mentor to book a slot once your project is ready.
-

@@ -1,28 +1,26 @@
 ---
-description: More Open Source Contributions, Research and Presentations
+description: More Open Source Contributions
 ---
 
 # Week 10
 
 ## Primary focus
 
-This week, our primary focus will be to continue working on Open Source Projects and Present our research.&#x20;
+This week, we will re-focus on Open Source Projects.&#x20;
 
-We expect that you have already identified a project to work on and have prepared/submitted a Design Document stating the specific issue(s) you will be working on. If, however, you have not been able to do that, you are expected to complete the process at the beginning of this week and be fully focused on completing the issues.
+Having contributed a few weeks ago, you are to identify an Open Source project or continue working on the earlier identified project, with more impactful issues. While contributing, constantly provide updates on the progress you are making on the issues you are working on.
 
-Alongside the Open Source Projects, you are expected (as a group) to identify a Topic, research and make a presentation. You can select any topic of your choice in the Bitcoin/Lightning Network, ensure to research deeply and select a time slot to present your findings. Be prepared to answer questions from the group on your research.
+### Monday
 
-Remember to ask for help if you need it. This is a great opportunity to learn from others and improve your skills.
+We will start the week by having a Contributing Etiquette Workshop that will prepare us on how to contribute to Open Source Projects.&#x20;
 
-We wish you all the best in your Open Source Project, Research & Presentations this week!
+**Design Document**
 
-### Presentation Topics
-
-Go through the format and sample presentation topics [here](../presentation-topics.md).&#x20;
+After the workshop, you are expected to identify a project to work on alongside specific issues, design and submit a document for approval describing the issue and why you want to work on it and how you feel that your skills are suited to it. You must complete the design document and have it approved _before_ proceeding with any contributions.
 
 ### Personal Updates
 
-Daily updates on your personal progress with the project(s) and blog posts.
+Daily updates on your personal progress with projects and blog posts.
 
 ### Blog posts
 

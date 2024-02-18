@@ -1,26 +1,20 @@
 ---
-description: Group Projects
+description: Open Source Contributions
 ---
 
 # Week 7
 
 ## Primary focus
 
-This week, you will be assigned a group to work on a project.&#x20;
+This week, our primary focus will be to work on and complete all Open Source Projects. We expect that you have already identified a project to work on and have prepared/submitted a Design Document stating the specific issue(s) you will be working on. If, however, you have not been able to do that, you are expected to complete the process at the beginning of this week and be fully focused on completing the issues.
 
-This gives you an opportunity to showcase your pre-existing skills, and combine them with your new bitcoin and lightning knowledge to build something really innovative as a team.
+Remember to ask for help if you need it. This is a great opportunity to learn from others and improve your skills.
 
-Once you've formulated your idea as a team, you are expected to create a detailed plan. The plan will contain a break down of tasks into smaller achievable goals which are specific and measurable. Ensure to indicate an MVP end goal where you would consider the project in a workable (alpha) state.&#x20;
-
-We look forward to see what you will be building!&#x20;
-
-### Prerequisites
-
-Please thoroughly read the project [guide](../projects.md).&#x20;
+We wish you all the best in your Open Source Project endeavors this week!
 
 ### Personal Updates
 
-Daily updates on your personal progress with projects and blog posts.
+Daily updates on your personal progress with the project(s) and blog posts.
 
 ### Blog posts
 
