@@ -18,20 +18,22 @@ To make it easier for you to navigate and gain the most from this course, we hav
    - Lightning Network
    - Bitcoin Philosophy
 5. [Week 5](course-schedule/week-5.md):
-   - Introduction to Open Source Contribution
+   - Performance Review and Transactions Deep dive
 6. [Week 6](course-schedule/week-6.md):
-   - More Open Open Source Contribution
+   - Introduction to Open Source Contribution
 7. [Week 7](course-schedule/week-7.md):
-   - Group Projects
+   - More Open Open Source Contribution
 8. [Week 8](course-schedule/week-8.md):
+   - Group Projects
+9. [Week 9](course-schedule/week-9.md):
    - Completing Group Projects
-9. [Week 9](course-schedule/week-9.md)
-   - More Open Source Contributions
 10. [Week 10](course-schedule/week-10.md)
+   - More Open Source Contributions
+11. [Week 11](course-schedule/week-11.md)
     - More Open Source Contributions, Research and Presentations
-11. [Week 11](course-schedule/week-11.md):
-    - Proof of Work Showcase
 12. [Week 12](course-schedule/week-12.md):
+    - Proof of Work Showcase
+13. [Week 13](course-schedule/week-13.md):
     - Closing Week and Evaluation
 
 There are also other useful resources to aid your development. They include:
