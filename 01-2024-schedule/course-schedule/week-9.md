@@ -25,9 +25,3 @@ Similar to the previous week, you are expected to attend Group discussions on Tu
 ### Office Hours
 
 On Wednesday, we will have an hour-long Office Hour from 2-3pm.
-
-### Show & Tell
-
-On Friday, you will have the opportunity to demo your group projects to everyone. Show off what you've built, tell us how it works and what you learned. [Here ](../meetings.md)is how we expect the sessions to go.
-
-Contact your home group responsible to book a slot once your project is ready.

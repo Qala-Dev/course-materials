@@ -6,7 +6,7 @@ description: More Open Source Contributions
 
 ## Primary focus
 
-This week, we will re-focus on Open Source Projects.&#x20;
+This week, we will re-focus on Open Source Projects.
 
 Having contributed a few weeks ago, you are to identify an Open Source project or continue working on the earlier identified project(s), with more impactful issues. While contributing, constantly provide updates on the progress you are making on the issues you are working on.
 
@@ -21,3 +21,9 @@ Daily updates on your personal progress with projects and blog posts.
 ### Blog posts
 
 You will continue to write and publish blog posts and give updates accordingly.
+
+### Show & Tell
+
+On Friday, you will have the opportunity to demo your group projects to everyone. Show off what you've built, tell us how it works and what you learned. [Here ](../meetings.md)is how we expect the sessions to go.
+
+Contact your home group responsible to book a slot once your project is ready.
