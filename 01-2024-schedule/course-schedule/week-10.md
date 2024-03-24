@@ -1,18 +1,16 @@
 ---
-description: More Open Source Contributions
+description: Open Source Discussions, Projects Show & Tell
 ---
 
 # Week 10
 
 ## Primary focus
 
-This week, we will re-focus on Open Source Projects.
+This week, we will engage in discussions with maintainers of various open source projects, exploring how you all can contribute. Additionally, we'll conclude with project demonstrations by week's end, and final performance evaluations for next month.&#x20;
 
-Having contributed a few weeks ago, you are to identify an Open Source project or continue working on the earlier identified project(s), with more impactful issues. While contributing, constantly provide updates on the progress you are making on the issues you are working on.
+### Meetings with Open Source Maintainers
 
-**Design Document**
-
-You are expected to deepen your contributions to the projects you already have identified or identify one to start making impactful contributions. You will identify issue(s) you intend to work on, design and submit a document for approval describing the issue and why you want to work on it and how you feel that your skills are suited to it. You must complete the design document and have it approved _before_ proceeding with any contributions.
+Each session will last a maximum of one hour. Access links to the sessions can be found on calendar. Ensure you make time to attend and have your questions ready.&#x20;
 
 ### Personal Updates
 
